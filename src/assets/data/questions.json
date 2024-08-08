@@ -1,0 +1,517 @@
+[
+    {
+        "_id": "1",
+        "Continent": "america",
+        "City":"Playa_del_Carmen",
+        "Question": "En que parte de mexico queda playa del Carmen?",
+        "QuestionType": "1",
+        "Options":["norte","sur","este","oeste"],
+        "Answer":"2",
+        "ref": "https://www.google.com/maps/place/Playa+del+Carmen,+Quintana+Roo,+Mexico/@20.656568,-87.1624729,12z/data=!3m1!4b1!4m6!3m5!1s0x8f4e4323d22d4e61:0xe8c10b783bab4adc!8m2!3d20.6295586!4d-87.0738851!16zL20vMDF3dnkz?entry=ttu"
+    
+    },
+
+    {
+        "_id": "2",
+        "Continent": "america",
+        "City": "Playa_del_Carmen",
+        "Question": "¿Qué es la 'Quinta Avenida' en Playa del Carmen?",
+        "QuestionType": "1",
+        "Options": ["Una playa famosa", "Un mercado de artesanías", "Una zona comercial con tiendas, restaurantes y bares", "Un parque ecológico"],
+        "Answer": "2",
+        "ref": "https://www.caribemexicano.travel/playa-del-carmen/que-hacer/quinta-avenida/index.html"
+    },
+
+    {
+        "_id": "3",
+        "Continent": "america",
+        "City": "Playa_del_Carmen",
+        "Question": "¿Cuál es el nombre del aeropuerto que sirve a Playa del Carmen?",
+        "QuestionType": "1",
+        "Options": ["Aeropuerto Internacional de Cancún", "Aeropuerto Internacional de Cozumel", "Aeropuerto Internacional de Mérida", "Aeropuerto Internacional de Ciudad del Carmen"],
+        "Answer": "0",
+        "ref": "https://es.cancunairport.com/"
+    },
+    
+    {
+        "_id": "4",
+        "Continent": "america",
+        "City": "Playa_del_Carmen",
+        "Question": "¿Cuál es el nombre de la famosa calle peatonal que es un centro de actividad en Playa del Carmen?",
+        "QuestionType": "1",
+        "Options": ["Calle 5ta Avenida", "Calle 12", "Avenida Marítima", "Paseo del Carmen"],
+        "Answer": "0",
+        "ref": "https://www.caribemexicano.travel/playa-del-carmen/que-hacer/quinta-avenida/index.html"
+    },
+
+    {
+        "_id": "5",
+        "Continent": "america",
+        "City": "Playa_del_Carmen",
+        "Question": "¿Qué tipo de vida nocturna se puede encontrar en Playa del Carmen?",
+        "QuestionType": "1",
+        "Options": ["Solo bares tranquilos", "Clubes nocturnos y bares de ambiente animado", "Casinos y salas de juego", "Solo eventos culturales y teatrales"],
+        "Answer": "1",
+        "ref": "https://www.tripadvisor.co/Attractions-g150812-Activities-c20-Playa_del_Carmen_Yucatan_Peninsula.html"
+    },
+
+    {
+        "_id": "6",
+        "Continent": "america",
+        "City": "Cartagena",
+        "Question": "¿Cuál es el nombre del centro histórico de Cartagena, que está rodeado por murallas?",
+        "QuestionType": "1",
+        "Options": ["El Barrio Getsemaní", "La Ciudad Amurallada", "El Centro Histórico", "La Zona Rosa"],
+        "Answer": "1",
+        "ref": "https://whc.unesco.org/en/list/285"
+    },
+    {
+        "_id": "7",
+        "Continent": "america",
+        "City": "Cartagena",
+        "Question": "¿Cuál es el nombre de la playa más conocida y visitada en Cartagena?",
+        "QuestionType": "1",
+        "Options": ["Playa Blanca", "Playa de Bocagrande", "Playa de Marbella", "Playa de la Boquilla"],
+        "Answer": "1",
+        "ref": "https://www.tripadvisor.co/Attraction_Review-g297476-d8656217-Reviews-Playa_de_Bocagrande-Cartagena_Cartagena_District_Bolivar_Department.html"
+    },
+    {
+        "_id": "8",
+        "Continent": "america",
+        "City": "Cartagena",
+        "Question": "¿Qué prominente figura de la independencia de Colombia, tiene un monumento en Cartagena?",
+        "QuestionType": "1",
+        "Options": ["Simón Bolívar", "Francisco de Paula Santander", "Antonio Nariño", "José de San Martín"],
+        "Answer": "0",
+        "ref": "https://www.cervantesvirtual.com/portales/simon_bolivar/autor_biografia/"
+    },
+    {
+        "_id": "9",
+        "Continent": "america",
+        "City": "Cartagena",
+        "Question": "¿Qué famoso escritor colombiano, ganador del Premio Nobel de Literatura, nació en Cartagena?",
+        "QuestionType": "1",
+        "Options": ["Gabriel García Márquez", "Álvaro Mutis", "Laura Esquivel", "Fernando Vallejo"],
+        "Answer": "0",
+        "ref": "https://es.wikipedia.org/wiki/Gabriel_Garc%C3%ADa_M%C3%A1rquez"
+    },
+    {
+        "_id": "10",
+        "Continent": "america",
+        "City": "Cartagena",
+        "Question": "¿Qué es el ‘Ceviche de Camarón’ y cómo se prepara típicamente en Cartagena?",
+        "QuestionType": "1",
+        "Options": ["Camarones crudos marinados en jugo de limón con cebolla, cilantro y ají", "Camarones cocidos con salsa de tomate y especias", "Camarones fritos con pan rallado", "Camarones a la parrilla con salsa de aguacate"],
+        "Answer": "1",
+        "ref": "https://colombia.travel/es/cartagena/el-cerro-de-la-popa"
+    },
+
+    {
+        "_id": "11",
+        "Continent": "america",
+        "City": "Rio_de_Janeiro",
+        "Question": "¿Cuál es el nombre del famoso monumento de Cristo que se encuentra en Río de Janeiro y es considerado una de las Nuevas Siete Maravillas del Mundo?",
+        "QuestionType": "1",
+        "Options": ["Cristo Redentor", "Cristo de la Paz", "Cristo del Corcovado", "Cristo de la Esperanza"],
+        "Answer": "0",
+        "ref": "https://www.new7wonders.com"
+    },
+    {
+        "_id": "12",
+        "Continent": "america",
+        "City": "Rio_de_Janeiro",
+        "Question": "¿Qué playa de Río de Janeiro es conocida por su vibrante vida nocturna y eventos deportivos?",
+        "QuestionType": "1",
+        "Options": ["Playa de Ipanema", "Playa de Copacabana", "Playa de Leblon", "Playa de Barra da Tijuca"],
+        "Answer": "1",
+        "ref": "https://www.tripadvisor.com/Attraction_Review-g303506-d317264-Reviews-Copacabana_Beach-Rio_de_Janeiro_State_of_Rio_de_Janeiro.html"
+    },
+    {
+        "_id": "13",
+        "Continent": "america",
+        "City": "Rio_de_Janeiro",
+        "Question": "¿Qué famoso estadio de fútbol en Río de Janeiro ha sido sede de numerosas finales de la Copa del Mundo y de los Juegos Olímpicos?",
+        "QuestionType": "1",
+        "Options": ["Estadio Maracaná", "Estadio Engenhão", "Estadio São Januário", "Estadio de la Gávea"],
+        "Answer": "0",
+        "ref": "https://www.fifa.com/worldcup/organisation/stadiums/maracana"
+    },
+    {
+        "_id": "14",
+        "Continent": "america",
+        "City": "Rio_de_Janeiro",
+        "Question": "¿Qué es el 'Pão de Açúcar' y qué tipo de actividad se puede hacer allí?",
+        "QuestionType": "1",
+        "Options": ["Un mercado popular", "Un barrio histórico", "Un famoso monte con teleférico", "Una playa conocida por sus deportes acuáticos"],
+        "Answer": "2",
+        "ref": "https://www.visitriodejaneiro.com.br/pao-de-acucar"
+    },
+    {
+        "_id": "15",
+        "Continent": "america",
+        "City": "Rio_de_Janeiro",
+        "Question": "¿Qué dulce tradicional brasileño, conocido por su textura cremosa y sabor a coco?",
+        "QuestionType": "1",
+        "Options": ["Brigadeiro", "Cocada", "Beijinho", "Quindim"],
+        "Answer": "1",
+        "ref": "https://www.brazilianfood.com/cocada"
+    },
+
+    {
+        "_id": "16",
+        "Continent": "america",
+        "City": "Bariloche",
+        "Question": "¿En qué provincia de Argentina se encuentra Bariloche?",
+        "QuestionType": "1",
+        "Options": ["Mendoza", "Río Negro", "Buenos Aires", "Neuquén"],
+        "Answer": "1",
+        "ref": "https://barilocheturismo.gob.ar/es/sobre-bariloche"
+    },
+    {
+        "_id": "17",
+        "Continent": "america",
+        "City": "Bariloche",
+        "Question": "¿Qué tipo de paisaje es predominante en la región de Bariloche?",
+        "QuestionType": "1",
+        "Options": ["Desierto", "Montañas y lagos", "Llanuras", "Selva tropical"],
+        "Answer": "1",
+        "ref": "https://www.lonelyplanet.com/argentina/the-lake-district/bariloche"
+    },
+    {
+        "_id": "18",
+        "Continent": "america",
+        "City": "Bariloche",
+        "Question": "¿Qué es el Cerro Catedral y por qué es famoso en Bariloche?",
+        "QuestionType": "1",
+        "Options": ["Un volcán activo", "Un lugar de esquí", "Un parque nacional", "Una playa"],
+        "Answer": "1",
+        "ref": "https://es.wikipedia.org/wiki/Cerro_Catedral_(Argentina)#:~:text=El%20cerro%20Catedral%20es%20una,esqu%C3%AD%20m%C3%A1s%20desarrollado%20de%20Sudam%C3%A9rica.&text=600%20ha."
+    },
+    {
+        "_id": "19",
+        "Continent": "america",
+        "City": "Bariloche",
+        "Question": "¿Qué actividad al aire libre es muy popular en Bariloche durante el verano?",
+        "QuestionType": "1",
+        "Options": ["Esquí acuático", "Senderismo", "Surf", "Paracaidismo"],
+        "Answer": "1",
+        "ref": "https://barilocheturismo.gob.ar/es/actividades"
+    },
+    {
+        "_id": "20",
+        "Continent": "america",
+        "City": "Bariloche",
+        "Question": "¿Qué animal es común ver en la región de Bariloche y es conocido por su apariencia de ciervo?",
+        "QuestionType": "1",
+        "Options": ["Puma", "Cebra", "Huemul", "Guanaco"],
+        "Answer": "2",
+        "ref": "https://www.argentina.gob.ar/interior/ambiente/accion/huemul"
+    },
+
+    {
+        "_id": "21",
+        "Continent": "america",
+        "City": "Cusco",
+        "Question": "¿Cuál es la antigua civilización que construyó la ciudad de Machu Picchu, cerca de Cusco?",
+        "QuestionType": "1",
+        "Options": ["Azteca", "Maya", "Inca", "Olmeca"],
+        "Answer": "2",
+        "ref": "https://es.wikipedia.org/wiki/Cuzco"
+    },
+    {
+        "_id": "22",
+        "Continent": "america",
+        "City": "Cusco",
+        "Question": "¿Qué tipo de bebida tradicional peruana, a base de maíz fermentado, es popular en Cusco?",
+        "QuestionType": "1",
+        "Options": ["Chicha Morada", "Pisco Sour", "Chicha de Jora", "Mate de Coca"],
+        "Answer": "2",
+        "ref": "https://www.peru.travel/es/masperu/chicha-de-jora-el-nectar-de-los-incas"
+    },
+    {
+        "_id": "23",
+        "Continent": "america",
+        "City": "Cusco",
+        "Question": "¿Qué famosa estructura en Cusco está formada por grandes muros de piedras gigantes, ajustadas sin mortero?",
+        "QuestionType": "1",
+        "Options": ["Machu Picchu", "Sacsayhuamán", "Qorikancha", "Ollantaytambo"],
+        "Answer": "1",
+        "ref": "https://www.culturacusco.gob.pe/parques-arqueologicos/saqsaywaman/#:~:text=El%20Parque%20Arqueol%C3%B3gico%20de%20Saqsaywaman,una%20extensi%C3%B3n%20de%202%2C997.265%20hect%C3%A1reas."
+    },
+    {
+        "_id": "24",
+        "Continent": "america",
+        "City": "Cusco",
+        "Question": "¿Cómo se llama el tradicional plato peruano que se hace con papa y se sirve con salsa de ají amarillo, popular en Cusco?",
+        "QuestionType": "1",
+        "Options": ["Ceviche", "Lomo Saltado", "Papa a la Huancaína", "Anticuchos"],
+        "Answer": "2",
+        "ref": "https://www.elmejornido.com/recetas/papas-la-huancaina/"
+    },
+    {
+        "_id": "25",
+        "Continent": "america",
+        "City": "Cusco",
+        "Question": "¿Qué especie de animal es común ver en los Andes y alrededor de Cusco?",
+        "QuestionType": "1",
+        "Options": ["Alpaca", "Llama", "Vicuña", "Guanaco"],
+        "Answer": "0",
+        "ref": "https://definicion.de/alpaca/"
+    },
+
+    {
+        "_id": "26",
+        "Continent": "america",
+        "City": "Banff",
+        "Question": "¿En qué provincia de Canadá se encuentra Banff?",
+        "QuestionType": "1",
+        "Options": ["Columbia Británica", "Alberta", "Ontario", "Quebec"],
+        "Answer": "1",
+        "ref": "https://www.banfflakelouise.com/what-to-do"
+    },
+    {
+        "_id": "27",
+        "Continent": "america",
+        "City": "Banff",
+        "Question": "¿Qué famosa montaña se puede ver desde Banff?",
+        "QuestionType": "1",
+        "Options": ["Monte Everest", "Monte Robson", "Monte Rundle", "Monte Kilimanjaro"],
+        "Answer": "2",
+        "ref": "https://www.banfflakelouise.com/mountains"
+    },
+    {
+        "_id": "28",
+        "Continent": "america",
+        "City": "Banff",
+        "Question": "¿Cuál de las siguientes actividades es popular en Banff durante el invierno?",
+        "QuestionType": "1",
+        "Options": ["Surf", "Esquí", "Escalada en hielo", "Senderismo"],
+        "Answer": "1",
+        "ref": "https://www.banfflakelouise.com/winter-activities"
+    },
+    {
+        "_id": "29",
+        "Continent": "america",
+        "City": "Banff",
+        "Question": "¿Qué tipo de fauna es común en Banff?",
+        "QuestionType": "1",
+        "Options": ["Tigres", "Osos grizzly", "Canguros", "Elefantes"],
+        "Answer": "1",
+        "ref": "https://parks.canada.ca/pn-np/ab/banff"
+    },
+    {
+        "_id": "30",
+        "Continent": "america",
+        "City": "Banff",
+        "Question": "¿En qué tipo de ecosistema se encuentra Banff?",
+        "QuestionType": "1",
+        "Options": ["Desierto", "Bosque", "Selva tropical", "Sabana"],
+        "Answer": "1",
+        "ref": "https://parks.canada.ca/pn-np/ab/banff"
+    },
+
+    {
+        "_id": "31",
+        "Continent": "america",
+        "City": "New_York",
+        "Question": "¿Cuál es el apodo común para la ciudad de Nueva York?",
+        "QuestionType": "1",
+        "Options": ["La Ciudad del Viento", "La Gran Manzana", "La Ciudad del Sol", "La Ciudad de los Ángeles"],
+        "Answer": "1",
+        "ref": "https://www.nycgo.com/articles/nyc-nicknames"
+    },
+    {
+        "_id": "32",
+        "Continent": "america",
+        "City": "New_York",
+        "Question": "¿Qué famoso parque se encuentra en el centro de Manhattan?",
+        "QuestionType": "1",
+        "Options": ["Parque Nacional de Yosemite", "Parque Central", "Hyde Park", "Golden Gate Park"],
+        "Answer": "1",
+        "ref": "https://www.nycgovparks.org/parks/central-park"
+    },
+    {
+        "_id": "33",
+        "Continent": "america",
+        "City": "New_York",
+        "Question": "¿Cuál es la famosa estatua que se encuentra en la Isla de la Libertad?",
+        "QuestionType": "1",
+        "Options": ["La Estatua de la Libertad", "La Estatua de la Justicia", "La Estatua de la Paz", "La Estatua de la Victoria"],
+        "Answer": "0",
+        "ref": "https://www.nps.gov/stli/index.htm"
+    },
+    {
+        "_id": "34",
+        "Continent": "america",
+        "City": "New_York",
+        "Question": "¿Cuál es el famoso puente que conecta Manhattan con Brooklyn?",
+        "QuestionType": "1",
+        "Options": ["Puente de San Francisco", "Puente de la Torre", "Puente de Brooklyn", "Puente Golden Gate"],
+        "Answer": "2",
+        "ref": "https://www.nyc.gov/site/dot/bridges/brooklyn-bridge.page"
+    },
+    {
+        "_id": "35",
+        "Continent": "america",
+        "City": "New_York",
+        "Question": "¿Qué evento deportivo importante se celebra en el estadio de los Yankees?",
+        "QuestionType": "1",
+        "Options": ["Super Bowl", "Wimbledon", "Serie Mundial de Béisbol", "Copa del Mundo"],
+        "Answer": "2",
+        "ref": "https://www.mlb.com/yankees/ballpark"
+    },
+
+    {
+        "_id": "36",
+        "Continent": "america",
+        "City": "Miami",
+        "Question": "¿Cuál es el nombre del famoso distrito artístico en Miami conocido por sus murales y galerías?",
+        "QuestionType": "1",
+        "Options": ["Little Havana", "Wynwood Walls", "Coconut Grove", "Brickell"],
+        "Answer": "1",
+        "ref": "https://wynwoodwalls.com"
+    },
+    {
+        "_id": "37",
+        "Continent": "america",
+        "City": "Miami",
+        "Question": "¿Cuál es el nombre del aeropuerto principal en Miami?",
+        "QuestionType": "1",
+        "Options": ["Miami International Airport", "Fort Lauderdale Airport", "Orlando Airport", "Tampa Airport"],
+        "Answer": "0",
+        "ref": "https://www.miami-airport.com"
+    },
+    {
+        "_id": "38",
+        "Continent": "america",
+        "City": "Miami",
+        "Question": "¿Qué mar baña las costas de Miami?",
+        "QuestionType": "1",
+        "Options": ["Mar Caribe", "Océano Pacífico", "Océano Atlántico", "Mar Mediterráneo"],
+        "Answer": "2",
+        "ref": "https://www.nationalgeographic.com/environment/oceans/atlantic-ocean"
+    },
+    {
+        "_id": "39",
+        "Continent": "america",
+        "City": "Miami",
+        "Question": "¿Qué tipo de clima tiene Miami la mayor parte del año?",
+        "QuestionType": "1",
+        "Options": ["Desértico", "Tropical", "Mediterráneo", "Continental"],
+        "Answer": "1",
+        "ref": "https://www.weather.gov/mfl/ClimateOverview"
+    },
+    {
+        "_id": "40",
+        "Continent": "america",
+        "City": "Miami",
+        "Question": "¿Qué evento internacional de automóviles se celebra en Miami cada año?",
+        "QuestionType": "1",
+        "Options": ["Miami Auto Show", "International Auto Show", "Miami International Auto Show", "Miami Car Festival"],
+        "Answer": "2",
+        "ref": "https://www.miamiautoshow.net"
+    },
+
+    {
+        "_id": "41",
+        "Continent": "america",
+        "City": "Toronto",
+        "Question": "¿Cuál es el nombre del famoso rascacielos que es uno de los íconos de Toronto?",
+        "QuestionType": "1",
+        "Options": ["Empire State Building", "CN Tower", "Burj Khalifa", "Willis Tower"],
+        "Answer": "1",
+        "ref": "https://www.cntower.ca/"
+    },
+    {
+        "_id": "42",
+        "Continent": "america",
+        "City": "Toronto",
+        "Question": "¿Cuál es el nombre del estadio de béisbol en Toronto?",
+        "QuestionType": "1",
+        "Options": ["Rogers Centre", "Fenway Park", "Yankee Stadium", "Wrigley Field"],
+        "Answer": "0",
+        "ref": "https://www.mlb.com/bluejays/ballpark"
+    },
+    {
+        "_id": "43",
+        "Continent": "america",
+        "City": "Toronto",
+        "Question": "¿Qué famoso festival de música se celebra en Toronto cada año?",
+        "QuestionType": "1",
+        "Options": ["Toronto Jazz Festival", "Toronto Rock Fest", "Toronto Folk Festival", "Toronto International Film Festival"],
+        "Answer": "0",
+        "ref": "https://www.google.com/search?q=Toronto+Jazz+Festival+Official+Site&rlz=1C1VIQF_esCO1110CO1110&oq=Toronto+Jazz+Festival+Official+Site&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIKCAEQABiABBiiBDIKCAIQABiABBiiBNIBBzY5MmowajSoAgCwAgA&sourceid=chrome&ie=UTF-8"
+    },
+    {
+        "_id": "44",
+        "Continent": "america",
+        "City": "Toronto",
+        "Question": "¿Qué importante empresa canadiense tiene su sede en Toronto y es conocida por sus servicios financieros?",
+        "QuestionType": "1",
+        "Options": ["Royal Bank of Canada", "TD Bank", "Scotiabank", "CIBC"],
+        "Answer": "0",
+        "ref": "https://www.rbcroyalbank.com/personal.html"
+    },
+    {
+        "_id": "45",
+        "Continent": "america",
+        "City": "Toronto",
+        "Question": "¿Qué nombre recibe el importante centro financiero en el corazón de Toronto?",
+        "QuestionType": "1",
+        "Options": ["Financial District", "Downtown", "Midtown", "Old Town"],
+        "Answer": "0",
+        "ref": "https://www.torontofinancialdistrict.com/"
+    },
+
+    {
+        "_id": "46",
+        "Continent": "america",
+        "City": "Tulum",
+        "Question": "¿Qué famoso sitio arqueológico se encuentra cerca de Tulum?",
+        "QuestionType": "1",
+        "Options": ["Chichén Itzá", "Uxmal", "Cobá", "Tikal"],
+        "Answer": "2",
+        "ref": "https://www.getyourguide.es/coba-l4506/patrimonios-de-la-unesco-tc266/?visitor-id=Z9L7BXKUG4G4K0VY1KXP5VJFAY9XQ61E&locale_autoredirect_optout=true"
+    },
+    {
+        "_id": "47",
+        "Continent": "america",
+        "City": "Tulum",
+        "Question": "¿Cuál es el nombre del mar que baña las costas de Tulum?",
+        "QuestionType": "1",
+        "Options": ["Mar Caribe", "Océano Pacífico", "Mar de Cortés", "Mar Mediterráneo"],
+        "Answer": "0",
+        "ref": "https://es.wikipedia.org/wiki/Mar_Caribe"
+    },
+    {
+        "_id": "48",
+        "Continent": "america",
+        "City": "Tulum",
+        "Question": "¿Cuál es el nombre de la playa más famosa de Tulum?",
+        "QuestionType": "1",
+        "Options": ["Playa del Carmen", "Playa Paraíso", "Playa Akumal", "Playa Zicatela"],
+        "Answer": "1",
+        "ref": "https://en.wikipedia.org/wiki/Tulum"
+    },
+    {
+        "_id": "49",
+        "Continent": "america",
+        "City": "Tulum",
+        "Question": "¿Qué tipo de clima predomina en Tulum?",
+        "QuestionType": "1",
+        "Options": ["Desértico", "Tropical", "Mediterráneo", "Continental"],
+        "Answer": "1",
+        "ref": "https://www.weather-atlas.com/en/mexico/tulum"
+    },
+    
+    {
+        "_id": "50",
+        "Continent": "america",
+        "City": "Tulum",
+        "Question": "¿Qué tipo de fauna se puede encontrar en la región de Tulum?",
+        "QuestionType": "1",
+        "Options": ["Pingüinos", "Delfines y tortugas", "Osos polares", "Ciervos del bosque"],
+        "Answer": "1",
+        "ref": "https://www.google.com/search?q=Tulum+Travel+-+Fauna&rlz=1C1VIQF_esCO1110CO1110&oq=Tulum+Travel+-+Fauna&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigATIHCAIQIRigAdIBCDEwMzRqMGo0qAIAsAIA&sourceid=chrome&ie=UTF-8"
+    }
+]
