@@ -734,7 +734,7 @@
     "Continent": "América",
     "City": "Ushuaia",
     "Question": "¿Ushuaia es la ciudad más austral del mundo?",
-    "QuestionType": "1",
+    "QuestionType": "2",
     "Options": ["Verdadero", "Falso"],
     "Answer": "1",
     "ref": "https://es.wikipedia.org/wiki/Ushuaia"
