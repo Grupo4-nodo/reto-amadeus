@@ -686,7 +686,7 @@
       "Un plato de cerdo frito",
       "Un plato de pescado al horno"
     ],
-    "Answer": "2",
+    "Answer": "1",
     "ref": "https://www.recetasgratis.net/receta-de-chicharron-de-cerdo-para-tacos-73105.html"
   },
   {
@@ -701,7 +701,7 @@
       "Lago Titicaca",
       "Cataratas del Iguazú"
     ],
-    "Answer": "2",
+    "Answer": "1",
     "ref": "https://es.wikipedia.org/wiki/Ushuaia"
   },
   {
@@ -716,7 +716,7 @@
       "Navegación por el Canal Beagle",
       "Esquí en los Alpes Suizos"
     ],
-    "Answer": "3",
+    "Answer": "2",
     "ref": "https://turismoushuaia.com/"
   },
   {
@@ -726,7 +726,7 @@
     "Question": "¿Qué tipo de clima predomina en Ushuaia?",
     "QuestionType": "1",
     "Options": ["Tropical", "Mediterráneo", "Desértico", "Subpolar oceánico"],
-    "Answer": "4",
+    "Answer": "3",
     "ref": "https://es.wikipedia.org/wiki/Ushuaia#Clima"
   },
   {
@@ -734,7 +734,7 @@
     "Continent": "América",
     "City": "Ushuaia",
     "Question": "¿Ushuaia es la ciudad más austral del mundo?",
-    "QuestionType": "2",
+    "QuestionType": "1",
     "Options": ["Verdadero", "Falso"],
     "Answer": "1",
     "ref": "https://es.wikipedia.org/wiki/Ushuaia"
@@ -746,7 +746,7 @@
     "Question": "¿La principal actividad económica de Ushuaia es la producción de vino?",
     "QuestionType": "2",
     "Options": ["Verdadero", "Falso"],
-    "Answer": "2",
+    "Answer": "1",
     "ref": "https://es.wikipedia.org/wiki/Ushuaia#Econom%C3%ADa"
   },
   {
@@ -761,7 +761,7 @@
       "La costa este de República Dominicana",
       "La costa oeste de República Dominicana"
     ],
-    "Answer": "3",
+    "Answer": "2",
     "ref": "https://es.wikipedia.org/wiki/Punta_Cana"
   },
   {
@@ -776,7 +776,7 @@
       "Paradisus Palma Real",
       "The Ritz-Carlton, Cancun"
     ],
-    "Answer": "3",
+    "Answer": "2",
     "ref": "https://www.palmarealresort.com/"
   },
   {
@@ -791,7 +791,7 @@
       "Clima tropical",
       "Clima árido"
     ],
-    "Answer": "3",
+    "Answer": "2",
     "ref": "https://es.wikipedia.org/wiki/Punta_Cana"
   },
   {
@@ -801,7 +801,7 @@
     "Question": "¿Punta Cana fue fundada en el siglo XVIII?",
     "QuestionType": "2",
     "Options": ["Verdadero", "Falso"],
-    "Answer": "2",
+    "Answer": "1",
     "ref": "https://es.wikipedia.org/wiki/Punta_Cana"
   },
   {
@@ -811,7 +811,7 @@
     "Question": "¿El turismo es la principal actividad económica en Punta Cana?",
     "QuestionType": "2",
     "Options": ["Verdadero", "Falso"],
-    "Answer": "1",
+    "Answer": "0",
     "ref": "https://es.wikipedia.org/wiki/Punta_Cana"
   },
   {
@@ -821,7 +821,7 @@
     "Question": "¿Cuál es el río que atraviesa Chicago?",
     "QuestionType": "1",
     "Options": ["Río Misisipi", "Río Colorado", "Río Chicago", "Río Hudson"],
-    "Answer": "3",
+    "Answer": "2",
     "ref": "https://es.wikipedia.org/wiki/Chicago"
   },
   {
@@ -836,7 +836,7 @@
       "Museo del Louvre",
       "Monte Rushmore"
     ],
-    "Answer": "2",
+    "Answer": "1",
     "ref": "https://www.choosechicago.com/"
   },
   {
@@ -846,7 +846,7 @@
     "Question": "¿Qué evento climático notable afecta a menudo a Chicago?",
     "QuestionType": "1",
     "Options": ["Huracanes", "Tornados", "Nevadas intensas", "Sequías"],
-    "Answer": "3",
+    "Answer": "2",
     "ref": "https://es.wikipedia.org/wiki/Chicago"
   },
   {
@@ -856,7 +856,7 @@
     "Question": "¿Chicago fue incorporada como ciudad en 1837?",
     "QuestionType": "2",
     "Options": ["Verdadero", "Falso"],
-    "Answer": "1",
+    "Answer": "0",
     "ref": "https://es.wikipedia.org/wiki/Chicago"
   },
   {
@@ -866,7 +866,7 @@
     "Question": "¿El sector financiero es una parte importante de la economía de Chicago?",
     "QuestionType": "2",
     "Options": ["Verdadero", "Falso"],
-    "Answer": "1",
+    "Answer": "0",
     "ref": "https://es.wikipedia.org/wiki/Chicago"
   },
   {
@@ -876,7 +876,7 @@
     "Question": "¿En qué región de Puerto Rico se encuentra San Juan?",
     "QuestionType": "1",
     "Options": ["Norte", "Sur", "Este", "Oeste"],
-    "Answer": "1",
+    "Answer": "0",
     "ref": "https://es.wikipedia.org/wiki/San_Juan_(Puerto_Rico)"
   },
   {
@@ -891,7 +891,7 @@
       "Estatua de la Libertad",
       "Gran Muralla China"
     ],
-    "Answer": "2",
+    "Answer": "1",
     "ref": "https://visitponce.com/"
   },
   {
@@ -901,7 +901,7 @@
     "Question": "¿Qué tipo de clima tiene San Juan?",
     "QuestionType": "1",
     "Options": ["Mediterráneo", "Subártico", "Tropical", "Continental"],
-    "Answer": "3",
+    "Answer": "2",
     "ref": "https://es.wikipedia.org/wiki/San_Juan_(Puerto_Rico)"
   },
   {
@@ -911,7 +911,7 @@
     "Question": "¿San Juan es una de las ciudades más antiguas de América?",
     "QuestionType": "2",
     "Options": ["Verdadero", "Falso"],
-    "Answer": "1",
+    "Answer": "0",
     "ref": "https://es.wikipedia.org/wiki/San_Juan_(Puerto_Rico)"
   },
   {
@@ -921,7 +921,7 @@
     "Question": "¿La agricultura es la principal actividad económica en San Juan?",
     "QuestionType": "2",
     "Options": ["Verdadero", "Falso"],
-    "Answer": "2",
+    "Answer": "1",
     "ref": "https://es.wikipedia.org/wiki/San_Juan_(Puerto_Rico)"
   },
   {
@@ -931,7 +931,7 @@
     "Question": "¿En qué cordillera se encuentra Machu Picchu?",
     "QuestionType": "1",
     "Options": ["Los Alpes", "Los Andes", "Los Himalayas", "Los Pirineos"],
-    "Answer": "2",
+    "Answer": "1",
     "ref": "https://es.wikipedia.org/wiki/Machu_Picchu"
   },
   {
@@ -942,7 +942,7 @@
     "Category": "Turismo",
     "QuestionType": "1",
     "Options": ["En coche", "En tren", "En barco", "En avión"],
-    "Answer": "2",
+    "Answer": "1",
     "ref": "https://es.wikipedia.org/wiki/Machu_Picchu"
   },
   {
@@ -953,7 +953,7 @@
     "Category": "Clima",
     "QuestionType": "1",
     "Options": ["Desértico", "Tropical de montaña", "Mediterráneo", "Subpolar"],
-    "Answer": "2",
+    "Answer": "1",
     "ref": "https://es.wikipedia.org/wiki/Machu_Picchu"
   },
   {
@@ -964,7 +964,7 @@
     "Category": "Economía",
     "QuestionType": "2",
     "Options": ["Verdadero", "Falso"],
-    "Answer": "1",
+    "Answer": "0",
     "ref": "https://es.wikipedia.org/wiki/Machu_Picchu"
   },
   {
@@ -975,7 +975,7 @@
     "Category": "Historia",
     "QuestionType": "2",
     "Options": ["Verdadero", "Falso"],
-    "Answer": "1",
+    "Answer": "0",
     "ref": "https://es.wikipedia.org/wiki/Machu_Picchu"
   },
   {
@@ -986,7 +986,7 @@
     "Category": "Geografía",
     "QuestionType": "1",
     "Options": ["Florida", "Nueva York", "California", "Texas"],
-    "Answer": "3",
+    "Answer": "2",
     "ref": "https://es.wikipedia.org/wiki/Los_%C3%81ngeles"
   },
   {
@@ -1002,7 +1002,7 @@
       "Disneyland",
       "Montaña Rusa Kingda Ka"
     ],
-    "Answer": "3",
+    "Answer": "2",
     "ref": "https://www.discoverlosangeles.com/"
   },
   {
@@ -1013,7 +1013,7 @@
     "Category": "Clima",
     "QuestionType": "1",
     "Options": ["Subártico", "Mediterráneo", "Continental", "Tropical"],
-    "Answer": "2",
+    "Answer": "1",
     "ref": "https://es.wikipedia.org/wiki/Los_%C3%81ngeles"
   },
   {
@@ -1024,7 +1024,7 @@
     "Category": "Historia",
     "QuestionType": "2",
     "Options": ["Verdadero", "Falso"],
-    "Answer": "1",
+    "Answer": "0",
     "ref": "https://es.wikipedia.org/wiki/Los_%C3%81ngeles"
   },
   {
@@ -1035,7 +1035,7 @@
     "Category": "Economía",
     "QuestionType": "2",
     "Options": ["Verdadero", "Falso"],
-    "Answer": "1",
+    "Answer": "0",
     "ref": "https://es.wikipedia.org/wiki/Los_%C3%81ngeles"
   },
   {
@@ -1046,7 +1046,7 @@
     "Category": "Clima",
     "QuestionType": "1",
     "Options": ["Desértico", "Mediterráneo", "Tropical", "Subpolar"],
-    "Answer": "3",
+    "Answer": "2",
     "ref": "https://es.wikipedia.org/wiki/Honolulu"
   },
   {
@@ -1057,7 +1057,7 @@
     "Category": "Geografía",
     "QuestionType": "1",
     "Options": ["Maui", "Oahu", "Kauai", "Big Island"],
-    "Answer": "2",
+    "Answer": "1",
     "ref": "https://es.wikipedia.org/wiki/Honolulu"
   },
   {
@@ -1073,7 +1073,7 @@
       "Playa Bondi",
       "Playa Ipanema"
     ],
-    "Answer": "2",
+    "Answer": "1",
     "ref": "https://es.wikipedia.org/wiki/Honolulu"
   },
   {
@@ -1084,7 +1084,7 @@
     "Category": "Historia",
     "QuestionType": "2",
     "Options": ["Verdadero", "Falso"],
-    "Answer": "1",
+    "Answer": "0",
     "ref": "https://es.wikipedia.org/wiki/Historia_de_Honolulu"
   },
   {
@@ -1095,7 +1095,7 @@
     "Category": "Economía",
     "QuestionType": "2",
     "Options": ["Verdadero", "Falso"],
-    "Answer": "2",
+    "Answer": "1",
     "ref": "https://es.wikipedia.org/wiki/Geograf%C3%ADa_de_Honolulu"
   },
   {
@@ -1106,7 +1106,7 @@
     "Category": "Geografía",
     "QuestionType": "1",
     "Options": ["California", "Colorado", "Utah", "Nevada"],
-    "Answer": "2",
+    "Answer": "1",
     "ref": "https://es.wikipedia.org/wiki/Aspen"
   },
   {
@@ -1117,7 +1117,7 @@
     "Category": "Turismo",
     "QuestionType": "1",
     "Options": ["Surf", "Esquí", "Buceo", "Senderismo en el desierto"],
-    "Answer": "2",
+    "Answer": "1",
     "ref": "https://www.aspenchamber.org/"
   },
   {
@@ -1128,7 +1128,7 @@
     "Category": "Clima",
     "QuestionType": "1",
     "Options": ["Tropical", "Mediterráneo", "Desértico", "Clima de montaña"],
-    "Answer": "4",
+    "Answer": "3",
     "ref": "https://es.wikipedia.org/wiki/Aspen"
   },
   {
@@ -1139,7 +1139,7 @@
     "Category": "Historia",
     "QuestionType": "2",
     "Options": ["Verdadero", "Falso"],
-    "Answer": "1",
+    "Answer": "0",
     "ref": "https://es.wikipedia.org/wiki/Aspen"
   },
   {
@@ -1150,7 +1150,7 @@
     "Category": "Economía",
     "QuestionType": "2",
     "Options": ["Verdadero", "Falso"],
-    "Answer": "2",
+    "Answer": "1",
     "ref": "https://es.wikipedia.org/wiki/Aspen"
   },
   {
@@ -1166,7 +1166,7 @@
       "Valle de los Ángeles",
       "Valle de la Muerte"
     ],
-    "Answer": "1",
+    "Answer": "0",
     "ref": "https://es.wikipedia.org/wiki/Ciudad_de_M%C3%A9xico"
   },
   {
@@ -1177,7 +1177,7 @@
     "Category": "Turismo",
     "QuestionType": "1",
     "Options": ["Torre Eiffel", "Coliseo", "Zócalo", "Gran Muralla China"],
-    "Answer": "3",
+    "Answer": "2",
     "ref": "https://es.wikipedia.org/wiki/Ciudad_de_M%C3%A9xico"
   },
   {
@@ -1188,7 +1188,7 @@
     "Category": "Clima",
     "QuestionType": "1",
     "Options": ["Desértico", "Mediterráneo", "Templado subhúmedo", "Tropical"],
-    "Answer": "3",
+    "Answer": "2",
     "ref": "https://es.wikipedia.org/wiki/Ciudad_de_M%C3%A9xico"
   },
   {
@@ -1199,7 +1199,7 @@
     "Category": "Historia",
     "QuestionType": "2",
     "Options": ["Verdadero", "Falso"],
-    "Answer": "1",
+    "Answer": "0",
     "ref": "https://es.wikipedia.org/wiki/Ciudad_de_M%C3%A9xico"
   },
   {
@@ -1210,7 +1210,7 @@
     "Category": "Economía",
     "QuestionType": "2",
     "Options": ["Verdadero", "Falso"],
-    "Answer": "1",
+    "Answer": "0",
     "ref": "https://es.wikipedia.org/wiki/Ciudad_de_M%C3%A9xico"
   },
   {
