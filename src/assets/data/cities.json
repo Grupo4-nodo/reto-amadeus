@@ -1,0 +1,268 @@
+[
+  {
+    "_id": "1",
+    "Continent": "América",
+    "Country": "México",
+    "City": "Playa del Carmen",
+    "Points": "150"
+  },
+  {
+    "_id": "2",
+    "Continent": "América",
+    "Country": "Colombia",
+    "City": "Cartagena",
+    "Points": "180"
+  },
+  {
+    "_id": "3",
+    "Continent": "América",
+    "Country": "Brasil",
+    "City": "Rio de Janeiro",
+    "Points": "200"
+  },
+  {
+    "_id": "4",
+    "Continent": "América",
+    "Country": "Argentina",
+    "City": "Bariloche",
+    "Points": "150"
+  },
+  {
+    "_id": "5",
+    "Continent": "América",
+    "Country": "Perú",
+    "City": "Cusco",
+    "Points": "150"
+  },
+  {
+    "_id": "6",
+    "Continent": "América",
+    "Country": "Canadá",
+    "City": "Banff",
+    "Points": "130"
+  },
+  {
+    "_id": "7",
+    "Continent": "América",
+    "Country": "Estados Unidos",
+    "City": "New York",
+    "Points": "220"
+  },
+  {
+    "_id": "8",
+    "Continent": "América",
+    "Country": "Canadá",
+    "City": "Toronto",
+    "Points": "170"
+  },
+  {
+    "_id": "9",
+    "Continent": "América",
+    "Country": "Estados Unidos",
+    "City": "Miami",
+    "Points": "180"
+  },
+  {
+    "_id": "10",
+    "Continent": "América",
+    "Country": "México",
+    "City": "Tulum",
+    "Points": "150"
+  },
+  {
+    "_id": "11",
+    "Continent": "América",
+    "Country": "Argentina",
+    "City": "Ushuaia",
+    "Points": "180"
+  },
+  {
+    "_id": "12",
+    "Continent": "América",
+    "Country": "República Dominicana",
+    "City": "Punta Cana",
+    "Points": "150"
+  },
+  {
+    "_id": "13",
+    "Continent": "América",
+    "Country": "Estados Unidos",
+    "City": "Chicago",
+    "Points": "160"
+  },
+  {
+    "_id": "14",
+    "Continent": "América",
+    "Country": "Puerto Rico",
+    "City": "San Juan",
+    "Points": "150"
+  },
+  {
+    "_id": "15",
+    "Continent": "América",
+    "Country": "Perú",
+    "City": "Machu Picchu",
+    "Points": "200"
+  },
+  {
+    "_id": "16",
+    "Continent": "América",
+    "Country": "Estados Unidos",
+    "City": "Los Ángeles",
+    "Points": "180"
+  },
+  {
+    "_id": "17",
+    "Continent": "América",
+    "Country": "Hawái",
+    "City": "Honolulu",
+    "Points": "160"
+  },
+  {
+    "_id": "18",
+    "Continent": "América",
+    "Country": "Estados Unidos",
+    "City": "Aspen",
+    "Points": "150"
+  },
+  {
+    "_id": "19",
+    "Continent": "América",
+    "Country": "México",
+    "City": "Ciudad de México",
+    "Points": "200"
+  },
+  {
+    "_id": "20",
+    "Continent": "Europa",
+    "Country": "Grecia",
+    "City": "Santorini",
+    "Points": "150"
+  },
+  {
+    "_id": "21",
+    "Continent": "Europa",
+    "Country": "España",
+    "City": "Barcelona",
+    "Points": "220"
+  },
+  {
+    "_id": "22",
+    "Continent": "Europa",
+    "Country": "Portugal",
+    "City": "Lisboa",
+    "Points": "150"
+  },
+  {
+    "_id": "23",
+    "Continent": "Europa",
+    "Country": "Suiza",
+    "City": "Interlaken",
+    "Points": "150"
+  },
+  {
+    "_id": "24",
+    "Continent": "Europa",
+    "Country": "España",
+    "City": "Granada",
+    "Points": "150"
+  },
+  {
+    "_id": "25",
+    "Continent": "Europa",
+    "Country": "Suiza",
+    "City": "Zermatt",
+    "Points": "150"
+  },
+  {
+    "_id": "26",
+    "Continent": "Europa",
+    "Country": "Francia",
+    "City": "París",
+    "Points": "200"
+  },
+  {
+    "_id": "27",
+    "Continent": "Europa",
+    "Country": "Austria",
+    "City": "Viena",
+    "Points": "180"
+  },
+  {
+    "_id": "28",
+    "Continent": "Europa",
+    "Country": "Alemania",
+    "City": "Berlín",
+    "Points": "180"
+  },
+  {
+    "_id": "29",
+    "Continent": "Europa",
+    "Country": "España",
+    "City": "Ibiza",
+    "Points": "160"
+  },
+  {
+    "_id": "30",
+    "Continent": "Europa",
+    "Country": "Islandia",
+    "City": "Reykjavik",
+    "Points": "150"
+  },
+  {
+    "_id": "31",
+    "Continent": "Europa",
+    "Country": "Portugal",
+    "City": "El Algarve",
+    "Points": "150"
+  },
+  {
+    "_id": "32",
+    "Continent": "Europa",
+    "Country": "Reino Unido",
+    "City": "Londres",
+    "Points": "220"
+  },
+  {
+    "_id": "33",
+    "Continent": "Europa",
+    "Country": "Francia",
+    "City": "Niza",
+    "Points": "150"
+  },
+  {
+    "_id": "34",
+    "Continent": "Europa",
+    "Country": "Francia",
+    "City": "Chamonix",
+    "Points": "150"
+  },
+  {
+    "_id": "35",
+    "Continent": "Europa",
+    "Country": "Italia",
+    "City": "Roma",
+    "Points": "200"
+  },
+  {
+    "_id": "36",
+    "Continent": "Europa",
+    "Country": "Malta",
+    "City": "Malta",
+    "Points": "150"
+  },
+  {
+    "_id": "37",
+    "Continent": "Europa",
+    "Country": "Austria",
+    "City": "Innsbruck",
+    "Points": "150"
+  },
+  {
+    "_id": "38",
+    "Continent": "Europa",
+    "Country": "España",
+    "City": "Madrid",
+    "Points": "200"
+  }
+]

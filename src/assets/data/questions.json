@@ -1782,5 +1782,457 @@
     "Options": ["Verdadero", "Falso"],
     "Answer": "0",
     "ref": "https://ibizamarathon.es/"
+  },
+  {
+    "_id": "149",
+    "Continent": "Europa",
+    "City": "Reykjavik",
+    "Question": "¿Qué significa el nombre Reykjavik?",
+    "QuestionType": "1",
+    "Options": ["Bahía Humeante", "Isla de Vapor", "Bahía de Bruma", "Isla de Volcanes"],
+    "Answer": "0",
+    "ref": "https://es.wikipedia.org/wiki/Reikiavik"
+  },
+  {
+    "_id": "150",
+    "Continent": "Europa",
+    "City": "Reykjavik",
+    "Question": "¿En qué año se cree que fue fundada Reykjavik?",
+    "QuestionType": "1",
+    "Options": ["950", "870", "720", "780"],
+    "Answer": "1",
+    "ref": "https://es.wikipedia.org/wiki/Reikiavik"
+  },
+  {
+    "_id": "151",
+    "Continent": "Europa",
+    "City": "Reykjavik",
+    "Question": "Reykjavik es la capital de...",
+    "QuestionType": "1",
+    "Options": ["Gales", "Irlanda", "Islandia", "Finlandia"],
+    "Answer": "2",
+    "ref": "https://es.wikipedia.org/wiki/Reikiavik"
+  },
+  {
+    "_id": "152",
+    "Continent": "Europa",
+    "City": "Reykjavik",
+    "Question": "¿Cómo se llama el río más grande de Reykjavik?",
+    "QuestionType": "1",
+    "Options": ["Faxaflói", "Esja", "Elliðaá", "Kollafjörður"],
+    "Answer": "2",
+    "ref": "https://es.wikipedia.org/wiki/Reikiavik"
+  },
+  {
+    "_id": "153",
+    "Continent": "Europa",
+    "City": "Reykjavik",
+    "Question": "¿Sobre qué margen de Islandia podemos encontrar a Reykjavik?",
+    "QuestionType": "1",
+    "Options": ["Sudoeste", "Sur", "Nordeste", "Norte"],
+    "Answer": "0",
+    "ref": "https://es.wikipedia.org/wiki/Reikiavik"
+  },
+  {
+    "_id": "154",
+    "Continent": "Europa",
+    "City": "Algarve",
+    "Question": "¿Qué significa el nombre Algarve?",
+    "QuestionType": "1",
+    "Options": ["Oriente", "Norte", "Occidente", "Sur"],
+    "Answer": "2",
+    "ref": "https://es.wikipedia.org/wiki/Algarve"
+  },
+  {
+    "_id": "155",
+    "Continent": "Europa",
+    "City": "Algarve",
+    "Question": "¿Cómo fue denominada la región en la época Romana?",
+    "QuestionType": "1",
+    "Options": ["Alocys", "Cinética", "Algabyca", "Coneticus"],
+    "Answer": "1",
+    "ref": "https://es.wikipedia.org/wiki/Algarve"
+  },
+  {
+    "_id": "156",
+    "Continent": "Europa",
+    "City": "Algarve",
+    "Question": "¿Con qué región limita al norte el Algarve?",
+    "QuestionType": "1",
+    "Options": ["Río Guadiana", "Océano Atlántico", "Albufeira", "Alentejo"],
+    "Answer": "1",
+    "ref": "https://es.wikipedia.org/wiki/Algarve"
+  },
+  {
+    "_id": "157",
+    "Continent": "Europa",
+    "City": "Algarve",
+    "Question": "¿Cuál es el pico más alto del Algarve?",
+    "QuestionType": "1",
+    "Options": ["Pico da Foia", "Sierra de Monchique", "Alto da Algarve", "Pico Monchique"],
+    "Answer": "0",
+    "ref": "https://es.wikipedia.org/wiki/Algarve"
+  },
+  {
+    "_id": "158",
+    "Continent": "Europa",
+    "City": "Algarve",
+    "Question": "¿Cuál es la capital del Algarve?",
+    "QuestionType": "1",
+    "Options": ["Olhao", "Faro", "Loulé", "Albufeira"],
+    "Answer": "1",
+    "ref": "https://www.viajeroscallejeros.com/que-ver-en-el-algarve-portugal/"
+  }
+  ,
+  {
+    "_id": "159",
+    "Continent": "Europa",
+    "City": "Londres",
+    "Question": "¿A orillas de qué río se encuentra ubicada Londres?",
+    "QuestionType": "1",
+    "Options": ["Nilo", "Támesis", "Rin", "Sena"],
+    "Answer": "1",
+    "ref": "https://es.wikipedia.org/wiki/Londres"
+  }
+  ,
+  {
+    "_id": "160",
+    "Continent": "Europa",
+    "City": "Londres",
+    "Question": "¿Qué nombre le dieron los romanos a Londres cuando la fundaron?",
+    "QuestionType": "1",
+    "Options": ["Londinium", "Londasium", "Londinus", "Londerus"],
+    "Answer": "0",
+    "ref": "https://es.wikipedia.org/wiki/Londres"
+  },
+  {
+    "_id": "161",
+    "Continent": "Europa",
+    "City": "Londres",
+    "Question": "¿Cuántas universidades tiene la ciudad de Londres?",
+    "QuestionType": "1",
+    "Options":  ["25", "43", "17", "38"],
+    "Answer": "1",
+    "ref": "https://es.wikipedia.org/wiki/Londres"
+  },
+  {
+    "_id": "162",
+    "Continent": "Europa",
+    "City": "Londres",
+    "Question": "¿Cuál es la residencia oficial del monarca británico?",
+    "QuestionType": "1",
+    "Options": ["Palacio de Buckingham", "Palacio de Westminster", "Palacio de Hampton Court", "Palacio de Tudor"],
+    "Answer": "0",
+    "ref": "https://es.wikipedia.org/wiki/Londres"
+  },
+  {
+    "_id": "163",
+    "Continent": "Europa",
+    "City": "Londres",
+    "Question": "¿Cuál de estos museos puedes visitar en Londres?",
+    "QuestionType": "1",
+    "Options": ["Museo Smithsonian", "Museo de Louvre", "Museo Naval", "Museo de Ciencias"],
+    "Answer": "3",
+    "ref": "https://es.wikipedia.org/wiki/Londres"
+  },
+  {
+    "_id": "164",
+    "Continent": "Europa",
+    "City": "Niza",
+    "Question": "¿En qué región se encuentra ubicada Niza?",
+    "QuestionType": "1",
+    "Options": ["Centro-Valle de Loira", "Auvernia-Ródano-Alpes", "Provenza-Alpes-Costa Azul", "Nueva Aquitania"],
+    "Answer": "2",
+    "ref": "https://es.wikipedia.org/wiki/Niza"
+  },
+  {
+    "_id": "165",
+    "Continent": "Europa",
+    "City": "Niza",
+    "Question": "¿Cuál es el gentilicio de los habitantes de Niza?",
+    "QuestionType": "1",
+    "Options": ["Nizino", "Nizeine", "Nizes", "Nizardo"],
+    "Answer": "3",
+    "ref": "https://es.wikipedia.org/wiki/Niza"
+  },
+  {
+    "_id": "166",
+    "Continent": "Europa",
+    "City": "Niza",
+    "Question": "¿Qué animal aparece en el escudo de Niza?",
+    "QuestionType": "1",
+    "Options": ["León Albino", "Pantera Negra", "Águla Roja", "Curvo Dorado"],
+    "Answer": "2",
+    "ref": "https://es.wikipedia.org/wiki/Niza"
+  },
+  {
+    "_id": "167",
+    "Continent": "Europa",
+    "City": "Niza",
+    "Question": "¿En cuántos 'Cantones' se divide la ciudad de Niza?",
+    "QuestionType": "1",
+    "Options": ["10", "17", "15", "14"],
+    "Answer": "3",
+    "ref": "https://es.wikipedia.org/wiki/Niza"
+  },
+  {
+    "_id": "168",
+    "Continent": "Europa",
+    "City": "Niza",
+    "Question": "¿En qué año se inauguró el Tranvía de Niza?",
+    "QuestionType": "1",
+    "Options": ["2007", "2010", "2011", "2009"],
+    "Answer": "0",
+    "ref": "https://es.wikipedia.org/wiki/Niza"
+  },
+  {
+    "_id": "169",
+    "Continent": "Europa",
+    "City": "Chamonix",
+    "Question": "¿A los pies de cuál famoso monte podemos encontrar a Chamonix?",
+    "QuestionType": "1",
+    "Options": ["Mont Vert", "Mont Blanc", "Mont Rouge", "Mont Violet"],
+    "Answer": "1",
+    "ref": "https://es.wikipedia.org/wiki/Chamonix-Mont-Blanc"
+  },
+  {
+    "_id": "170",
+    "Continent": "Europa",
+    "City": "Chamonix",
+    "Question": "¿Cuál es el nombre completo de Chamonix?",
+    "QuestionType": "1",
+    "Options": ["Chamonix Alta Saboya", "Chamonix Mont Blanc", "Chamonix Mont Rouge", "Chamonix Auvernia-Ródano"],
+    "Answer": "1",
+    "ref": "https://es.wikipedia.org/wiki/Chamonix-Mont-Blanc"
+  },
+  {
+    "_id": "171",
+    "Continent": "Europa",
+    "City": "Chamonix",
+    "Question": "¿Chamonix es reconocidad por ser un centro de qué tipo de deportes?",
+    "QuestionType": "1",
+    "Options": ["Deportes de invierno", "Deportes de playa", "Deportes subacuáticos", "Deportes de contacto"],
+    "Answer": "0",
+    "ref": "https://es.wikipedia.org/wiki/Chamonix-Mont-Blanc"
+  },
+  {
+    "_id": "172",
+    "Continent": "Europa",
+    "City": "Chamonix",
+    "Question": "¿A qué altitud se encuentra Chamonix?",
+    "QuestionType": "1",
+    "Options": ["950 msnm", "1050 msnm", "1100 msnm", "1200 msnm"],
+    "Answer": "2",
+    "ref": "https://es.wikipedia.org/wiki/Chamonix-Mont-Blanc"
+  },
+  {
+    "_id": "173",
+    "Continent": "Europa",
+    "City": "Chamonix",
+    "Question": "Puedes encontrar este museo en Chamonix",
+    "QuestionType": "1",
+    "Options": ["Museo Mont Blanc", "Museo de Ciencias", "Museo del Chocolate", "Museo Alpino"],
+    "Answer": "3",
+    "ref": "https://www.cc-valleedechamonixmontblanc.fr/culture/horaires-informations-musees.html"
+  },
+  {
+    "_id": "174",
+    "Continent": "Europa",
+    "City": "Roma",
+    "Question": "¿De qué región de Italia es capital Roma?",
+    "QuestionType": "1",
+    "Options": ["Piedmont", "Veneto", "Tuscany", "Lazio"],
+    "Answer": "3",
+    "ref": "https://es.wikipedia.org/wiki/Roma"
+  },
+  {
+    "_id": "175",
+    "Continent": "Europa",
+    "City": "Roma",
+    "Question": "¿Con qué apodo se le conoce a Roma?",
+    "QuestionType": "1",
+    "Options": ["La Ciudad Amurallada", "La Ciudad de la Loba", "La Ciudad Eterna", "La Ciudad Imperial"],
+    "Answer": "2",
+    "ref": "https://es.wikipedia.org/wiki/Roma"
+  },
+  {
+    "_id": "176",
+    "Continent": "Europa",
+    "City": "Roma",
+    "Question": "¿Cuáles colores tiene la bandera de Roma?",
+    "QuestionType": "1",
+    "Options": ["Rojo y Amarillo", "Rojo y Blanco", "Blanco y Dorado", "Blanco y Violeta"],
+    "Answer": "0",
+    "ref": "https://es.wikipedia.org/wiki/Roma"
+  },
+  {
+    "_id": "177",
+    "Continent": "Europa",
+    "City": "Roma",
+    "Question": "¿Qué famoso enclave se encuentra en la ciudad de Roma?",
+    "QuestionType": "1",
+    "Options": ["Ciudad Metropolitana", "Ciudad de las Murallas", "Ciudad del Emperador", "Ciudad del Baticano"],
+    "Answer": "3",
+    "ref": "https://es.wikipedia.org/wiki/Roma"
+  },
+  {
+    "_id": "178",
+    "Continent": "Europa",
+    "City": "Roma",
+    "Question": "¿Cómo se llama la loba que amamantó a Rómulo y Remo, fundadores de la ciudad de Roma?",
+    "QuestionType": "1",
+    "Options": ["Lupusela", "Lupera", "Luperca", "Lupena"],
+    "Answer": "2",
+    "ref": "https://es.wikipedia.org/wiki/Roma"
+  },
+  {
+    "_id": "179",
+    "Continent": "Europa",
+    "City": "Malta",
+    "Question": "¿En cuántas localidades se divide Malta?",
+    "QuestionType": "1",
+    "Options": ["71", "69", "70", "68"],
+    "Answer": "3",
+    "ref": "https://es.wikipedia.org/wiki/Malta"
+  },
+  {
+    "_id": "180",
+    "Continent": "Europa",
+    "City": "Malta",
+    "Question": "¿Cuál es la capital de Malta?",
+    "QuestionType": "1",
+    "Options": ["Attard", "La Valeta", "Fgura", "Fontana"],
+    "Answer": "1",
+    "ref": "https://es.wikipedia.org/wiki/Malta"
+  },
+  {
+    "_id": "181",
+    "Continent": "Europa",
+    "City": "Malta",
+    "Question": "¿Cuál es el gentilicio de Malta?",
+    "QuestionType": "1",
+    "Options": ["Maltarés", "Malto/a", "Maltés", "Maltano"],
+    "Answer": "2",
+    "ref": "https://es.wikipedia.org/wiki/Malta"
+  },
+  {
+    "_id": "182",
+    "Continent": "Europa",
+    "City": "Malta",
+    "Question": "¿En qué año se consólido la República en Malta?",
+    "QuestionType": "1",
+    "Options": ["1994", "1984", "1974", "1964"],
+    "Answer": "2",
+    "ref": "https://es.wikipedia.org/wiki/Malta"
+  },
+  {
+    "_id": "183",
+    "Continent": "Europa",
+    "City": "Malta",
+    "Question": "¿Cuál alimento es muy reconocido en Malta?",
+    "QuestionType": "1",
+    "Options": ["Aceitunas", "Miel", "Queso", "Tomate"],
+    "Answer": "1",
+    "ref": "https://es.wikipedia.org/wiki/Malta"
+  },
+  {
+    "_id": "184",
+    "Continent": "Europa",
+    "City": "Innsbruck",
+    "Question": "¿De qué estado de Austria es capital Innsbruck?",
+    "QuestionType": "1",
+    "Options": ["Salzburg", "Carinthia", "Burgenland", "Tyrol"],
+    "Answer": "3",
+    "ref": "https://es.wikipedia.org/wiki/Innsbruck"
+  },
+  {
+    "_id": "185",
+    "Continent": "Europa",
+    "City": "Innsbruck",
+    "Question": "¿Cuál es el idioma oficial en Innsbruck?",
+    "QuestionType": "1",
+    "Options": ["Italiano", "Alemán", "Inglés", "Rumaní"],
+    "Answer": "1",
+    "ref": "https://es.wikipedia.org/wiki/Innsbruck"
+  },
+  {
+    "_id": "186",
+    "Continent": "Europa",
+    "City": "Innsbruck",
+    "Question": "¿Cómo se llama el río que atraviesa a Innsbruck?",
+    "QuestionType": "1",
+    "Options": ["Bruck", "Rin", "Sena", "Eno"],
+    "Answer": "3",
+    "ref": "https://es.wikipedia.org/wiki/Innsbruck"
+  },
+  {
+    "_id": "187",
+    "Continent": "Europa",
+    "City": "Innsbruck",
+    "Question": "¿Cuál es el gentilicio de los habitantes de Innsbruck?",
+    "QuestionType": "1",
+    "Options": ["Insbruqués", "Insbruquí", "Insbruquere", "Insbruquita"],
+    "Answer": "0",
+    "ref": "https://es.wikipedia.org/wiki/Innsbruck"
+  },
+  {
+    "_id": "188",
+    "Continent": "Europa",
+    "City": "Innsbruck",
+    "Question": "¿Qué importante familia habitó el Palacio Imperial de Innsbruck?",
+    "QuestionType": "1",
+    "Options": ["Bonnaparte", "Habsburgo", "Maulbertsch", "Kölderer"],
+    "Answer": "3",
+    "ref": "https://es.wikipedia.org/wiki/Innsbruck"
+  },
+  {
+    "_id": "189",
+    "Continent": "Europa",
+    "City": "Madrid",
+    "Question": "¿En qué parque podemos encontrar el Palacio de Cristal en Madrid?",
+    "QuestionType": "1",
+    "Options": ["Real Jardín Botánico", "Jardines de Sabatini", "Parque Madrid del Río", "Parque del Retiro"],
+    "Answer": "3",
+    "ref": "https://es.wikipedia.org/wiki/Madrid"
+  },
+  {
+    "_id": "190",
+    "Continent": "Europa",
+    "City": "Madrid",
+    "Question": "¿Cuál es el principal río de Madrid?",
+    "QuestionType": "1",
+    "Options": ["Manzanares", "Jarama", "Culebro", "Del Fresno"],
+    "Answer": "0",
+    "ref": "https://es.wikipedia.org/wiki/Madrid"
+  },
+  {
+    "_id": "191",
+    "Continent": "Europa",
+    "City": "Madrid",
+    "Question": "¿Cuál es el lugar más visitado por los turistas en Madrid?",
+    "QuestionType": "1",
+    "Options": ["Museo del Prado", "Estadio Santiago Bernabéu", "Parque de Atracciones de Madrid", "Museo Reina Sofía"],
+    "Answer": "3",
+    "ref": "https://es.wikipedia.org/wiki/Madrid"
+  },
+  {
+    "_id": "192",
+    "Continent": "Europa",
+    "City": "Madrid",
+    "Question": "¿Con cuántas Universidades Pública cuenta la Comunidad de Madrid?",
+    "QuestionType": "1",
+    "Options": ["3", "6", "5", "2"],
+    "Answer": "1",
+    "ref": "https://es.wikipedia.org/wiki/Madrid"
+  },
+  {
+    "_id": "193",
+    "Continent": "Europa",
+    "City": "Madrid",
+    "Question": "¿En qué mes inicia anualmente la Feria del Libro de Madrid?",
+    "QuestionType": "1",
+    "Options": ["Mayo", "Abril", "Marzo", "Junio"],
+    "Answer": "0",
+    "ref": "https://es.wikipedia.org/wiki/Feria_del_Libro_de_Madrid"
   }
 ]
