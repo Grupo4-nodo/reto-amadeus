@@ -84,4 +84,29 @@
       border: none;
     }
   }
+
+  &__button {
+    width: fit-content;
+    margin: 1rem 0;
+    padding: 0.3rem 0.5rem;
+    border-radius: 1rem;
+    border: none;
+    background-color: #0c66e1;
+    color: white;
+    align-self: center;
+
+    &:hover {
+      background-color: #2a77e2;
+    }
+  }
+
+  &__link {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 }
