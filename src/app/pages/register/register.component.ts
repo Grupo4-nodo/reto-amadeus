@@ -15,6 +15,28 @@ import { RouterLink } from '@angular/router';
   styleUrl: './register.component.scss',
 })
 export class RegisterComponent {
+  get name() {
+    return this.registerForm.get('name') as FormControl;
+  }
+  get lastName() {
+    return this.registerForm.get('lastName') as FormControl;
+  }
+  get userName() {
+    return this.registerForm.get('userName') as FormControl;
+  }
+  get email() {
+    return this.registerForm.get('email') as FormControl;
+  }
+  get age() {
+    return this.registerForm.get('age') as FormControl;
+  }
+  get country() {
+    return this.registerForm.get('country') as FormControl;
+  }
+  get password() {
+    return this.registerForm.get('password') as FormControl;
+  }
+
   registerForm = new FormGroup({
     name: new FormControl('', Validators.required),
     lastName: new FormControl('', Validators.required),
