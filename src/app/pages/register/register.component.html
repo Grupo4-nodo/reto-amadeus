@@ -1,6 +1,6 @@
 <main class="main">
   <h1 class="main__title">Crea tu perfil para comenzar</h1>
-  <form class="main__form">
+  <form class="main__form" [formGroup]="registerForm">
     <section class="main__avatar">
       <img
         src="../../../assets/img/user1.jpg"
@@ -11,16 +11,34 @@
     <div>
       <fieldset>
         <label for="name">Nombre</label>
-        <input type="text" name="name" id="name" placeholder="Pepito" />
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Pepito"
+          formControlName="name"
+        />
       </fieldset>
       <fieldset>
-        <label for="name">Apellido</label>
-        <input type="text" name="lastname" id="lastname" placeholder="Perez" />
+        <label for="lastname">Apellido</label>
+        <input
+          type="text"
+          name="lastname"
+          id="lastname"
+          placeholder="Perez"
+          formControlName="lastName"
+        />
       </fieldset>
     </div>
     <fieldset>
-      <label for="name">Apodo</label>
-      <input type="text" name="username" id="username" placeholder="pepe57" />
+      <label for="username">Apodo</label>
+      <input
+        type="text"
+        name="username"
+        id="username"
+        placeholder="pepe57"
+        formControlName="userName"
+      />
     </fieldset>
     <fieldset>
       <label for="email">Correo</label>
@@ -29,16 +47,29 @@
         name="email"
         id="email"
         placeholder="pperez58@gmail.com"
+        formControlName="email"
       />
     </fieldset>
     <div>
       <fieldset>
         <label for="age">Edad</label>
-        <input type="number" name="age" id="age" placeholder="20" />
+        <input
+          type="number"
+          name="age"
+          id="age"
+          placeholder="20"
+          formControlName="age"
+        />
       </fieldset>
       <fieldset>
         <label for="country">País</label>
-        <input type="text" name="country" id="country" placeholder="Colombia" />
+        <input
+          type="text"
+          name="country"
+          id="country"
+          placeholder="Colombia"
+          formControlName="country"
+        />
       </fieldset>
     </div>
     <fieldset>
@@ -48,9 +79,12 @@
         name="password"
         id="password"
         placeholder="********"
+        formControlName="password"
       />
     </fieldset>
-    <button class="main__button">Registrarme</button>
+    <button class="main__button" [disabled]="registerForm.invalid">
+      Registrarme
+    </button>
     <a class="main__link" routerLink="/login"
       >¿Ya tienes cuenta? Inicia Sesión</a
     >
