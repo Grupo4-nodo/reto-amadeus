@@ -4,12 +4,14 @@
   padding: 0 0.5rem;
 
   &__tooltip {
+    width: 10rem;
     position: absolute;
     background-color: #333;
     color: #fff;
     padding: 0.2rem;
     border-radius: 0.2rem;
-    white-space: nowrap; // sin saltos de línea
+    white-space: wrap; // Con salto de linea si el texto excede el ancho
+    text-align: center;
     z-index: 1000; // para que el tooltip este por encima de todo
     opacity: 0;
 
