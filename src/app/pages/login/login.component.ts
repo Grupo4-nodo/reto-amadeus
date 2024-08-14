@@ -14,4 +14,19 @@ import { RouterLink } from '@angular/router';
   templateUrl: './login.component.html',
   styleUrl: './login.component.scss',
 })
-export class LoginComponent {}
+export class LoginComponent {
+  loginForm = new FormGroup({
+    email: new FormControl('', [
+      Validators.required,
+      Validators.pattern(
+        '[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{2,5}'
+      ),
+    ]),
+    password: new FormControl('', [
+      Validators.required,
+      Validators.pattern(
+        '^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)(?=.*[!@#$%^&*])[A-Za-z\\d!@#$%^&*]{8,}$'
+      ),
+    ]),
+  });
+}
