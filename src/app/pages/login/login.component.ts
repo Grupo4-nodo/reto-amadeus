@@ -6,11 +6,13 @@ import {
   Validators,
 } from '@angular/forms';
 import { RouterLink } from '@angular/router';
+import { TooltipComponent } from '../../components/tooltip/tooltip.component';
+import { NgIf } from '@angular/common';
 
 @Component({
   selector: 'app-login',
   standalone: true,
-  imports: [RouterLink, ReactiveFormsModule],
+  imports: [RouterLink, ReactiveFormsModule, NgIf, TooltipComponent],
   templateUrl: './login.component.html',
   styleUrl: './login.component.scss',
 })
