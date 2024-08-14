@@ -1,6 +1,6 @@
 <main class="main">
   <h1 class="main__title">Inicia Sesión</h1>
-  <form class="main__form">
+  <form class="main__form" [formGroup]="loginForm">
     <section class="main__avatar">
       <img
         src="../../../assets/img/user2.jpg"
@@ -15,6 +15,7 @@
         name="email"
         id="email"
         placeholder="pperez58@gmail.com"
+        formControlName="email"
       />
     </fieldset>
     <fieldset>
@@ -24,9 +25,12 @@
         name="password"
         id="password"
         placeholder="********"
+        formControlName="password"
       />
     </fieldset>
-    <button class="main__button" type="submit">Iniciar Sesión</button>
+    <button class="main__button" type="submit" [disabled]="loginForm.invalid">
+      Iniciar Sesión
+    </button>
     <a class="main__link" routerLink="/register"
       >¿No tienes cuenta? Registrate</a
     >
