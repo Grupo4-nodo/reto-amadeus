@@ -2561,67 +2561,67 @@
   ],
   "amadeus-questions": [
     {
-        "_id": "1",
+        "id": "1",
         "category": "1",
         "question": "¿Qué tipo de entorno prefieres para tus vacaciones?",
         "options": ["Playa", "Montaña", "Ciudad"]
     },
     {
-        "_id": "2",
+        "id": "2",
         "category": "1",
-        "question": "¿Te gustaría explorar un destino internacional onacional?",
+        "question": "¿Te gustaría explorar un destino internacional o nacional?",
         "options": ["Internacional", "Nacional", "Indiferente"]
     },
     {
-        "_id": "3",
+        "id": "3",
         "category": "2",
         "question": "¿Qué clima prefieres durante tus vacaciones?",
         "options": ["Caluroso", "Templado", "Frío"]
     },
     {
-        "_id": "4",
+        "id": "4",
         "category": "2",
         "question": "¿Te molesta la lluvia en tus vacaciones?",
         "options": ["Sí, prefiero clima seco", "No me importa un poco de lluvia", "Prefiero destinos con lluvias ocasionales"]
     },
     {
-        "_id": "5",
+        "id": "5",
         "category": "3",
         "question": "¿Qué tipo de actividades prefieres hacer durante tus vacaciones?",
         "options": ["Deportes y aventuras", "Cultura y museos", "Relax y bienestar"]
     },
     {
-        "_id": "6",
+        "id": "6",
         "category": "3",
         "question": "¿Te gusta disfrutar de la gastronomía local durante tus viajes?",
         "options": ["Sí, es muy importante para mí", "Me gusta probar cosas nuevas, pero no es lo principal", "No, prefiero comida más familiar"]
     },
     {
-        "_id": "7",
+        "id": "7",
         "category": "4",
         "question": "¿Qué tipo de alojamiento prefieres?",
         "options": ["Hotel de lujo", "Hostal o albergue", "Airbnb o apartamento"]
     },
     {
-        "_id": "8",
+        "id": "8",
         "category": "4",
         "question": "¿Te importa si el alojamiento está en el centro de la ciudad o prefieres las afueras?",
         "options": ["Centro de la ciudad", "Afueras", "Indiferente"]
     },
     {
-        "_id": "9",
+        "id": "9",
         "category": "5",
         "question": "¿Cuánto tiempo planeas quedarte de vacaciones?",
         "options": ["Menos de una semana", "Una a dos semanas", "Más de dos semanas"]
     },
     {
-        "_id": "10",
+        "id": "10",
         "category": "5",
         "question": "¿Cuántos días de actividades intensas puedes disfrutar antes de necesitar un descanso?",
         "options": ["1-2 días", "3-5 días", "Más de 5 días"]
     },
     {
-        "_id": "11",
+        "id": "11",
         "category": "6",
         "question": "¿Cuál es tu rango de edad?",
         "options": ["Menos de 30 años", "30-50 años", "Más de 50 años"]
