@@ -1,1 +1,74 @@
-<p>login works!</p>
+<main class="main">
+  <h1 class="main__title">Inicia Sesión</h1>
+  <form class="main__form" [formGroup]="loginForm">
+    <section class="main__avatar">
+      <img
+        src="../../../assets/img/user2.jpg"
+        alt="avatar-user"
+        class="main__avatar--img"
+      />
+    </section>
+    <fieldset>
+      <label for="email"
+        >Correo
+        <span [hidden]="email.valid || email.pristine">
+          <tooltip
+            *ngIf="email.errors?.['required']"
+            text="Campo Obligatorio"
+            position="right"
+          >
+            <i class="fa-solid fa-circle-info"></i>
+          </tooltip>
+          <tooltip
+            *ngIf="email.errors?.['pattern']"
+            text="Debe ser un correo valido"
+            position="right"
+          >
+            <i class="fa-solid fa-circle-info"></i>
+          </tooltip>
+        </span>
+      </label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="pperez58@gmail.com"
+        formControlName="email"
+      />
+    </fieldset>
+    <fieldset>
+      <label for="password"
+        >Contraseña
+        <span [hidden]="password.valid || password.pristine">
+          <tooltip
+            *ngIf="password.errors?.['required']"
+            text="Campo Obligatorio"
+            position="right"
+          >
+            <i class="fa-solid fa-circle-info"></i>
+          </tooltip>
+          <tooltip
+            *ngIf="password.errors?.['pattern']"
+            text="8 caracteres: 1 mayus, 1 minus, 1 num, 1 carácter especial"
+            position="right"
+          >
+            <i class="fa-solid fa-circle-info"></i>
+          </tooltip>
+        </span>
+      </label>
+      <input
+        type="password"
+        name="password"
+        id="password"
+        placeholder="********"
+        formControlName="password"
+      />
+    </fieldset>
+    <button class="main__button" type="submit" [disabled]="loginForm.invalid">
+      Iniciar Sesión
+    </button>
+    <a class="main__link" routerLink="/register"
+      >¿No tienes cuenta? Registrate</a
+    >
+  </form>
+</main>
