@@ -4,6 +4,7 @@
     "Continent": "América",
     "Country": "México",
     "City": "Playa del Carmen",
+    "img": "../../../assets/img/america2.jpg",
     "Points": "150"
   },
   {
@@ -11,6 +12,7 @@
     "Continent": "América",
     "Country": "Colombia",
     "City": "Cartagena",
+    "img": "../../../assets/img/america2.jpg",
     "Points": "180"
   },
   {
@@ -18,6 +20,7 @@
     "Continent": "América",
     "Country": "Brasil",
     "City": "Rio de Janeiro",
+    "img": "../../../assets/img/america2.jpg",
     "Points": "200"
   },
   {
@@ -25,6 +28,7 @@
     "Continent": "América",
     "Country": "Argentina",
     "City": "Bariloche",
+    "img": "../../../assets/img/america2.jpg",
     "Points": "150"
   },
   {
@@ -32,6 +36,7 @@
     "Continent": "América",
     "Country": "Perú",
     "City": "Cusco",
+    "img": "../../../assets/img/america2.jpg",
     "Points": "150"
   },
   {
@@ -39,6 +44,7 @@
     "Continent": "América",
     "Country": "Canadá",
     "City": "Banff",
+    "img": "../../../assets/img/america2.jpg",
     "Points": "130"
   },
   {
@@ -46,6 +52,7 @@
     "Continent": "América",
     "Country": "Estados Unidos",
     "City": "New York",
+    "img": "../../../assets/img/america2.jpg",
     "Points": "220"
   },
   {
@@ -53,6 +60,7 @@
     "Continent": "América",
     "Country": "Canadá",
     "City": "Toronto",
+    "img": "../../../assets/img/america2.jpg",
     "Points": "170"
   },
   {
@@ -60,6 +68,7 @@
     "Continent": "América",
     "Country": "Estados Unidos",
     "City": "Miami",
+    "img": "../../../assets/img/america2.jpg",
     "Points": "180"
   },
   {
@@ -67,6 +76,7 @@
     "Continent": "América",
     "Country": "México",
     "City": "Tulum",
+    "img": "../../../assets/img/america2.jpg",
     "Points": "150"
   },
   {
@@ -74,6 +84,7 @@
     "Continent": "América",
     "Country": "Argentina",
     "City": "Ushuaia",
+    "img": "../../../assets/img/america2.jpg",
     "Points": "180"
   },
   {
@@ -81,6 +92,7 @@
     "Continent": "América",
     "Country": "República Dominicana",
     "City": "Punta Cana",
+    "img": "../../../assets/img/america2.jpg",
     "Points": "150"
   },
   {
@@ -88,6 +100,7 @@
     "Continent": "América",
     "Country": "Estados Unidos",
     "City": "Chicago",
+    "img": "../../../assets/img/america2.jpg",
     "Points": "160"
   },
   {
@@ -95,6 +108,7 @@
     "Continent": "América",
     "Country": "Puerto Rico",
     "City": "San Juan",
+    "img": "../../../assets/img/america2.jpg",
     "Points": "150"
   },
   {
@@ -102,6 +116,7 @@
     "Continent": "América",
     "Country": "Perú",
     "City": "Machu Picchu",
+    "img": "../../../assets/img/america2.jpg",
     "Points": "200"
   },
   {
@@ -109,6 +124,7 @@
     "Continent": "América",
     "Country": "Estados Unidos",
     "City": "Los Ángeles",
+    "img": "../../../assets/img/america2.jpg",
     "Points": "180"
   },
   {
@@ -116,6 +132,7 @@
     "Continent": "América",
     "Country": "Hawái",
     "City": "Honolulu",
+    "img": "../../../assets/img/america2.jpg",
     "Points": "160"
   },
   {
@@ -123,6 +140,7 @@
     "Continent": "América",
     "Country": "Estados Unidos",
     "City": "Aspen",
+    "img": "../../../assets/img/america2.jpg",
     "Points": "150"
   },
   {
@@ -130,6 +148,7 @@
     "Continent": "América",
     "Country": "México",
     "City": "Ciudad de México",
+    "img": "../../../assets/img/america2.jpg",
     "Points": "200"
   },
   {
@@ -137,6 +156,7 @@
     "Continent": "Europa",
     "Country": "Grecia",
     "City": "Santorini",
+    "img": "../../../assets/img/europa2.jpg",
     "Points": "150"
   },
   {
@@ -144,6 +164,7 @@
     "Continent": "Europa",
     "Country": "España",
     "City": "Barcelona",
+    "img": "../../../assets/img/europa2.jpg",
     "Points": "220"
   },
   {
@@ -151,6 +172,7 @@
     "Continent": "Europa",
     "Country": "Portugal",
     "City": "Lisboa",
+    "img": "../../../assets/img/europa2.jpg",
     "Points": "150"
   },
   {
@@ -158,6 +180,7 @@
     "Continent": "Europa",
     "Country": "Suiza",
     "City": "Interlaken",
+    "img": "../../../assets/img/europa2.jpg",
     "Points": "150"
   },
   {
@@ -165,6 +188,7 @@
     "Continent": "Europa",
     "Country": "España",
     "City": "Granada",
+    "img": "../../../assets/img/europa2.jpg",
     "Points": "150"
   },
   {
@@ -172,6 +196,7 @@
     "Continent": "Europa",
     "Country": "Suiza",
     "City": "Zermatt",
+    "img": "../../../assets/img/europa2.jpg",
     "Points": "150"
   },
   {
@@ -179,6 +204,7 @@
     "Continent": "Europa",
     "Country": "Francia",
     "City": "París",
+    "img": "../../../assets/img/europa2.jpg",
     "Points": "200"
   },
   {
@@ -186,6 +212,7 @@
     "Continent": "Europa",
     "Country": "Austria",
     "City": "Viena",
+    "img": "../../../assets/img/europa2.jpg",
     "Points": "180"
   },
   {
@@ -193,6 +220,7 @@
     "Continent": "Europa",
     "Country": "Alemania",
     "City": "Berlín",
+    "img": "../../../assets/img/europa2.jpg",
     "Points": "180"
   },
   {
@@ -200,6 +228,7 @@
     "Continent": "Europa",
     "Country": "España",
     "City": "Ibiza",
+    "img": "../../../assets/img/europa2.jpg",
     "Points": "160"
   },
   {
@@ -207,6 +236,7 @@
     "Continent": "Europa",
     "Country": "Islandia",
     "City": "Reykjavik",
+    "img": "../../../assets/img/europa2.jpg",
     "Points": "150"
   },
   {
@@ -214,6 +244,7 @@
     "Continent": "Europa",
     "Country": "Portugal",
     "City": "El Algarve",
+    "img": "../../../assets/img/europa2.jpg",
     "Points": "150"
   },
   {
@@ -221,6 +252,7 @@
     "Continent": "Europa",
     "Country": "Reino Unido",
     "City": "Londres",
+    "img": "../../../assets/img/europa2.jpg",
     "Points": "220"
   },
   {
@@ -228,6 +260,7 @@
     "Continent": "Europa",
     "Country": "Francia",
     "City": "Niza",
+    "img": "../../../assets/img/europa2.jpg",
     "Points": "150"
   },
   {
@@ -235,6 +268,7 @@
     "Continent": "Europa",
     "Country": "Francia",
     "City": "Chamonix",
+    "img": "../../../assets/img/europa2.jpg",
     "Points": "150"
   },
   {
@@ -242,6 +276,7 @@
     "Continent": "Europa",
     "Country": "Italia",
     "City": "Roma",
+    "img": "../../../assets/img/europa2.jpg",
     "Points": "200"
   },
   {
@@ -249,6 +284,7 @@
     "Continent": "Europa",
     "Country": "Malta",
     "City": "Malta",
+    "img": "../../../assets/img/europa2.jpg",
     "Points": "150"
   },
   {
@@ -256,6 +292,7 @@
     "Continent": "Europa",
     "Country": "Austria",
     "City": "Innsbruck",
+    "img": "../../../assets/img/europa2.jpg",
     "Points": "150"
   },
   {
@@ -263,6 +300,7 @@
     "Continent": "Europa",
     "Country": "España",
     "City": "Madrid",
+    "img": "../../../assets/img/europa2.jpg",
     "Points": "200"
   }
 ]
