@@ -11,16 +11,18 @@
     <fieldset>
       <label for="email"
         >Correo
-        <span [hidden]="email.valid || email.pristine">
+        <span
+          [hidden]="formControls.email.valid || formControls.email.pristine"
+        >
           <tooltip
-            *ngIf="email.errors?.['required']"
+            *ngIf="formControls.email.errors?.['required']"
             text="Campo Obligatorio"
             position="right"
           >
             <i class="fa-solid fa-circle-info"></i>
           </tooltip>
           <tooltip
-            *ngIf="email.errors?.['pattern']"
+            *ngIf="formControls.email.errors?.['pattern']"
             text="Debe ser un correo valido"
             position="right"
           >
@@ -39,16 +41,20 @@
     <fieldset>
       <label for="password"
         >Contraseña
-        <span [hidden]="password.valid || password.pristine">
+        <span
+          [hidden]="
+            formControls.password.valid || formControls.password.pristine
+          "
+        >
           <tooltip
-            *ngIf="password.errors?.['required']"
+            *ngIf="formControls.password.errors?.['required']"
             text="Campo Obligatorio"
             position="right"
           >
             <i class="fa-solid fa-circle-info"></i>
           </tooltip>
           <tooltip
-            *ngIf="password.errors?.['pattern']"
+            *ngIf="formControls.password.errors?.['pattern']"
             text="8 caracteres: 1 mayus, 1 minus, 1 num, 1 carácter especial"
             position="right"
           >

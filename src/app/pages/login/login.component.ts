@@ -17,11 +17,8 @@ import { NgIf } from '@angular/common';
   styleUrl: './login.component.scss',
 })
 export class LoginComponent {
-  get email() {
-    return this.loginForm.get('email') as FormControl;
-  }
-  get password() {
-    return this.loginForm.get('password') as FormControl;
+  get formControls() {
+    return this.loginForm.controls;
   }
 
   loginForm = new FormGroup({
