@@ -12,9 +12,11 @@
       <fieldset>
         <label for="name"
           >Nombre
-          <span [hidden]="name.valid || name.pristine">
+          <span
+            [hidden]="formControls.name.valid || formControls.name.pristine"
+          >
             <tooltip
-              *ngIf="name.errors?.['required']"
+              *ngIf="formControls.name.errors?.['required']"
               text="Campo Obligatorio"
               position="top"
             >
@@ -33,9 +35,13 @@
       <fieldset>
         <label for="lastname"
           >Apellido
-          <span [hidden]="lastName.valid || lastName.pristine">
+          <span
+            [hidden]="
+              formControls.lastName.valid || formControls.lastName.pristine
+            "
+          >
             <tooltip
-              *ngIf="lastName.errors?.['required']"
+              *ngIf="formControls.lastName.errors?.['required']"
               text="Campo Obligatorio"
               position="top"
             >
@@ -55,9 +61,13 @@
     <fieldset>
       <label for="username"
         >Apodo
-        <span [hidden]="userName.valid || userName.pristine">
+        <span
+          [hidden]="
+            formControls.userName.valid || formControls.userName.pristine
+          "
+        >
           <tooltip
-            *ngIf="userName.errors?.['required']"
+            *ngIf="formControls.userName.errors?.['required']"
             text="Campo Obligatorio"
             position="right"
           >
@@ -76,16 +86,18 @@
     <fieldset>
       <label for="email"
         >Correo
-        <span [hidden]="email.valid || email.pristine">
+        <span
+          [hidden]="formControls.email.valid || formControls.email.pristine"
+        >
           <tooltip
-            *ngIf="email.errors?.['required']"
+            *ngIf="formControls.email.errors?.['required']"
             text="Campo Obligatorio"
             position="right"
           >
             <i class="fa-solid fa-circle-info"></i>
           </tooltip>
           <tooltip
-            *ngIf="email.errors?.['pattern']"
+            *ngIf="formControls.email.errors?.['pattern']"
             text="Debe ser un correo valido"
             position="right"
           >
@@ -105,9 +117,9 @@
       <fieldset>
         <label for="age"
           >Edad
-          <span [hidden]="age.valid || age.pristine">
+          <span [hidden]="formControls.age.valid || formControls.age.pristine">
             <tooltip
-              *ngIf="age.errors?.['required']"
+              *ngIf="formControls.age.errors?.['required']"
               text="Campo Obligatorio"
               position="top"
             >
@@ -126,9 +138,13 @@
       <fieldset>
         <label for="country"
           >País
-          <span [hidden]="country.valid || country.pristine">
+          <span
+            [hidden]="
+              formControls.country.valid || formControls.country.pristine
+            "
+          >
             <tooltip
-              *ngIf="country.errors?.['required']"
+              *ngIf="formControls.country.errors?.['required']"
               text="Campo Obligatorio"
               position="top"
             >
@@ -148,16 +164,20 @@
     <fieldset>
       <label for="password"
         >Contraseña
-        <span [hidden]="password.valid || password.pristine">
+        <span
+          [hidden]="
+            formControls.password.valid || formControls.password.pristine
+          "
+        >
           <tooltip
-            *ngIf="password.errors?.['required']"
+            *ngIf="formControls.password.errors?.['required']"
             text="Campo Obligatorio"
             position="right"
           >
             <i class="fa-solid fa-circle-info"></i>
           </tooltip>
           <tooltip
-            *ngIf="password.errors?.['pattern']"
+            *ngIf="formControls.password.errors?.['pattern']"
             text="8 caracteres: 1 mayus, 1 minus, 1 num, 1 caracter especial"
             position="right"
           >
