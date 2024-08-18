@@ -70,7 +70,12 @@
         formControlName="password"
       />
     </fieldset>
-    <button class="main__button" type="submit" [disabled]="loginForm.invalid">
+    <button
+      class="main__button"
+      type="button"
+      [disabled]="loginForm.invalid"
+      (click)="loginUser()"
+    >
       Iniciar Sesión
     </button>
     <a class="main__link" routerLink="/register"

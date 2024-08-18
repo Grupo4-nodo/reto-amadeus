@@ -5,9 +5,10 @@ import {
   FormControl,
   Validators,
 } from '@angular/forms';
-import { RouterLink } from '@angular/router';
+import { Router, RouterLink } from '@angular/router';
 import { TooltipComponent } from '../../components/tooltip/tooltip.component';
 import { NgIf } from '@angular/common';
+import { UsersService } from '../../services/users.service';
 
 @Component({
   selector: 'app-login',
@@ -17,6 +18,8 @@ import { NgIf } from '@angular/common';
   styleUrl: './login.component.scss',
 })
 export class LoginComponent {
+  constructor(private usersService: UsersService, private router: Router) {}
+
   get formControls() {
     return this.loginForm.controls;
   }
@@ -35,4 +38,20 @@ export class LoginComponent {
       ),
     ]),
   });
+
+  loginUser() {
+    let formData = {
+      email: this.formControls.email.value ?? '',
+      password: this.formControls.password.value ?? '',
+    };
+
+    this.usersService.checkIfUserExits(formData.email).subscribe((response) => {
+      if (response.length > 0 && response[0].password === formData.password) {
+        sessionStorage.setItem('email', formData.email as string);
+        // this.router.navigate(['/home']);
+      } else {
+        alert('Credenciales incorrectas');
+      }
+    });
+  }
 }
