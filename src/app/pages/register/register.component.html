@@ -193,7 +193,12 @@
         formControlName="password"
       />
     </fieldset>
-    <button class="main__button" [disabled]="registerForm.invalid">
+    <button
+      class="main__button"
+      type="button"
+      [disabled]="registerForm.invalid"
+      (click)="registerUser()"
+    >
       Registrarme
     </button>
     <a class="main__link" routerLink="/login"
