@@ -1,3 +1,4 @@
+
 {
   "cities":[
 
@@ -2561,70 +2562,81 @@
   ],
   "amadeus-questions": [
     {
-        "id": "1",
-        "category": "1",
-        "question": "¿Qué tipo de entorno prefieres para tus vacaciones?",
-        "options": ["Playa", "Montaña", "Ciudad"]
-    },
-    {
-        "id": "2",
-        "category": "1",
-        "question": "¿Te gustaría explorar un destino internacional o nacional?",
-        "options": ["Internacional", "Nacional", "Indiferente"]
-    },
-    {
-        "id": "3",
-        "category": "2",
-        "question": "¿Qué clima prefieres durante tus vacaciones?",
-        "options": ["Caluroso", "Templado", "Frío"]
-    },
-    {
-        "id": "4",
-        "category": "2",
-        "question": "¿Te molesta la lluvia en tus vacaciones?",
-        "options": ["Sí, prefiero clima seco", "No me importa un poco de lluvia", "Prefiero destinos con lluvias ocasionales"]
-    },
-    {
-        "id": "5",
-        "category": "3",
-        "question": "¿Qué tipo de actividades prefieres hacer durante tus vacaciones?",
-        "options": ["Deportes y aventuras", "Cultura y museos", "Relax y bienestar"]
-    },
-    {
-        "id": "6",
-        "category": "3",
-        "question": "¿Te gusta disfrutar de la gastronomía local durante tus viajes?",
-        "options": ["Sí, es muy importante para mí", "Me gusta probar cosas nuevas, pero no es lo principal", "No, prefiero comida más familiar"]
-    },
-    {
-        "id": "7",
-        "category": "4",
-        "question": "¿Qué tipo de alojamiento prefieres?",
-        "options": ["Hotel de lujo", "Hostal o albergue", "Airbnb o apartamento"]
-    },
-    {
-        "id": "8",
-        "category": "4",
-        "question": "¿Te importa si el alojamiento está en el centro de la ciudad o prefieres las afueras?",
-        "options": ["Centro de la ciudad", "Afueras", "Indiferente"]
-    },
-    {
-        "id": "9",
-        "category": "5",
-        "question": "¿Cuánto tiempo planeas quedarte de vacaciones?",
-        "options": ["Menos de una semana", "Una a dos semanas", "Más de dos semanas"]
-    },
-    {
-        "id": "10",
-        "category": "5",
-        "question": "¿Cuántos días de actividades intensas puedes disfrutar antes de necesitar un descanso?",
-        "options": ["1-2 días", "3-5 días", "Más de 5 días"]
-    },
-    {
-        "id": "11",
-        "category": "6",
-        "question": "¿Cuál es tu rango de edad?",
-        "options": ["Menos de 30 años", "30-50 años", "Más de 50 años"]
-    }
+      "_id": "1",
+      "category": "1",
+      "question": "¿Qué tipo de entorno prefieres para tus vacaciones?",
+      "options": ["Playa", "Montaña", "Ciudad"],
+      "img": "https://img.freepik.com/vector-gratis/cuatro-escenas-diferentes-estilo-dibujos-animados-entorno-natural_1308-46473.jpg"
+  },
+  {
+      "_id": "2",
+      "category": "1",
+      "question": "¿Te gustaría explorar un destino internacional onacional?",
+      "options": ["Internacional", "Nacional", "Indiferente"],
+      "img":"https://i.pinimg.com/originals/c0/6f/d6/c06fd6a869d84f56a9619bac7bc32977.jpg"
+  },
+  {
+      "_id": "3",
+      "category": "2",
+      "question": "¿Qué clima prefieres durante tus vacaciones?",
+      "options": ["Caluroso", "Templado", "Frío"],
+      "img":"https://png.pngtree.com/background/20230528/original/pngtree-five-types-of-cartoon-weather-pictures-including-a-mountain-picture-image_2771966.jpg"
+  },
+  {
+      "_id": "4",
+      "category": "2",
+      "question": "¿Te molesta la lluvia en tus vacaciones?",
+      "options": ["Sí, prefiero clima seco", "Un poco de lluvia está bien", "Elijo destinos con lluvias suaves"],
+      "img":"https://static.vecteezy.com/system/resources/thumbnails/021/607/747/small/a-people-with-an-umbrella-in-the-middle-of-heavy-rain-at-the-road-background-photo.jpg"
+  },
+  {
+      "_id": "5",
+      "category": "3",
+      "question": "¿Qué tipo de actividades prefieres hacer durante tus vacaciones?",
+      "options": ["Deportes y aventuras", "Cultura y museos", "Relax y bienestar"],
+      "img":"https://png.pngtree.com/png-clipart/20220511/original/pngtree-family-daily-activities-and-recreation-cartoon-set-mockup-png-image_7703820.png"
+  },
+  {
+      "_id": "6",
+      "category": "3",
+      "question": "¿Te gusta disfrutar de la gastronomía local durante tus viajes?",
+      "options": ["Sí, es muy importante para mí", "Me gusta probar cosas nuevas", "No, prefiero comida más familiar"],
+        "img":"https://ingenieriademenu.com/wp-content/uploads/2021/01/Top-10-tipos-de-cocina-internacional-mas-populares-del-mundo.jpg"
+  },
+  {
+      "_id": "7",
+      "category": "4",
+      "question": "¿Qué tipo de alojamiento prefieres?",
+      "options": ["Hotel de lujo", "Hostal o albergue", "Airbnb o apartamento"],
+      "img":"https://www.arcgis.com/sharing/rest/content/items/2ce02e5f608f4dfa974534c774273d1e/info/thumbnail/ago_downloaded.jpg?w=800"
+  },
+  {
+      "_id": "8",
+      "category": "4",
+      "question": "¿Te importa si el alojamiento está en el centro de la ciudad o prefieres las afueras?",
+      "options": ["Centro de la ciudad", "Afueras", "Indiferente"],
+      "img":"https://cloud.educaplay.com/recursos/197/6315901/imagen_1_1594402769.png"
+  },
+  {
+      "_id": "9",
+      "category": "5",
+      "question": "¿Cuánto tiempo planeas quedarte de vacaciones?",
+      "options": ["Menos de una semana", "Una a dos semanas", "Más de dos semanas"],
+      "img":"https://w7.pngwing.com/pngs/451/478/png-transparent-white-and-blue-calendar-illustartion-calendar-giphy-academic-year-calendar-holidays-lights-text-thumbnail.png"
+  },
+  {
+      "_id": "10",
+      "category": "5",
+      "question": "¿Cuántos días de actividades intensas puedes disfrutar antes de necesitar un descanso?",
+      "options": ["1-2 días", "3-5 días", "Más de 5 días"],
+      "img":"https://img.freepik.com/vector-premium/actividad-al-aire-libre-deportes-extremos-personajes-dibujos-animados-personas-rafting-escalada-ilustracion_169479-700.jpg"
+  },
+  {
+      "_id": "11",
+      "category": "6",
+      "question": "¿Cuál es tu rango de edad?",
+      "options": ["Menos de 30 años", "30-50 años", "Más de 50 años"],
+      "img":"https://cursosmultimedia.es/wp-content/uploads/2021/03/edades.png"
+  }
 ]
 }
