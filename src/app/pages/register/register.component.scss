@@ -98,6 +98,12 @@
 
     &:hover {
       background-color: #2a77e2;
+      cursor: pointer;
+    }
+
+    &:disabled {
+      background-color: #5a7fb4;
+      cursor: not-allowed;
     }
   }
 
