@@ -1,8 +1,6 @@
 import { Routes } from '@angular/router';
-import { CitiesComponent } from './pages/cities/cities.component';
-import { HomeComponent } from './pages/home/home.component';
+import { AmadeusQuestionComponent } from './pages/amadeus-question/amadeus-question.component';
 
 export const routes: Routes = [
-  {path:'', component:HomeComponent},
-  {path:'cities', component:CitiesComponent}
+    {path: 'amadeus-questions', component:AmadeusQuestionComponent}
 ];
