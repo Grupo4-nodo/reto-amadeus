@@ -1,0 +1,191 @@
+@mixin celular {
+  @media screen and (max-width: 700px) {
+    @content;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* aca alineo el conetendor en el centro y añado la imagen de moto */
+.main {
+  height: 100vh;
+  overflow: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(../../../assets/img/world-map.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: rgb(211, 211, 211);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* ingreso el tama;o de la carta*/
+.container {
+  width: 350px;
+  height: 500px;
+}
+/*  lo pongo en hover y no en card por que si lo coloco en card directamente cada ves que yo mueva el cursor de el lado izquierdo al derecho se va a estar moviendo
+de modo en que se buggea un poco. si lo coloco aca no va a moverse de otra forma hasta que quite el cursor el > es para que la caracteristica se herede al hijo*/
+.container:hover > .card {
+  transform: rotateY(180deg);
+  @include celular {
+    .container:active > .card {
+      transform: rotateY(180deg);
+    }
+  }
+} /*hacer un media query que solo sea hacer click
+*/
+/* ingreso  el espacio y cuanto tiempo se va a demorar en volterar, el presere 3d es para que la animacion se haga en 2d y si parezca qued a la vuelta*/
+.card {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transition: transform 1500ms;
+  transform-style: preserve-3d;
+}
+/* aca ingreso el absolute para que las dos caras queden en el mismo lugr y coloco el visibility para que no se vea a otr cara no mas al voltearlo*/
+.front,
+.back {
+  width: 100%;
+  height: 100%;
+  border-radius: 2rem;
+  position: absolute;
+  backface-visibility: hidden;
+}
+.front {
+  display: flex;
+  background-color: rgb(64, 64, 64, 0.7);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  & h2 {
+    margin-bottom: 20px;
+  }
+}
+/*le quita el estilo al link de amadeus y se aleja un poco de las imagenes*/
+.parrafo__amadeus__front {
+  text-decoration: none;
+  margin-top: 10px;
+  font-weight: 600;
+  color: inherit;
+}
+.div__parrafo__amadeus {
+  display: flex;
+  position: absolute;
+  margin-top: 133%;
+  margin-left: 20%;
+}
+/* cara trasera con atributos y animacion */
+.back {
+  background-color: rgb(64, 64, 64, 0.7);
+  transform: rotateY(180deg);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+/*imagen de fondo de la ciudad*/
+.back__imagen--principal {
+  height: 200px;
+  padding: 10px 20px;
+  border-radius: 10%;
+}
+/* se agrega la bandera del pais, de acuerdo al lugar selecionado con la clase*/
+.back_imagen--bandera {
+  height: 40px;
+  display: flex;
+  position: absolute;
+  margin-top: 53%;
+  margin-left: 85%;
+  z-index: 2;
+}
+/*se ubica el texto de curiosidades junto al fondo*/
+.back__img--text {
+  height: 25px;
+  width: 89%;
+  background-color: #0c66e1;
+  margin-left: 19px;
+  margin-top: 53%;
+  padding-top: 5px;
+  display: flex;
+  position: absolute;
+  border-radius: 10px;
+  text-align: center;
+  justify-content: center;
+  font-weight: 600;
+  z-index: 1;
+}
+/*margin general*/
+.back__margin {
+  margin-top: 6px;
+}
+.margin__lorem {
+  margin-top: 30px;
+}
+/*ubica las imagenes a selecionar junto la animacion*/
+.back__imganes--respuestas {
+  display: block;
+  flex-direction: row;
+  cursor: pointer;
+}
+/*se ajusta el tamaño de las imagenes*/
+.back__imagenes--style {
+  display: flexbox;
+  width: 70%;
+  height: 20px;
+  border-radius: 6px;
+  margin-top: 10px;
+  background-color: #0c66e1;
+  margin-left: 15%;
+}
+/*Caracteristicas de boton de siguiente despues de elegir cual imagen*/
+.parrafo__siguiente_segundapag {
+  display: flex;
+  margin-top: 80px;
+  height: 20px;
+  width: 100px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-left: 36%;
+  margin-bottom: 65px;
+}
+/*estilo de boton de siguiente, se le quita los estilos de link a la letra y se redimeciona el tamaño de el boton  */
+.parrafo__siguiente--estilo_segundapag {
+  font-weight: 600;
+  padding: 8px;
+  background-color: #0c66e1;
+  border-radius: 20px;
+  display: flex;
+  margin-top: 50px;
+  width: 130px;
+  text-align: center;
+  justify-content: center;
+  margin-left: 28%;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: 600;
+  color: inherit;
+  color: white;
+}
+/*separa el texto de amadus de la parte superior y quita el estilo del link de amadeus*/
+.parrafo__amadeus__back_segundapag {
+  text-decoration: none;
+  margin-top: 70px;
+  font-weight: 600;
+  color: inherit;
+}
+/*ubica el boton de siguiente y el texto de amadeus en la mitad cambiando el tamaño para que el texto amadeus se ubique en una sola linea*/
+.colocacion__objetos__back_segundapag {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+/*ubica el parrafo de amadus en la parte inferrior de la mitad*/
+.parrafo__amadeus__back_position_segundapag {
+  display: flex;
+  position: relative;
+  width: 300px;
+  margin-left: 17%;
+}

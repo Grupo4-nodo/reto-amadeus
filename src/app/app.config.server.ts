@@ -9,3 +9,5 @@ const serverConfig: ApplicationConfig = {
 };
 
 export const config = mergeApplicationConfig(appConfig, serverConfig);
+
+//json-server --watch ./src/assets/data/db.json http://localhost:3000/amadeus-questions//

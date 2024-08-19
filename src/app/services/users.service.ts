@@ -16,6 +16,14 @@ export class UsersService {
   }
 
   checkIfUserExits(email: string): Observable<User[]> {
-    return this.http.get<User[]>(this.apiUrl + `users/?email=${email}`);
+    return this.http.get<User[]>(this.apiUrl + `users?email=${email}`);
+  }
+
+  getUsers() {
+    return this.http.get<User[]>(this.apiUrl + 'users');
+  }
+
+  editUser(email: string, payload: Partial<User>): Observable<User> {
+    return this.http.patch<User>(this.apiUrl + `users?email=${email}`, payload);
   }
 }
