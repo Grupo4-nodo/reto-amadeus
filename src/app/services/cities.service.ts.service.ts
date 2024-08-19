@@ -10,6 +10,7 @@ export class CitiesService {
 
   constructor(private http:HttpClient) { }
 
+
   getCities() {
     return this.http.get(this.apiUrl+'cities')
   }
