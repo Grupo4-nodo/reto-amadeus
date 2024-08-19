@@ -13,7 +13,7 @@
     height: 100vh;
     overflow: hidden;
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url(../../../assets/img/imagenes-amadeus-questtion/world-map.jpg);
+    background-image: url(../../../assets/img/world-map.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     color: rgb(211,211,211);
@@ -62,7 +62,7 @@ de modo en que se buggea un poco. si lo coloco aca no va a moverse de otra forma
     justify-content: center;
         & h2{
             margin-bottom: 20px;
-        } 
+        }
 }
 /*le quita el estilo al link de amadeus y se aleja un poco de las imagenes*/
 .parrafo__amadeus__front{

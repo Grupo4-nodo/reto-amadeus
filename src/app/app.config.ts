@@ -7,5 +7,9 @@ import { provideClientHydration } from '@angular/platform-browser';
 import { provideCloudinaryLoader } from '@angular/common';
 
 export const appConfig: ApplicationConfig = {
-  providers: [provideRouter(routes), provideClientHydration(), provideHttpClient()]
+  providers: [
+    provideRouter(routes),
+    provideClientHydration(),
+    provideHttpClient()
+  ]
 };
