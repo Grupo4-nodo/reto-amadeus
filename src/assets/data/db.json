@@ -313,7 +313,7 @@
       "City": "Playa_del_Carmen",
       "Question": "En que parte de mexico queda playa del Carmen?",
       "QuestionType": "1",
-      "Options": ["norte", "sur", "este", "oeste"],
+      "Options": ["norte", "sur", "este"],
       "Answer": "2",
       "ref": "https://www.google.com/maps/place/Playa+del+Carmen,+Quintana+Roo,+Mexico/@20.656568,-87.1624729,12z/data=!3m1!4b1!4m6!3m5!1s0x8f4e4323d22d4e61:0xe8c10b783bab4adc!8m2!3d20.6295586!4d-87.0738851!16zL20vMDF3dnkz?entry=ttu"
     },
@@ -326,8 +326,7 @@
       "Options": [
         "Una playa famosa",
         "Un mercado de artesanías",
-        "Una zona comercial con tiendas, restaurantes y bares",
-        "Un parque ecológico"
+        "Una zona comercial con tiendas, restaurantes y bares"
       ],
       "Answer": "2",
       "ref": "https://www.caribemexicano.travel/playa-del-carmen/que-hacer/quinta-avenida/index.html"
@@ -341,8 +340,7 @@
       "Options": [
         "Aeropuerto Internacional de Cancún",
         "Aeropuerto Internacional de Cozumel",
-        "Aeropuerto Internacional de Mérida",
-        "Aeropuerto Internacional de Ciudad del Carmen"
+        "Aeropuerto Internacional de Mérida"
       ],
       "Answer": "0",
       "ref": "https://es.cancunairport.com/"
@@ -356,8 +354,7 @@
       "Options": [
         "Calle 5ta Avenida",
         "Calle 12",
-        "Avenida Marítima",
-        "Paseo del Carmen"
+        "Avenida Marítima"
       ],
       "Answer": "0",
       "ref": "https://www.caribemexicano.travel/playa-del-carmen/que-hacer/quinta-avenida/index.html"
@@ -371,8 +368,7 @@
       "Options": [
         "Solo bares tranquilos",
         "Clubes nocturnos y bares de ambiente animado",
-        "Casinos y salas de juego",
-        "Solo eventos culturales y teatrales"
+        "Casinos y salas de juego"
       ],
       "Answer": "1",
       "ref": "https://www.tripadvisor.co/Attractions-g150812-Activities-c20-Playa_del_Carmen_Yucatan_Peninsula.html"
@@ -386,8 +382,7 @@
       "Options": [
         "El Barrio Getsemaní",
         "La Ciudad Amurallada",
-        "El Centro Histórico",
-        "La Zona Rosa"
+        "El Centro Histórico"
       ],
       "Answer": "1",
       "ref": "https://whc.unesco.org/en/list/285"
@@ -401,8 +396,7 @@
       "Options": [
         "Playa Blanca",
         "Playa de Bocagrande",
-        "Playa de Marbella",
-        "Playa de la Boquilla"
+        "Playa de Marbella"
       ],
       "Answer": "1",
       "ref": "https://www.tripadvisor.co/Attraction_Review-g297476-d8656217-Reviews-Playa_de_Bocagrande-Cartagena_Cartagena_District_Bolivar_Department.html"
@@ -416,8 +410,7 @@
       "Options": [
         "Simón Bolívar",
         "Francisco de Paula Santander",
-        "Antonio Nariño",
-        "José de San Martín"
+        "Antonio Nariño"
       ],
       "Answer": "0",
       "ref": "https://www.cervantesvirtual.com/portales/simon_bolivar/autor_biografia/"
@@ -431,8 +424,7 @@
       "Options": [
         "Gabriel García Márquez",
         "Álvaro Mutis",
-        "Laura Esquivel",
-        "Fernando Vallejo"
+        "Laura Esquivel"
       ],
       "Answer": "0",
       "ref": "https://es.wikipedia.org/wiki/Gabriel_Garc%C3%ADa_M%C3%A1rquez"
@@ -446,8 +438,7 @@
       "Options": [
         "Camarones crudos marinados en jugo de limón con cebolla, cilantro y ají",
         "Camarones cocidos con salsa de tomate y especias",
-        "Camarones fritos con pan rallado",
-        "Camarones a la parrilla con salsa de aguacate"
+        "Camarones fritos con pan rallado"
       ],
       "Answer": "1",
       "ref": "https://colombia.travel/es/cartagena/el-cerro-de-la-popa"
@@ -461,8 +452,7 @@
       "Options": [
         "Cristo Redentor",
         "Cristo de la Paz",
-        "Cristo del Corcovado",
-        "Cristo de la Esperanza"
+        "Cristo del Corcovado"
       ],
       "Answer": "0",
       "ref": "https://www.new7wonders.com"
@@ -476,8 +466,7 @@
       "Options": [
         "Playa de Ipanema",
         "Playa de Copacabana",
-        "Playa de Leblon",
-        "Playa de Barra da Tijuca"
+        "Playa de Leblon"
       ],
       "Answer": "1",
       "ref": "https://www.tripadvisor.com/Attraction_Review-g303506-d317264-Reviews-Copacabana_Beach-Rio_de_Janeiro_State_of_Rio_de_Janeiro.html"
@@ -491,8 +480,7 @@
       "Options": [
         "Estadio Maracaná",
         "Estadio Engenhão",
-        "Estadio São Januário",
-        "Estadio de la Gávea"
+        "Estadio São Januário"
       ],
       "Answer": "0",
       "ref": "https://www.fifa.com/worldcup/organisation/stadiums/maracana"
@@ -506,8 +494,7 @@
       "Options": [
         "Un mercado popular",
         "Un barrio histórico",
-        "Un famoso monte con teleférico",
-        "Una playa conocida por sus deportes acuáticos"
+        "Un famoso monte con teleférico"
       ],
       "Answer": "2",
       "ref": "https://www.visitriodejaneiro.com.br/pao-de-acucar"
@@ -518,7 +505,7 @@
       "City": "Rio_de_Janeiro",
       "Question": "¿Qué dulce tradicional brasileño, conocido por su textura cremosa y sabor a coco?",
       "QuestionType": "1",
-      "Options": ["Brigadeiro", "Cocada", "Beijinho", "Quindim"],
+      "Options": ["Brigadeiro", "Cocada", "Beijinho"],
       "Answer": "1",
       "ref": "https://www.brazilianfood.com/cocada"
     },
@@ -528,7 +515,7 @@
       "City": "Bariloche",
       "Question": "¿En qué provincia de Argentina se encuentra Bariloche?",
       "QuestionType": "1",
-      "Options": ["Mendoza", "Río Negro", "Buenos Aires", "Neuquén"],
+      "Options": ["Mendoza", "Río Negro", "Buenos Aires"],
       "Answer": "1",
       "ref": "https://barilocheturismo.gob.ar/es/sobre-bariloche"
     },
@@ -538,7 +525,7 @@
       "City": "Bariloche",
       "Question": "¿Qué tipo de paisaje es predominante en la región de Bariloche?",
       "QuestionType": "1",
-      "Options": ["Desierto", "Montañas y lagos", "Llanuras", "Selva tropical"],
+      "Options": ["Desierto", "Montañas y lagos", "Llanuras"],
       "Answer": "1",
       "ref": "https://www.lonelyplanet.com/argentina/the-lake-district/bariloche"
     },
@@ -551,8 +538,7 @@
       "Options": [
         "Un volcán activo",
         "Un lugar de esquí",
-        "Un parque nacional",
-        "Una playa"
+        "Un parque nacional"
       ],
       "Answer": "1",
       "ref": "https://es.wikipedia.org/wiki/Cerro_Catedral_(Argentina)#:~:text=El%20cerro%20Catedral%20es%20una,esqu%C3%AD%20m%C3%A1s%20desarrollado%20de%20Sudam%C3%A9rica.&text=600%20ha."
@@ -563,7 +549,7 @@
       "City": "Bariloche",
       "Question": "¿Qué actividad al aire libre es muy popular en Bariloche durante el verano?",
       "QuestionType": "1",
-      "Options": ["Esquí acuático", "Senderismo", "Surf", "Paracaidismo"],
+      "Options": ["Esquí acuático", "Senderismo", "Surf"],
       "Answer": "1",
       "ref": "https://barilocheturismo.gob.ar/es/actividades"
     },
@@ -573,7 +559,7 @@
       "City": "Bariloche",
       "Question": "¿Qué animal es común ver en la región de Bariloche y es conocido por su apariencia de ciervo?",
       "QuestionType": "1",
-      "Options": ["Puma", "Cebra", "Huemul", "Guanaco"],
+      "Options": ["Puma", "Cebra", "Huemul"],
       "Answer": "2",
       "ref": "https://www.argentina.gob.ar/interior/ambiente/accion/huemul"
     },
@@ -583,7 +569,7 @@
       "City": "Cusco",
       "Question": "¿Cuál es la antigua civilización que construyó la ciudad de Machu Picchu, cerca de Cusco?",
       "QuestionType": "1",
-      "Options": ["Azteca", "Maya", "Inca", "Olmeca"],
+      "Options": ["Azteca", "Maya", "Inca"],
       "Answer": "2",
       "ref": "https://es.wikipedia.org/wiki/Cuzco"
     },
@@ -596,8 +582,7 @@
       "Options": [
         "Chicha Morada",
         "Pisco Sour",
-        "Chicha de Jora",
-        "Mate de Coca"
+        "Chicha de Jora"
       ],
       "Answer": "2",
       "ref": "https://www.peru.travel/es/masperu/chicha-de-jora-el-nectar-de-los-incas"
@@ -608,7 +593,7 @@
       "City": "Cusco",
       "Question": "¿Qué famosa estructura en Cusco está formada por grandes muros de piedras gigantes, ajustadas sin mortero?",
       "QuestionType": "1",
-      "Options": ["Machu Picchu", "Sacsayhuamán", "Qorikancha", "Ollantaytambo"],
+      "Options": ["Machu Picchu", "Sacsayhuamán", "Qorikancha"],
       "Answer": "1",
       "ref": "https://www.culturacusco.gob.pe/parques-arqueologicos/saqsaywaman/#:~:text=El%20Parque%20Arqueol%C3%B3gico%20de%20Saqsaywaman,una%20extensi%C3%B3n%20de%202%2C997.265%20hect%C3%A1reas."
     },
@@ -618,7 +603,7 @@
       "City": "Cusco",
       "Question": "¿Cómo se llama el tradicional plato peruano que se hace con papa y se sirve con salsa de ají amarillo, popular en Cusco?",
       "QuestionType": "1",
-      "Options": ["Ceviche", "Lomo Saltado", "Papa a la Huancaína", "Anticuchos"],
+      "Options": ["Ceviche", "Lomo Saltado", "Papa a la Huancaína"],
       "Answer": "2",
       "ref": "https://www.elmejornido.com/recetas/papas-la-huancaina/"
     },
@@ -628,7 +613,7 @@
       "City": "Cusco",
       "Question": "¿Qué especie de animal es común ver en los Andes y alrededor de Cusco?",
       "QuestionType": "1",
-      "Options": ["Alpaca", "Llama", "Vicuña", "Guanaco"],
+      "Options": ["Alpaca", "Llama", "Vicuña"],
       "Answer": "0",
       "ref": "https://definicion.de/alpaca/"
     },
@@ -638,7 +623,7 @@
       "City": "Banff",
       "Question": "¿En qué provincia de Canadá se encuentra Banff?",
       "QuestionType": "1",
-      "Options": ["Columbia Británica", "Alberta", "Ontario", "Quebec"],
+      "Options": ["Columbia Británica", "Alberta", "Ontario"],
       "Answer": "1",
       "ref": "https://www.banfflakelouise.com/what-to-do"
     },
@@ -651,8 +636,7 @@
       "Options": [
         "Monte Everest",
         "Monte Robson",
-        "Monte Rundle",
-        "Monte Kilimanjaro"
+        "Monte Rundle"
       ],
       "Answer": "2",
       "ref": "https://www.banfflakelouise.com/mountains"
@@ -663,7 +647,7 @@
       "City": "Banff",
       "Question": "¿Cuál de las siguientes actividades es popular en Banff durante el invierno?",
       "QuestionType": "1",
-      "Options": ["Surf", "Esquí", "Escalada en hielo", "Senderismo"],
+      "Options": ["Surf", "Esquí", "Escalada en hielo"],
       "Answer": "1",
       "ref": "https://www.banfflakelouise.com/winter-activities"
     },
@@ -673,7 +657,7 @@
       "City": "Banff",
       "Question": "¿Qué tipo de fauna es común en Banff?",
       "QuestionType": "1",
-      "Options": ["Tigres", "Osos grizzly", "Canguros", "Elefantes"],
+      "Options": ["Tigres", "Osos grizzly", "Canguros"],
       "Answer": "1",
       "ref": "https://parks.canada.ca/pn-np/ab/banff"
     },
@@ -683,7 +667,7 @@
       "City": "Banff",
       "Question": "¿En qué tipo de ecosistema se encuentra Banff?",
       "QuestionType": "1",
-      "Options": ["Desierto", "Bosque", "Selva tropical", "Sabana"],
+      "Options": ["Desierto", "Bosque", "Selva tropical"],
       "Answer": "1",
       "ref": "https://parks.canada.ca/pn-np/ab/banff"
     },
@@ -696,8 +680,7 @@
       "Options": [
         "La Ciudad del Viento",
         "La Gran Manzana",
-        "La Ciudad del Sol",
-        "La Ciudad de los Ángeles"
+        "La Ciudad del Sol"
       ],
       "Answer": "1",
       "ref": "https://www.nycgo.com/articles/nyc-nicknames"
@@ -711,8 +694,7 @@
       "Options": [
         "Parque Nacional de Yosemite",
         "Parque Central",
-        "Hyde Park",
-        "Golden Gate Park"
+        "Hyde Park"
       ],
       "Answer": "1",
       "ref": "https://www.nycgovparks.org/parks/central-park"
@@ -726,8 +708,7 @@
       "Options": [
         "La Estatua de la Libertad",
         "La Estatua de la Justicia",
-        "La Estatua de la Paz",
-        "La Estatua de la Victoria"
+        "La Estatua de la Paz"
       ],
       "Answer": "0",
       "ref": "https://www.nps.gov/stli/index.htm"
@@ -741,8 +722,7 @@
       "Options": [
         "Puente de San Francisco",
         "Puente de la Torre",
-        "Puente de Brooklyn",
-        "Puente Golden Gate"
+        "Puente de Brooklyn"
       ],
       "Answer": "2",
       "ref": "https://www.nyc.gov/site/dot/bridges/brooklyn-bridge.page"
@@ -756,8 +736,7 @@
       "Options": [
         "Super Bowl",
         "Wimbledon",
-        "Serie Mundial de Béisbol",
-        "Copa del Mundo"
+        "Serie Mundial de Béisbol"
       ],
       "Answer": "2",
       "ref": "https://www.mlb.com/yankees/ballpark"
@@ -768,7 +747,7 @@
       "City": "Miami",
       "Question": "¿Cuál es el nombre del famoso distrito artístico en Miami conocido por sus murales y galerías?",
       "QuestionType": "1",
-      "Options": ["Little Havana", "Wynwood Walls", "Coconut Grove", "Brickell"],
+      "Options": ["Little Havana", "Wynwood Walls", "Coconut Grove"],
       "Answer": "1",
       "ref": "https://wynwoodwalls.com"
     },
@@ -781,8 +760,7 @@
       "Options": [
         "Miami International Airport",
         "Fort Lauderdale Airport",
-        "Orlando Airport",
-        "Tampa Airport"
+        "Orlando Airport"
       ],
       "Answer": "0",
       "ref": "https://www.miami-airport.com"
@@ -796,8 +774,7 @@
       "Options": [
         "Mar Caribe",
         "Océano Pacífico",
-        "Océano Atlántico",
-        "Mar Mediterráneo"
+        "Océano Atlántico"
       ],
       "Answer": "2",
       "ref": "https://www.nationalgeographic.com/environment/oceans/atlantic-ocean"
@@ -808,7 +785,7 @@
       "City": "Miami",
       "Question": "¿Qué tipo de clima tiene Miami la mayor parte del año?",
       "QuestionType": "1",
-      "Options": ["Desértico", "Tropical", "Mediterráneo", "Continental"],
+      "Options": ["Desértico", "Tropical", "Mediterráneo"],
       "Answer": "1",
       "ref": "https://www.weather.gov/mfl/ClimateOverview"
     },
@@ -821,8 +798,7 @@
       "Options": [
         "Miami Auto Show",
         "International Auto Show",
-        "Miami International Auto Show",
-        "Miami Car Festival"
+        "Miami International Auto Show"
       ],
       "Answer": "2",
       "ref": "https://www.miamiautoshow.net"
@@ -836,8 +812,7 @@
       "Options": [
         "Empire State Building",
         "CN Tower",
-        "Burj Khalifa",
-        "Willis Tower"
+        "Burj Khalifa"
       ],
       "Answer": "1",
       "ref": "https://www.cntower.ca/"
@@ -851,8 +826,7 @@
       "Options": [
         "Rogers Centre",
         "Fenway Park",
-        "Yankee Stadium",
-        "Wrigley Field"
+        "Yankee Stadium"
       ],
       "Answer": "0",
       "ref": "https://www.mlb.com/bluejays/ballpark"
@@ -866,8 +840,7 @@
       "Options": [
         "Toronto Jazz Festival",
         "Toronto Rock Fest",
-        "Toronto Folk Festival",
-        "Toronto International Film Festival"
+        "Toronto Folk Festival"
       ],
       "Answer": "0",
       "ref": "https://www.google.com/search?q=Toronto+Jazz+Festival+Official+Site&rlz=1C1VIQF_esCO1110CO1110&oq=Toronto+Jazz+Festival+Official+Site&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIKCAEQABiABBiiBDIKCAIQABiABBiiBNIBBzY5MmowajSoAgCwAgA&sourceid=chrome&ie=UTF-8"
@@ -878,7 +851,7 @@
       "City": "Toronto",
       "Question": "¿Qué importante empresa canadiense tiene su sede en Toronto y es conocida por sus servicios financieros?",
       "QuestionType": "1",
-      "Options": ["Royal Bank of Canada", "TD Bank", "Scotiabank", "CIBC"],
+      "Options": ["Royal Bank of Canada", "TD Bank", "Scotiabank"],
       "Answer": "0",
       "ref": "https://www.rbcroyalbank.com/personal.html"
     },
@@ -888,7 +861,7 @@
       "City": "Toronto",
       "Question": "¿Qué nombre recibe el importante centro financiero en el corazón de Toronto?",
       "QuestionType": "1",
-      "Options": ["Financial District", "Downtown", "Midtown", "Old Town"],
+      "Options": ["Financial District", "Downtown", "Midtown"],
       "Answer": "0",
       "ref": "https://www.torontofinancialdistrict.com/"
     },
@@ -898,7 +871,7 @@
       "City": "Tulum",
       "Question": "¿Qué famoso sitio arqueológico se encuentra cerca de Tulum?",
       "QuestionType": "1",
-      "Options": ["Chichén Itzá", "Uxmal", "Cobá", "Tikal"],
+      "Options": ["Chichén Itzá", "Uxmal", "Cobá"],
       "Answer": "2",
       "ref": "https://www.getyourguide.es/coba-l4506/patrimonios-de-la-unesco-tc266/?visitor-id=Z9L7BXKUG4G4K0VY1KXP5VJFAY9XQ61E&locale_autoredirect_optout=true"
     },
@@ -911,8 +884,7 @@
       "Options": [
         "Mar Caribe",
         "Océano Pacífico",
-        "Mar de Cortés",
-        "Mar Mediterráneo"
+        "Mar de Cortés"
       ],
       "Answer": "0",
       "ref": "https://es.wikipedia.org/wiki/Mar_Caribe"
@@ -926,8 +898,7 @@
       "Options": [
         "Playa del Carmen",
         "Playa Paraíso",
-        "Playa Akumal",
-        "Playa Zicatela"
+        "Playa Akumal"
       ],
       "Answer": "1",
       "ref": "https://en.wikipedia.org/wiki/Tulum"
@@ -938,7 +909,7 @@
       "City": "Tulum",
       "Question": "¿Qué tipo de clima predomina en Tulum?",
       "QuestionType": "1",
-      "Options": ["Desértico", "Tropical", "Mediterráneo", "Continental"],
+      "Options": ["Desértico", "Tropical", "Mediterráneo"],
       "Answer": "1",
       "ref": "https://www.weather-atlas.com/en/mexico/tulum"
     },
@@ -951,8 +922,7 @@
       "Options": [
         "Pingüinos",
         "Delfines y tortugas",
-        "Osos polares",
-        "Ciervos del bosque"
+        "Osos polares"
       ],
       "Answer": "1",
       "ref": "https://www.google.com/search?q=Tulum+Travel+-+Fauna&rlz=1C1VIQF_esCO1110CO1110&oq=Tulum+Travel+-+Fauna&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigATIHCAIQIRigAdIBCDEwMzRqMGo0qAIAsAIA&sourceid=chrome&ie=UTF-8"
@@ -963,7 +933,7 @@
       "City": "Bogota",
       "Question": "¿Cuál es la capital de Colombia?",
       "QuestionType": "1",
-      "Options": ["Medellín", "Bogotá", "Cali", "Cartagena"],
+      "Options": ["Medellín", "Bogotá", "Cali"],
       "Answer": "1",
       "ref": "https://www.bogotaturismo.gov.co"
     },
@@ -976,8 +946,7 @@
       "Options": [
         "Cerro de Monserrate",
         "Cerro de Guadalupe",
-        "Cerro de la Popa",
-        "Cerro de la Cruz"
+        "Cerro de la Popa"
       ],
       "Answer": "0",
       "ref": "https://www.cerromonserrate.com"
@@ -991,8 +960,7 @@
       "Options": [
         "Un postre dulce frito",
         "Un plato de carne asada",
-        "Un plato de cerdo frito",
-        "Un plato de pescado al horno"
+        "Un plato de cerdo frito"
       ],
       "Answer": "1",
       "ref": "https://www.recetasgratis.net/receta-de-chicharron-de-cerdo-para-tacos-73105.html"
@@ -1006,8 +974,7 @@
       "Options": [
         "Desierto de Atacama",
         "Cordillera de los Andes",
-        "Lago Titicaca",
-        "Cataratas del Iguazú"
+        "Lago Titicaca"
       ],
       "Answer": "1",
       "ref": "https://es.wikipedia.org/wiki/Ushuaia"
@@ -1021,8 +988,7 @@
       "Options": [
         "Visitar la Torre Eiffel",
         "Buceo en el Gran Arrecife de Coral",
-        "Navegación por el Canal Beagle",
-        "Esquí en los Alpes Suizos"
+        "Navegación por el Canal Beagle"
       ],
       "Answer": "2",
       "ref": "https://turismoushuaia.com/"
@@ -1033,8 +999,8 @@
       "City": "Ushuaia",
       "Question": "¿Qué tipo de clima predomina en Ushuaia?",
       "QuestionType": "1",
-      "Options": ["Tropical", "Mediterráneo", "Desértico", "Subpolar oceánico"],
-      "Answer": "3",
+      "Options": ["Tropical", "Mediterráneo", "Subpolar oceánico"],
+      "Answer": "2",
       "ref": "https://es.wikipedia.org/wiki/Ushuaia#Clima"
     },
     {
@@ -1066,8 +1032,7 @@
       "Options": [
         "La costa norte de República Dominicana",
         "La costa sur de República Dominicana",
-        "La costa este de República Dominicana",
-        "La costa oeste de República Dominicana"
+        "La costa este de República Dominicana"
       ],
       "Answer": "2",
       "ref": "https://es.wikipedia.org/wiki/Punta_Cana"
@@ -1081,8 +1046,7 @@
       "Options": [
         "Atlantis Paradise Island",
         "Sandals Royal Caribbean",
-        "Paradisus Palma Real",
-        "The Ritz-Carlton, Cancun"
+        "Paradisus Palma Real"
       ],
       "Answer": "2",
       "ref": "https://www.palmarealresort.com/"
@@ -1096,8 +1060,7 @@
       "Options": [
         "Clima frío",
         "Clima templado",
-        "Clima tropical",
-        "Clima árido"
+        "Clima tropical"
       ],
       "Answer": "2",
       "ref": "https://es.wikipedia.org/wiki/Punta_Cana"
@@ -1128,7 +1091,7 @@
       "City": "Chicago",
       "Question": "¿Cuál es el río que atraviesa Chicago?",
       "QuestionType": "1",
-      "Options": ["Río Misisipi", "Río Colorado", "Río Chicago", "Río Hudson"],
+      "Options": ["Río Misisipi", "Río Colorado", "Río Chicago"],
       "Answer": "2",
       "ref": "https://es.wikipedia.org/wiki/Chicago"
     },
@@ -1141,8 +1104,7 @@
       "Options": [
         "Estatua de la Libertad",
         "Torre Willis (Sears Tower)",
-        "Museo del Louvre",
-        "Monte Rushmore"
+        "Museo del Louvre"
       ],
       "Answer": "1",
       "ref": "https://www.choosechicago.com/"
@@ -1153,7 +1115,7 @@
       "City": "Chicago",
       "Question": "¿Qué evento climático notable afecta a menudo a Chicago?",
       "QuestionType": "1",
-      "Options": ["Huracanes", "Tornados", "Nevadas intensas", "Sequías"],
+      "Options": ["Huracanes", "Tornados", "Nevadas intensas"],
       "Answer": "2",
       "ref": "https://es.wikipedia.org/wiki/Chicago"
     },
@@ -1183,7 +1145,7 @@
       "City": "San_Juan",
       "Question": "¿En qué región de Puerto Rico se encuentra San Juan?",
       "QuestionType": "1",
-      "Options": ["Norte", "Sur", "Este", "Oeste"],
+      "Options": ["Norte", "Sur", "Este"],
       "Answer": "0",
       "ref": "https://es.wikipedia.org/wiki/San_Juan_(Puerto_Rico)"
     },
@@ -1196,8 +1158,7 @@
       "Options": [
         "Torre Eiffel",
         "Castillo San Felipe del Morro",
-        "Estatua de la Libertad",
-        "Gran Muralla China"
+        "Estatua de la Libertad"
       ],
       "Answer": "1",
       "ref": "https://visitponce.com/"
@@ -1208,7 +1169,7 @@
       "City": "San_Juan",
       "Question": "¿Qué tipo de clima tiene San Juan?",
       "QuestionType": "1",
-      "Options": ["Mediterráneo", "Subártico", "Tropical", "Continental"],
+      "Options": ["Mediterráneo", "Subártico", "Tropical"],
       "Answer": "2",
       "ref": "https://es.wikipedia.org/wiki/San_Juan_(Puerto_Rico)"
     },
@@ -1238,7 +1199,7 @@
       "City": "Machu_Picchu",
       "Question": "¿En qué cordillera se encuentra Machu Picchu?",
       "QuestionType": "1",
-      "Options": ["Los Alpes", "Los Andes", "Los Himalayas", "Los Pirineos"],
+      "Options": ["Los Alpes", "Los Andes", "Los Himalayas"],
       "Answer": "1",
       "ref": "https://es.wikipedia.org/wiki/Machu_Picchu"
     },
@@ -1249,7 +1210,7 @@
       "Question": "¿Cuál de los siguientes es un medio popular para llegar a Machu Picchu?",
       "Category": "Turismo",
       "QuestionType": "1",
-      "Options": ["En coche", "En tren", "En barco", "En avión"],
+      "Options": ["En coche", "En tren", "En barco"],
       "Answer": "1",
       "ref": "https://es.wikipedia.org/wiki/Machu_Picchu"
     },
@@ -1260,7 +1221,7 @@
       "Question": "¿Qué tipo de clima predomina en Machu Picchu?",
       "Category": "Clima",
       "QuestionType": "1",
-      "Options": ["Desértico", "Tropical de montaña", "Mediterráneo", "Subpolar"],
+      "Options": ["Desértico", "Tropical de montaña", "Mediterráneo"],
       "Answer": "1",
       "ref": "https://es.wikipedia.org/wiki/Machu_Picchu"
     },
@@ -1293,7 +1254,7 @@
       "Question": "¿En qué estado se encuentra Los Ángeles?",
       "Category": "Geografía",
       "QuestionType": "1",
-      "Options": ["Florida", "Nueva York", "California", "Texas"],
+      "Options": ["Florida", "Nueva York", "California"],
       "Answer": "2",
       "ref": "https://es.wikipedia.org/wiki/Los_%C3%81ngeles"
     },
@@ -1307,8 +1268,7 @@
       "Options": [
         "Estatua de la Libertad",
         "Golden Gate Bridge",
-        "Disneyland",
-        "Montaña Rusa Kingda Ka"
+        "Disneyland"
       ],
       "Answer": "2",
       "ref": "https://www.discoverlosangeles.com/"
@@ -1320,7 +1280,7 @@
       "Question": "¿Qué tipo de clima tiene Los Ángeles?",
       "Category": "Clima",
       "QuestionType": "1",
-      "Options": ["Subártico", "Mediterráneo", "Continental", "Tropical"],
+      "Options": ["Subártico", "Mediterráneo", "Continental"],
       "Answer": "1",
       "ref": "https://es.wikipedia.org/wiki/Los_%C3%81ngeles"
     },
@@ -1353,7 +1313,7 @@
       "Question": "¿Qué tipo de clima tiene Honolulu?",
       "Category": "Clima",
       "QuestionType": "1",
-      "Options": ["Desértico", "Mediterráneo", "Tropical", "Subpolar"],
+      "Options": ["Desértico", "Mediterráneo", "Tropical"],
       "Answer": "2",
       "ref": "https://es.wikipedia.org/wiki/Honolulu"
     },
@@ -1364,7 +1324,7 @@
       "Question": "¿En qué isla se encuentra Honolulu?",
       "Category": "Geografía",
       "QuestionType": "1",
-      "Options": ["Maui", "Oahu", "Kauai", "Big Island"],
+      "Options": ["Maui", "Oahu", "Kauai"],
       "Answer": "1",
       "ref": "https://es.wikipedia.org/wiki/Honolulu"
     },
@@ -1378,8 +1338,7 @@
       "Options": [
         "Playa Copacabana",
         "Playa Waikiki",
-        "Playa Bondi",
-        "Playa Ipanema"
+        "Playa Bondi"
       ],
       "Answer": "1",
       "ref": "https://es.wikipedia.org/wiki/Honolulu"
@@ -1413,7 +1372,7 @@
       "Question": "¿En qué estado se encuentra Aspen?",
       "Category": "Geografía",
       "QuestionType": "1",
-      "Options": ["California", "Colorado", "Utah", "Nevada"],
+      "Options": ["California", "Colorado", "Utah"],
       "Answer": "1",
       "ref": "https://es.wikipedia.org/wiki/Aspen"
     },
@@ -1424,7 +1383,7 @@
       "Question": "¿Cuál es una actividad turística popular en Aspen?",
       "Category": "Turismo",
       "QuestionType": "1",
-      "Options": ["Surf", "Esquí", "Buceo", "Senderismo en el desierto"],
+      "Options": ["Surf", "Esquí", "Buceo"],
       "Answer": "1",
       "ref": "https://www.aspenchamber.org/"
     },
@@ -1435,8 +1394,8 @@
       "Question": "¿Qué tipo de clima tiene Aspen?",
       "Category": "Clima",
       "QuestionType": "1",
-      "Options": ["Tropical", "Mediterráneo", "Desértico", "Clima de montaña"],
-      "Answer": "3",
+      "Options": ["Tropical", "Mediterráneo", "Clima de montaña"],
+      "Answer": "2",
       "ref": "https://es.wikipedia.org/wiki/Aspen"
     },
     {
@@ -1471,8 +1430,7 @@
       "Options": [
         "Valle de Anáhuac",
         "Valle de los Reyes",
-        "Valle de los Ángeles",
-        "Valle de la Muerte"
+        "Valle de los Ángeles"
       ],
       "Answer": "0",
       "ref": "https://es.wikipedia.org/wiki/Ciudad_de_M%C3%A9xico"
@@ -1484,7 +1442,7 @@
       "Question": "¿Cuál de los siguientes es un sitio turístico famoso en Ciudad de México?",
       "Category": "Turismo",
       "QuestionType": "1",
-      "Options": ["Torre Eiffel", "Coliseo", "Zócalo", "Gran Muralla China"],
+      "Options": ["Torre Eiffel", "Coliseo", "Zócalo"],
       "Answer": "2",
       "ref": "https://es.wikipedia.org/wiki/Ciudad_de_M%C3%A9xico"
     },
@@ -1495,7 +1453,7 @@
       "Question": "¿Qué tipo de clima tiene Ciudad de México?",
       "Category": "Clima",
       "QuestionType": "1",
-      "Options": ["Desértico", "Mediterráneo", "Templado subhúmedo", "Tropical"],
+      "Options": ["Desértico", "Mediterráneo", "Templado subhúmedo"],
       "Answer": "2",
       "ref": "https://es.wikipedia.org/wiki/Ciudad_de_M%C3%A9xico"
     },
@@ -1527,7 +1485,7 @@
       "City": "Santorini",
       "Question": "¿Cuál fue la civilización antigua que habitó Santorini antes de la erupción volcánica?",
       "QuestionType": "1",
-      "Options": ["Minoica", "Micenica", "Griega Clásica", "Romana"],
+      "Options": ["Minoica", "Micenica", "Griega Clásica"],
       "Answer": "0",
       "ref": "https://es.wikipedia.org/wiki/Santorini"
     },
@@ -1557,7 +1515,7 @@
       "City": "Santorini",
       "Question": "¿Cuál es el plato tradicional griego que se recomienda probar en Santorini, conocido por su mezcla de carne y berenjena?",
       "QuestionType": "1",
-      "Options": ["Gyros", "Souvlaki", "Moussaka", "Spanakopita"],
+      "Options": ["Gyros", "Souvlaki", "Moussaka"],
       "Answer": "2",
       "ref": "https://www.islasantorini.es/gastronomia-en-santorini/"
     },
@@ -1567,7 +1525,7 @@
       "City": "Santorini",
       "Question": "¿Qué tipo de roca volcánica es común en la isla de Santorini?",
       "QuestionType": "1",
-      "Options": ["Granito", "Basalto", "Pumita", "Caliza"],
+      "Options": ["Granito", "Basalto", "Pumita"],
       "Answer": "2",
       "ref": "https://es.wikipedia.org/wiki/Santorini"
     },
@@ -1577,7 +1535,7 @@
       "City": "Barcelona",
       "Question": "¿En qué año se construyó la Sagrada Familia de Barcelona?",
       "QuestionType": "1",
-      "Options": ["1882", "1900", "1920", "1945"],
+      "Options": ["1882", "1900", "1920"],
       "Answer": "0",
       "ref": "https://es.wikipedia.org/wiki/Sagrada_Familia"
     },
@@ -1587,7 +1545,7 @@
       "City": "Barcelona",
       "Question": "¿Cuál es el nombre del río que atraviesa Barcelona?",
       "QuestionType": "1",
-      "Options": ["Río Ebro", "Río Llobregat", "Río Tajo", "Río Guadalquivir"],
+      "Options": ["Río Ebro", "Río Llobregat", "Río Tajo"],
       "Answer": "1",
       "ref": "https://es.wikipedia.org/wiki/R%C3%ADo_Llobregat"
     },
@@ -1600,8 +1558,7 @@
       "Options": [
         "Parque de la Ciudadela",
         "Parque Güell",
-        "Parque Montjuïc",
-        "Parque del Laberinto"
+        "Parque Montjuïc"
       ],
       "Answer": "0",
       "ref": "https://es.wikipedia.org/wiki/Parque_de_la_Ciudadela_(Barcelona)"
@@ -1625,8 +1582,7 @@
       "Options": [
         "Real Madrid",
         "Atlético de Madrid",
-        "FC Barcelona",
-        "Sevilla FC"
+        "FC Barcelona"
       ],
       "Answer": "2",
       "ref": "https://es.wikipedia.org/wiki/Camp_Nou"
@@ -1647,7 +1603,7 @@
       "City": "Lisboa",
       "Question": "¿Cuál es el río que atraviesa Lisboa?",
       "QuestionType": "1",
-      "Options": ["Río Douro", "Río Tajo", "Río Guadiana", "Río Mondego"],
+      "Options": ["Río Douro", "Río Tajo", "Río Guadiana"],
       "Answer": "1",
       "ref": "https://es.wikipedia.org/wiki/R%C3%ADo_Tajo"
     },
@@ -1677,7 +1633,7 @@
       "City": "Lisboa",
       "Question": "¿Qué equipo de fútbol de Lisboa tiene su estadio en el Estadio da Luz?",
       "QuestionType": "1",
-      "Options": ["Sporting CP", "SL Benfica", "Estoril Praia", "Belenenses"],
+      "Options": ["Sporting CP", "SL Benfica", "Estoril Praia"],
       "Answer": "1",
       "ref": "https://es.wikipedia.org/wiki/Est%C3%A1dio_da_Luz"
     },
@@ -1687,8 +1643,8 @@
       "City": "Interlaken",
       "Question": "¿El monasterio de Interlaken fue construido en que año?",
       "QuestionType": "1",
-      "Options": ["1280", "1400", "1153", "1133"],
-      "Answer": "3",
+      "Options": ["1280", "1400", "1133"],
+      "Answer": "2",
       "ref": "https://es.wikipedia.org/wiki/Interlaken#Historia"
     },
     {
@@ -1700,8 +1656,7 @@
       "Options": [
         "Lago de Ginebra y Lago de Zúrich",
         "Lago de Lucerna y Lago de Zúrich",
-        "Lago de Brienz y Lago de Thun",
-        "Lago de Lucerna y Lago de Brienz"
+        "Lago de Brienz y Lago de Thun"
       ],
       "Answer": "2",
       "ref": "https://es.wikipedia.org/wiki/Interlaken"
@@ -1755,8 +1710,7 @@
       "Options": [
         "Sierra de Guadarrama",
         "Sierra Nevada",
-        "Sierra de Gredos",
-        "Sierra de las Nieves"
+        "Sierra de Gredos"
       ],
       "Answer": "1",
       "ref": "https://es.wikipedia.org/wiki/Sierra_Nevada_(Espa%C3%B1a)"
@@ -1770,8 +1724,7 @@
       "Options": [
         "Observatorio de Sierra Nevada.",
         "Observatorio Astronómico de Granada.",
-        "Observatorio Alhambra.",
-        "Observatorio de la Alpujarra."
+        "Observatorio Alhambra."
       ],
       "Answer": "0",
       "ref": "https://www.osn.iaa.es/"
@@ -1795,8 +1748,7 @@
       "Options": [
         "Coviran Granada",
         "Club Balans de Granada",
-        "Granada Mas Baloncesto",
-        "Club Presentación"
+        "Granada Mas Baloncesto"
       ],
       "Answer": "2",
       "ref": "https://www.pmdgranada.es/?buscar_texto=Ascenso+del+Granada+Mas+Baloncesto&Boton_Buscar=Buscar#BarraNavegacion"
@@ -1807,7 +1759,7 @@
       "City": "Zermatt",
       "Question": "¿En qué comuna empieza la prohibición de circulación de automóviles con combustibles para acceder a Zermatt?",
       "QuestionType": "1",
-      "Options": ["Zermatt", "Täsch", "Visp", "Brig"],
+      "Options": ["Zermatt", "Täsch", "Visp"],
       "Answer": "1",
       "ref": "https://es.wikipedia.org/wiki/Zermatt"
     },
@@ -1830,10 +1782,9 @@
       "Options": [
         "Volcán",
         "Montaña plegada",
-        "Montaña de glaciación",
         "Montaña de intrusión ígnea"
       ],
-      "Answer": "3",
+      "Answer": "2",
       "ref": "https://es.geologyscience.com/gallery/geological-wonders/matterhorn-switzerland-italy/"
     },
     {
@@ -1845,8 +1796,7 @@
       "Options": [
         "Zermatt Unplugged",
         "Zermatt Music Festival",
-        "Matterhorn Jazz Festival",
-        "Swiss Alps Music Fest"
+        "Matterhorn Jazz Festival"
       ],
       "Answer": "0",
       "ref": "https://www.zermatt.ch/es/Zermatt-Matterhorn/Winter-Matterhorn-Events/Eventos-en-Zermatt-Matterhorn"
@@ -1857,7 +1807,7 @@
       "City": "Zermatt",
       "Question": "¿Cuál fue la fecha histórica que marcó un antes y un después en la historia del alpinismo en Zermatt?",
       "QuestionType": "1",
-      "Options": ["1850", "1865", "1900", "1920"],
+      "Options": ["1850", "1865", "1900"],
       "Answer": "1",
       "ref": "https://www.zermatt.ch/es/Zermatt-Matterhorn/How-to-get-there-History/Zermatt-y-su-historia"
     },
@@ -1880,8 +1830,7 @@
       "Options": [
         "Parque de los Jardines de Luxemburgo",
         "Jardines de las Tullerías",
-        "Parque de Buttes-Chaumont",
-        "Parc Monceau"
+        "Parque de Buttes-Chaumont"
       ],
       "Answer": "1",
       "ref": "https://www.louvre.fr/es/explora/el-palacio/un-jardin-real-abierto-al-publico"
@@ -1915,10 +1864,9 @@
       "Options": [
         "Estadio Pierre-Mauroy",
         "Estadio Vélodrome",
-        "Estadio de Francia",
         "Parque de los Príncipes"
       ],
-      "Answer": "3",
+      "Answer": "2",
       "ref": "https://es.wikipedia.org/wiki/Par%C3%ADs"
     },
     {
@@ -1930,8 +1878,7 @@
       "Options": [
         "La firma del Tratado de Viena",
         "El Congreso de Viena",
-        "La Revolución de Viena",
-        "La Batalla de Viena"
+        "La Revolución de Viena"
       ],
       "Answer": "1",
       "ref": "https://es.wikipedia.org/wiki/Congreso_de_Viena"
@@ -1955,8 +1902,7 @@
       "Options": [
         "Erwin Schrödinger",
         "Albert Einstein",
-        "Niels Bohr",
-        "Werner Heisenberg"
+        "Niels Bohr"
       ],
       "Answer": "0",
       "ref": "https://www.britannica.com/biography/Erwin-Schrodinger"
@@ -1970,8 +1916,7 @@
       "Options": [
         "Ludwig van Beethoven",
         "Franz Schubert",
-        "Wolfgang Amadeus Mozart",
-        "Johannes Brahms"
+        "Wolfgang Amadeus Mozart"
       ],
       "Answer": "2",
       "ref": "https://www.britannica.com/biography/Wolfgang-Amadeus-Mozart"
@@ -2002,7 +1947,7 @@
       "City": "Berlín",
       "Question": "¿Cuál es el río principal que atraviesa Berlín?",
       "QuestionType": "1",
-      "Options": ["Elba", "Rin", "Spree", "Danubio"],
+      "Options": ["Elba", "Rin", "Spree"],
       "Answer": "2",
       "ref": "https://es.wikipedia.org/wiki/Berl%C3%ADn"
     },
@@ -2012,7 +1957,7 @@
       "City": "Berlín",
       "Question": "¿Qué famoso científico vivió y trabajó en Berlín durante gran parte de su carrera?",
       "QuestionType": "1",
-      "Options": ["Isaac Newton", "Marie Curie", "Albert Einstein", "Niels Bohr"],
+      "Options": ["Isaac Newton", "Marie Curie", "Albert Einstein"],
       "Answer": "2",
       "ref": "https://es.wikipedia.org/wiki/Albert_Einstein"
     },
@@ -2022,8 +1967,8 @@
       "City": "Berlín",
       "Question": "¿Qué banda de metal industrial se formó en Berlín en 1994?",
       "QuestionType": "1",
-      "Options": ["Metallica", "Iron Maiden", "Slipknot", "Rammstein"],
-      "Answer": "3",
+      "Options": ["Metallica", "Iron Maiden", "Rammstein"],
+      "Answer": "2",
       "ref": "https://es.wikipedia.org/wiki/Rammstein"
     },
     {
@@ -2042,8 +1987,8 @@
       "City": "Ibiza",
       "Question": "¿Qué civilización construyó el antiguo sitio de Sa Caleta en Ibiza?",
       "QuestionType": "1",
-      "Options": ["Romanos", "Griegos", "Catagineses", "Fenicios"],
-      "Answer": "3",
+      "Options": ["Romanos", "Griegos", "Fenicios"],
+      "Answer": "2",
       "ref": "https://es.wikipedia.org/wiki/Yacimiento_fenicio_de_Sa_Caleta"
     },
     {
@@ -2055,8 +2000,7 @@
       "Options": [
         "Isla de Es Vedrà",
         "Isla de Tagomago",
-        "Isla de Formentera",
-        "Isla de Espalmador"
+        "Isla de Formentera"
       ],
       "Answer": "0",
       "ref": "https://www.hellotickets.com.co/espana/ibiza/que-ver-y-hacer-es-vedra/sc-216-3753"
@@ -2097,7 +2041,7 @@
       "City": "Reykjavik",
       "Question": "¿Qué significa el nombre Reykjavik?",
       "QuestionType": "1",
-      "Options": ["Bahía Humeante", "Isla de Vapor", "Bahía de Bruma", "Isla de Volcanes"],
+      "Options": ["Bahía Humeante", "Isla de Vapor", "Bahía de Bruma"],
       "Answer": "0",
       "ref": "https://es.wikipedia.org/wiki/Reikiavik"
     },
@@ -2107,7 +2051,7 @@
       "City": "Reykjavik",
       "Question": "¿En qué año se cree que fue fundada Reykjavik?",
       "QuestionType": "1",
-      "Options": ["950", "870", "720", "780"],
+      "Options": ["950", "870", "720"],
       "Answer": "1",
       "ref": "https://es.wikipedia.org/wiki/Reikiavik"
     },
@@ -2117,7 +2061,7 @@
       "City": "Reykjavik",
       "Question": "Reykjavik es la capital de...",
       "QuestionType": "1",
-      "Options": ["Gales", "Irlanda", "Islandia", "Finlandia"],
+      "Options": ["Gales", "Irlanda", "Islandia"],
       "Answer": "2",
       "ref": "https://es.wikipedia.org/wiki/Reikiavik"
     },
@@ -2127,7 +2071,7 @@
       "City": "Reykjavik",
       "Question": "¿Cómo se llama el río más grande de Reykjavik?",
       "QuestionType": "1",
-      "Options": ["Faxaflói", "Esja", "Elliðaá", "Kollafjörður"],
+      "Options": ["Faxaflói", "Esja", "Elliðaá"],
       "Answer": "2",
       "ref": "https://es.wikipedia.org/wiki/Reikiavik"
     },
@@ -2137,7 +2081,7 @@
       "City": "Reykjavik",
       "Question": "¿Sobre qué margen de Islandia podemos encontrar a Reykjavik?",
       "QuestionType": "1",
-      "Options": ["Sudoeste", "Sur", "Nordeste", "Norte"],
+      "Options": ["Sudoeste", "Sur", "Nordeste"],
       "Answer": "0",
       "ref": "https://es.wikipedia.org/wiki/Reikiavik"
     },
@@ -2147,7 +2091,7 @@
       "City": "Algarve",
       "Question": "¿Qué significa el nombre Algarve?",
       "QuestionType": "1",
-      "Options": ["Oriente", "Norte", "Occidente", "Sur"],
+      "Options": ["Oriente", "Norte", "Occidente"],
       "Answer": "2",
       "ref": "https://es.wikipedia.org/wiki/Algarve"
     },
@@ -2157,7 +2101,7 @@
       "City": "Algarve",
       "Question": "¿Cómo fue denominada la región en la época Romana?",
       "QuestionType": "1",
-      "Options": ["Alocys", "Cinética", "Algabyca", "Coneticus"],
+      "Options": ["Alocys", "Cinética", "Algabyca"],
       "Answer": "1",
       "ref": "https://es.wikipedia.org/wiki/Algarve"
     },
@@ -2167,7 +2111,7 @@
       "City": "Algarve",
       "Question": "¿Con qué región limita al norte el Algarve?",
       "QuestionType": "1",
-      "Options": ["Río Guadiana", "Océano Atlántico", "Albufeira", "Alentejo"],
+      "Options": ["Río Guadiana", "Océano Atlántico", "Albufeira"],
       "Answer": "1",
       "ref": "https://es.wikipedia.org/wiki/Algarve"
     },
@@ -2177,7 +2121,7 @@
       "City": "Algarve",
       "Question": "¿Cuál es el pico más alto del Algarve?",
       "QuestionType": "1",
-      "Options": ["Pico da Foia", "Sierra de Monchique", "Alto da Algarve", "Pico Monchique"],
+      "Options": ["Pico da Foia", "Sierra de Monchique", "Alto da Algarve"],
       "Answer": "0",
       "ref": "https://es.wikipedia.org/wiki/Algarve"
     },
@@ -2187,7 +2131,7 @@
       "City": "Algarve",
       "Question": "¿Cuál es la capital del Algarve?",
       "QuestionType": "1",
-      "Options": ["Olhao", "Faro", "Loulé", "Albufeira"],
+      "Options": ["Olhao", "Faro", "Loulé"],
       "Answer": "1",
       "ref": "https://www.viajeroscallejeros.com/que-ver-en-el-algarve-portugal/"
     }
@@ -2198,7 +2142,7 @@
       "City": "Londres",
       "Question": "¿A orillas de qué río se encuentra ubicada Londres?",
       "QuestionType": "1",
-      "Options": ["Nilo", "Támesis", "Rin", "Sena"],
+      "Options": ["Nilo", "Támesis", "Rin"],
       "Answer": "1",
       "ref": "https://es.wikipedia.org/wiki/Londres"
     }
@@ -2209,7 +2153,7 @@
       "City": "Londres",
       "Question": "¿Qué nombre le dieron los romanos a Londres cuando la fundaron?",
       "QuestionType": "1",
-      "Options": ["Londinium", "Londasium", "Londinus", "Londerus"],
+      "Options": ["Londinium", "Londasium", "Londinus"],
       "Answer": "0",
       "ref": "https://es.wikipedia.org/wiki/Londres"
     },
@@ -2219,7 +2163,7 @@
       "City": "Londres",
       "Question": "¿Cuántas universidades tiene la ciudad de Londres?",
       "QuestionType": "1",
-      "Options":  ["25", "43", "17", "38"],
+      "Options":  ["25", "43", "17"],
       "Answer": "1",
       "ref": "https://es.wikipedia.org/wiki/Londres"
     },
@@ -2229,7 +2173,7 @@
       "City": "Londres",
       "Question": "¿Cuál es la residencia oficial del monarca británico?",
       "QuestionType": "1",
-      "Options": ["Palacio de Buckingham", "Palacio de Westminster", "Palacio de Hampton Court", "Palacio de Tudor"],
+      "Options": ["Palacio de Buckingham", "Palacio de Westminster", "Palacio de Hampton Court"],
       "Answer": "0",
       "ref": "https://es.wikipedia.org/wiki/Londres"
     },
@@ -2239,8 +2183,8 @@
       "City": "Londres",
       "Question": "¿Cuál de estos museos puedes visitar en Londres?",
       "QuestionType": "1",
-      "Options": ["Museo Smithsonian", "Museo de Louvre", "Museo Naval", "Museo de Ciencias"],
-      "Answer": "3",
+      "Options": ["Museo Smithsonian", "Museo de Louvre", "Museo de Ciencias"],
+      "Answer": "2",
       "ref": "https://es.wikipedia.org/wiki/Londres"
     },
     {
@@ -2249,7 +2193,7 @@
       "City": "Niza",
       "Question": "¿En qué región se encuentra ubicada Niza?",
       "QuestionType": "1",
-      "Options": ["Centro-Valle de Loira", "Auvernia-Ródano-Alpes", "Provenza-Alpes-Costa Azul", "Nueva Aquitania"],
+      "Options": ["Centro-Valle de Loira", "Auvernia-Ródano-Alpes", "Provenza-Alpes-Costa Azul"],
       "Answer": "2",
       "ref": "https://es.wikipedia.org/wiki/Niza"
     },
@@ -2259,8 +2203,8 @@
       "City": "Niza",
       "Question": "¿Cuál es el gentilicio de los habitantes de Niza?",
       "QuestionType": "1",
-      "Options": ["Nizino", "Nizeine", "Nizes", "Nizardo"],
-      "Answer": "3",
+      "Options": ["Nizino", "Nizeine", "Nizardo"],
+      "Answer": "2",
       "ref": "https://es.wikipedia.org/wiki/Niza"
     },
     {
@@ -2269,7 +2213,7 @@
       "City": "Niza",
       "Question": "¿Qué animal aparece en el escudo de Niza?",
       "QuestionType": "1",
-      "Options": ["León Albino", "Pantera Negra", "Águla Roja", "Curvo Dorado"],
+      "Options": ["León Albino", "Pantera Negra", "Águla Roja"],
       "Answer": "2",
       "ref": "https://es.wikipedia.org/wiki/Niza"
     },
@@ -2279,8 +2223,8 @@
       "City": "Niza",
       "Question": "¿En cuántos 'Cantones' se divide la ciudad de Niza?",
       "QuestionType": "1",
-      "Options": ["10", "17", "15", "14"],
-      "Answer": "3",
+      "Options": ["10", "17", "14"],
+      "Answer": "2",
       "ref": "https://es.wikipedia.org/wiki/Niza"
     },
     {
@@ -2289,7 +2233,7 @@
       "City": "Niza",
       "Question": "¿En qué año se inauguró el Tranvía de Niza?",
       "QuestionType": "1",
-      "Options": ["2007", "2010", "2011", "2009"],
+      "Options": ["2007", "2010", "2011"],
       "Answer": "0",
       "ref": "https://es.wikipedia.org/wiki/Niza"
     },
@@ -2299,7 +2243,7 @@
       "City": "Chamonix",
       "Question": "¿A los pies de cuál famoso monte podemos encontrar a Chamonix?",
       "QuestionType": "1",
-      "Options": ["Mont Vert", "Mont Blanc", "Mont Rouge", "Mont Violet"],
+      "Options": ["Mont Vert", "Mont Blanc", "Mont Rouge"],
       "Answer": "1",
       "ref": "https://es.wikipedia.org/wiki/Chamonix-Mont-Blanc"
     },
@@ -2309,7 +2253,7 @@
       "City": "Chamonix",
       "Question": "¿Cuál es el nombre completo de Chamonix?",
       "QuestionType": "1",
-      "Options": ["Chamonix Alta Saboya", "Chamonix Mont Blanc", "Chamonix Mont Rouge", "Chamonix Auvernia-Ródano"],
+      "Options": ["Chamonix Alta Saboya", "Chamonix Mont Blanc", "Chamonix Mont Rouge"],
       "Answer": "1",
       "ref": "https://es.wikipedia.org/wiki/Chamonix-Mont-Blanc"
     },
@@ -2319,7 +2263,7 @@
       "City": "Chamonix",
       "Question": "¿Chamonix es reconocidad por ser un centro de qué tipo de deportes?",
       "QuestionType": "1",
-      "Options": ["Deportes de invierno", "Deportes de playa", "Deportes subacuáticos", "Deportes de contacto"],
+      "Options": ["Deportes de invierno", "Deportes de playa", "Deportes subacuáticos"],
       "Answer": "0",
       "ref": "https://es.wikipedia.org/wiki/Chamonix-Mont-Blanc"
     },
@@ -2329,7 +2273,7 @@
       "City": "Chamonix",
       "Question": "¿A qué altitud se encuentra Chamonix?",
       "QuestionType": "1",
-      "Options": ["950 msnm", "1050 msnm", "1100 msnm", "1200 msnm"],
+      "Options": ["950 msnm", "1050 msnm", "1100 msnm"],
       "Answer": "2",
       "ref": "https://es.wikipedia.org/wiki/Chamonix-Mont-Blanc"
     },
@@ -2339,8 +2283,8 @@
       "City": "Chamonix",
       "Question": "Puedes encontrar este museo en Chamonix",
       "QuestionType": "1",
-      "Options": ["Museo Mont Blanc", "Museo de Ciencias", "Museo del Chocolate", "Museo Alpino"],
-      "Answer": "3",
+      "Options": ["Museo Mont Blanc", "Museo de Ciencias", "Museo Alpino"],
+      "Answer": "2",
       "ref": "https://www.cc-valleedechamonixmontblanc.fr/culture/horaires-informations-musees.html"
     },
     {
@@ -2349,8 +2293,8 @@
       "City": "Roma",
       "Question": "¿De qué región de Italia es capital Roma?",
       "QuestionType": "1",
-      "Options": ["Piedmont", "Veneto", "Tuscany", "Lazio"],
-      "Answer": "3",
+      "Options": ["Piedmont", "Veneto", "Lazio"],
+      "Answer": "2",
       "ref": "https://es.wikipedia.org/wiki/Roma"
     },
     {
@@ -2359,7 +2303,7 @@
       "City": "Roma",
       "Question": "¿Con qué apodo se le conoce a Roma?",
       "QuestionType": "1",
-      "Options": ["La Ciudad Amurallada", "La Ciudad de la Loba", "La Ciudad Eterna", "La Ciudad Imperial"],
+      "Options": ["La Ciudad Amurallada", "La Ciudad de la Loba", "La Ciudad Eterna"],
       "Answer": "2",
       "ref": "https://es.wikipedia.org/wiki/Roma"
     },
@@ -2369,7 +2313,7 @@
       "City": "Roma",
       "Question": "¿Cuáles colores tiene la bandera de Roma?",
       "QuestionType": "1",
-      "Options": ["Rojo y Amarillo", "Rojo y Blanco", "Blanco y Dorado", "Blanco y Violeta"],
+      "Options": ["Rojo y Amarillo", "Rojo y Blanco", "Blanco y Dorado"],
       "Answer": "0",
       "ref": "https://es.wikipedia.org/wiki/Roma"
     },
@@ -2379,8 +2323,8 @@
       "City": "Roma",
       "Question": "¿Qué famoso enclave se encuentra en la ciudad de Roma?",
       "QuestionType": "1",
-      "Options": ["Ciudad Metropolitana", "Ciudad de las Murallas", "Ciudad del Emperador", "Ciudad del Baticano"],
-      "Answer": "3",
+      "Options": ["Ciudad Metropolitana", "Ciudad de las Murallas", "Ciudad del Baticano"],
+      "Answer": "2",
       "ref": "https://es.wikipedia.org/wiki/Roma"
     },
     {
@@ -2389,7 +2333,7 @@
       "City": "Roma",
       "Question": "¿Cómo se llama la loba que amamantó a Rómulo y Remo, fundadores de la ciudad de Roma?",
       "QuestionType": "1",
-      "Options": ["Lupusela", "Lupera", "Luperca", "Lupena"],
+      "Options": ["Lupusela", "Lupera", "Luperca"],
       "Answer": "2",
       "ref": "https://es.wikipedia.org/wiki/Roma"
     },
@@ -2399,8 +2343,8 @@
       "City": "Malta",
       "Question": "¿En cuántas localidades se divide Malta?",
       "QuestionType": "1",
-      "Options": ["71", "69", "70", "68"],
-      "Answer": "3",
+      "Options": ["71", "69", "68"],
+      "Answer": "2",
       "ref": "https://es.wikipedia.org/wiki/Malta"
     },
     {
@@ -2409,7 +2353,7 @@
       "City": "Malta",
       "Question": "¿Cuál es la capital de Malta?",
       "QuestionType": "1",
-      "Options": ["Attard", "La Valeta", "Fgura", "Fontana"],
+      "Options": ["Attard", "La Valeta", "Fgura"],
       "Answer": "1",
       "ref": "https://es.wikipedia.org/wiki/Malta"
     },
@@ -2419,7 +2363,7 @@
       "City": "Malta",
       "Question": "¿Cuál es el gentilicio de Malta?",
       "QuestionType": "1",
-      "Options": ["Maltarés", "Malto/a", "Maltés", "Maltano"],
+      "Options": ["Maltarés", "Malto/a", "Maltés"],
       "Answer": "2",
       "ref": "https://es.wikipedia.org/wiki/Malta"
     },
@@ -2429,7 +2373,7 @@
       "City": "Malta",
       "Question": "¿En qué año se consólido la República en Malta?",
       "QuestionType": "1",
-      "Options": ["1994", "1984", "1974", "1964"],
+      "Options": ["1994", "1984", "1974"],
       "Answer": "2",
       "ref": "https://es.wikipedia.org/wiki/Malta"
     },
@@ -2439,7 +2383,7 @@
       "City": "Malta",
       "Question": "¿Cuál alimento es muy reconocido en Malta?",
       "QuestionType": "1",
-      "Options": ["Aceitunas", "Miel", "Queso", "Tomate"],
+      "Options": ["Aceitunas", "Miel", "Queso"],
       "Answer": "1",
       "ref": "https://es.wikipedia.org/wiki/Malta"
     },
@@ -2449,8 +2393,8 @@
       "City": "Innsbruck",
       "Question": "¿De qué estado de Austria es capital Innsbruck?",
       "QuestionType": "1",
-      "Options": ["Salzburg", "Carinthia", "Burgenland", "Tyrol"],
-      "Answer": "3",
+      "Options": ["Salzburg", "Carinthia", "Tyrol"],
+      "Answer": "2",
       "ref": "https://es.wikipedia.org/wiki/Innsbruck"
     },
     {
@@ -2459,7 +2403,7 @@
       "City": "Innsbruck",
       "Question": "¿Cuál es el idioma oficial en Innsbruck?",
       "QuestionType": "1",
-      "Options": ["Italiano", "Alemán", "Inglés", "Rumaní"],
+      "Options": ["Italiano", "Alemán", "Inglés"],
       "Answer": "1",
       "ref": "https://es.wikipedia.org/wiki/Innsbruck"
     },
@@ -2469,8 +2413,8 @@
       "City": "Innsbruck",
       "Question": "¿Cómo se llama el río que atraviesa a Innsbruck?",
       "QuestionType": "1",
-      "Options": ["Bruck", "Rin", "Sena", "Eno"],
-      "Answer": "3",
+      "Options": ["Bruck", "Rin","Eno"],
+      "Answer": "2",
       "ref": "https://es.wikipedia.org/wiki/Innsbruck"
     },
     {
@@ -2479,7 +2423,7 @@
       "City": "Innsbruck",
       "Question": "¿Cuál es el gentilicio de los habitantes de Innsbruck?",
       "QuestionType": "1",
-      "Options": ["Insbruqués", "Insbruquí", "Insbruquere", "Insbruquita"],
+      "Options": ["Insbruqués", "Insbruquí", "Insbruquere"],
       "Answer": "0",
       "ref": "https://es.wikipedia.org/wiki/Innsbruck"
     },
@@ -2489,8 +2433,8 @@
       "City": "Innsbruck",
       "Question": "¿Qué importante familia habitó el Palacio Imperial de Innsbruck?",
       "QuestionType": "1",
-      "Options": ["Bonnaparte", "Habsburgo", "Maulbertsch", "Kölderer"],
-      "Answer": "3",
+      "Options": ["Bonnaparte", "Habsburgo", "Kölderer"],
+      "Answer": "2",
       "ref": "https://es.wikipedia.org/wiki/Innsbruck"
     },
     {
@@ -2499,8 +2443,8 @@
       "City": "Madrid",
       "Question": "¿En qué parque podemos encontrar el Palacio de Cristal en Madrid?",
       "QuestionType": "1",
-      "Options": ["Real Jardín Botánico", "Jardines de Sabatini", "Parque Madrid del Río", "Parque del Retiro"],
-      "Answer": "3",
+      "Options": ["Jardines de Sabatini", "Parque Madrid del Río", "Parque del Retiro"],
+      "Answer": "2",
       "ref": "https://es.wikipedia.org/wiki/Madrid"
     },
     {
@@ -2509,7 +2453,7 @@
       "City": "Madrid",
       "Question": "¿Cuál es el principal río de Madrid?",
       "QuestionType": "1",
-      "Options": ["Manzanares", "Jarama", "Culebro", "Del Fresno"],
+      "Options": ["Manzanares", "Jarama", "Culebro"],
       "Answer": "0",
       "ref": "https://es.wikipedia.org/wiki/Madrid"
     },
@@ -2519,8 +2463,8 @@
       "City": "Madrid",
       "Question": "¿Cuál es el lugar más visitado por los turistas en Madrid?",
       "QuestionType": "1",
-      "Options": ["Museo del Prado", "Estadio Santiago Bernabéu", "Parque de Atracciones de Madrid", "Museo Reina Sofía"],
-      "Answer": "3",
+      "Options": ["Museo del Prado", "Estadio Santiago Bernabéu", "Museo Reina Sofía"],
+      "Answer": "2",
       "ref": "https://es.wikipedia.org/wiki/Madrid"
     },
     {
@@ -2529,7 +2473,7 @@
       "City": "Madrid",
       "Question": "¿Con cuántas Universidades Pública cuenta la Comunidad de Madrid?",
       "QuestionType": "1",
-      "Options": ["3", "6", "5", "2"],
+      "Options": ["3", "6", "5"],
       "Answer": "1",
       "ref": "https://es.wikipedia.org/wiki/Madrid"
     },
@@ -2539,7 +2483,7 @@
       "City": "Madrid",
       "Question": "¿En qué mes inicia anualmente la Feria del Libro de Madrid?",
       "QuestionType": "1",
-      "Options": ["Mayo", "Abril", "Marzo", "Junio"],
+      "Options": ["Mayo", "Abril", "Marzo"],
       "Answer": "0",
       "ref": "https://es.wikipedia.org/wiki/Feria_del_Libro_de_Madrid"
     }
@@ -2626,5 +2570,5 @@
         "question": "¿Cuál es tu rango de edad?",
         "options": ["Menos de 30 años", "30-50 años", "Más de 50 años"]
     }
-]
+  ]
 }
