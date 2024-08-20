@@ -14,13 +14,13 @@
                     <p class="back__margin"> {{questions[currentIndex].question}} </p>
                     <div class="back__imganes--respuestas">
                         <div  class="back__imagenes--style">
-                            <p (click)="placeImg()"> {{questions[currentIndex].options[0]}} </p>
+                            <p (click)="placeImg(questions[currentIndex].options[0])">{{ questions[currentIndex].options[0] }}</p>
                         </div>
                         <div class="back__imagenes--style">
-                            <p (click)="placeImg()"> {{questions[currentIndex].options[1]}} </p>
+                            <p (click)="placeImg(questions[currentIndex].options[1])">{{ questions[currentIndex].options[1] }}</p>
                         </div>
                         <div class="back__imagenes--style">
-                        <p (click)="placeImg()"> {{questions[currentIndex].options[2]}} </p>
+                            <p (click)="placeImg(questions[currentIndex].options[2])">{{ questions[currentIndex].options[2] }}</p>
                         </div>
                     </div>
                 </div>
