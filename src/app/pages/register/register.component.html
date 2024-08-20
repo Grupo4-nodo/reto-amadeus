@@ -1,1 +1,208 @@
-<p>register works!</p>
+<main class="main">
+  <h1 class="main__title">Crea tu perfil para comenzar</h1>
+  <form class="main__form" [formGroup]="registerForm">
+    <section class="main__avatar">
+      <img
+        src="../../../assets/img/user1.jpg"
+        alt="avatar-user"
+        class="main__avatar--img"
+      />
+    </section>
+    <div>
+      <fieldset>
+        <label for="name"
+          >Nombre
+          <span
+            [hidden]="formControls.name.valid || formControls.name.pristine"
+          >
+            <tooltip
+              *ngIf="formControls.name.errors?.['required']"
+              text="Campo Obligatorio"
+              position="top"
+            >
+              <i class="fa-solid fa-circle-info"></i>
+            </tooltip>
+          </span>
+        </label>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Pepito"
+          formControlName="name"
+        />
+      </fieldset>
+      <fieldset>
+        <label for="lastname"
+          >Apellido
+          <span
+            [hidden]="
+              formControls.lastName.valid || formControls.lastName.pristine
+            "
+          >
+            <tooltip
+              *ngIf="formControls.lastName.errors?.['required']"
+              text="Campo Obligatorio"
+              position="top"
+            >
+              <i class="fa-solid fa-circle-info"></i>
+            </tooltip>
+          </span>
+        </label>
+        <input
+          type="text"
+          name="lastname"
+          id="lastname"
+          placeholder="Perez"
+          formControlName="lastName"
+        />
+      </fieldset>
+    </div>
+    <fieldset>
+      <label for="username"
+        >Apodo
+        <span
+          [hidden]="
+            formControls.userName.valid || formControls.userName.pristine
+          "
+        >
+          <tooltip
+            *ngIf="formControls.userName.errors?.['required']"
+            text="Campo Obligatorio"
+            position="right"
+          >
+            <i class="fa-solid fa-circle-info"></i>
+          </tooltip>
+        </span>
+      </label>
+      <input
+        type="text"
+        name="username"
+        id="username"
+        placeholder="pepe57"
+        formControlName="userName"
+      />
+    </fieldset>
+    <fieldset>
+      <label for="email"
+        >Correo
+        <span
+          [hidden]="formControls.email.valid || formControls.email.pristine"
+        >
+          <tooltip
+            *ngIf="formControls.email.errors?.['required']"
+            text="Campo Obligatorio"
+            position="right"
+          >
+            <i class="fa-solid fa-circle-info"></i>
+          </tooltip>
+          <tooltip
+            *ngIf="formControls.email.errors?.['pattern']"
+            text="Debe ser un correo valido"
+            position="right"
+          >
+            <i class="fa-solid fa-circle-info"></i>
+          </tooltip>
+        </span>
+      </label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="pperez58@gmail.com"
+        formControlName="email"
+      />
+    </fieldset>
+    <div>
+      <fieldset>
+        <label for="age"
+          >Edad
+          <span [hidden]="formControls.age.valid || formControls.age.pristine">
+            <tooltip
+              *ngIf="formControls.age.errors?.['required']"
+              text="Campo Obligatorio"
+              position="top"
+            >
+              <i class="fa-solid fa-circle-info"></i>
+            </tooltip>
+          </span>
+        </label>
+        <input
+          type="number"
+          name="age"
+          id="age"
+          placeholder="20"
+          formControlName="age"
+        />
+      </fieldset>
+      <fieldset>
+        <label for="country"
+          >País
+          <span
+            [hidden]="
+              formControls.country.valid || formControls.country.pristine
+            "
+          >
+            <tooltip
+              *ngIf="formControls.country.errors?.['required']"
+              text="Campo Obligatorio"
+              position="top"
+            >
+              <i class="fa-solid fa-circle-info"></i>
+            </tooltip>
+          </span>
+        </label>
+        <input
+          type="text"
+          name="country"
+          id="country"
+          placeholder="Colombia"
+          formControlName="country"
+        />
+      </fieldset>
+    </div>
+    <fieldset>
+      <label for="password"
+        >Contraseña
+        <span
+          [hidden]="
+            formControls.password.valid || formControls.password.pristine
+          "
+        >
+          <tooltip
+            *ngIf="formControls.password.errors?.['required']"
+            text="Campo Obligatorio"
+            position="right"
+          >
+            <i class="fa-solid fa-circle-info"></i>
+          </tooltip>
+          <tooltip
+            *ngIf="formControls.password.errors?.['pattern']"
+            text="8 caracteres: 1 mayus, 1 minus, 1 num, 1 caracter especial"
+            position="right"
+          >
+            <i class="fa-solid fa-circle-info"></i>
+          </tooltip>
+        </span>
+      </label>
+      <input
+        type="password"
+        name="password"
+        id="password"
+        placeholder="********"
+        formControlName="password"
+      />
+    </fieldset>
+    <button
+      class="main__button"
+      type="button"
+      [disabled]="registerForm.invalid"
+      (click)="registerUser()"
+    >
+      Registrarme
+    </button>
+    <a class="main__link" routerLink="/login"
+      >¿Ya tienes cuenta? Inicia Sesión</a
+    >
+  </form>
+</main>

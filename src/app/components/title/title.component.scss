@@ -1,0 +1,13 @@
+.welcome {
+  width: 100%;
+  padding: 20px 30px 10px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgb(217,217,217);
+  p {
+    text-align: justify;
+    padding-top: 10px;
+  }
+}
