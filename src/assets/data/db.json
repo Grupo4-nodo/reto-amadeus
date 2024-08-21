@@ -6,38 +6,38 @@
       "Country": "México",
       "City": "Playa del Carmen",
       "img": "../../../assets/img/america2.jpg",
-      "Points": "150"
+      "Points": "0"
     },
     {
       "id": "2",
       "Continent": "América",
       "Country": "Colombia",
       "City": "Cartagena",
-      "img": "../../../assets/img/america2.jpg",
-      "Points": "180"
+      "img": "../../../assets/img/cities/cartagena.jpg",
+      "Points": "0"
     },
     {
       "id": "3",
       "Continent": "América",
       "Country": "Brasil",
       "City": "Rio de Janeiro",
-      "img": "../../../assets/img/america2.jpg",
-      "Points": "200"
+      "img": "../../../assets/img/cities/rio-de-janeiro.jpg",
+      "Points": "0"
     },
     {
       "id": "4",
       "Continent": "América",
       "Country": "Argentina",
       "City": "Bariloche",
-      "img": "../../../assets/img/america2.jpg",
-      "Points": "150"
+      "img": "../../../assets/img/cities/bariloche.jpg",
+      "Points": "0"
     },
     {
       "id": "5",
       "Continent": "América",
       "Country": "Perú",
       "City": "Cusco",
-      "img": "../../../assets/img/america2.jpg",
+      "img": "../../../assets/img/cities/cusco.jpg",
       "Points": "150"
     },
     {
@@ -45,7 +45,7 @@
       "Continent": "América",
       "Country": "Canadá",
       "City": "Banff",
-      "img": "../../../assets/img/america2.jpg",
+      "img": "../../../assets/img/cities/banff.jpg",
       "Points": "130"
     },
     {
@@ -53,7 +53,7 @@
       "Continent": "América",
       "Country": "Estados Unidos",
       "City": "New York",
-      "img": "../../../assets/img/america2.jpg",
+      "img": "../../../assets/img/cities/new-york.jpg",
       "Points": "220"
     },
     {
@@ -61,7 +61,7 @@
       "Continent": "América",
       "Country": "Canadá",
       "City": "Toronto",
-      "img": "../../../assets/img/america2.jpg",
+      "img": "../../../assets/img/cities/toronto.jpg",
       "Points": "170"
     },
     {
@@ -69,7 +69,7 @@
       "Continent": "América",
       "Country": "Estados Unidos",
       "City": "Miami",
-      "img": "../../../assets/img/america2.jpg",
+      "img": "../../../assets/img/cities/miami.jpg",
       "Points": "180"
     },
     {
@@ -77,7 +77,7 @@
       "Continent": "América",
       "Country": "México",
       "City": "Tulum",
-      "img": "../../../assets/img/america2.jpg",
+      "img": "../../../assets/img/cities/tulum.jpg",
       "Points": "150"
     },
     {
@@ -85,7 +85,7 @@
       "Continent": "América",
       "Country": "Argentina",
       "City": "Ushuaia",
-      "img": "../../../assets/img/america2.jpg",
+      "img": "../../../assets/img/cities/ushuaia.jpg",
       "Points": "180"
     },
     {
@@ -93,7 +93,7 @@
       "Continent": "América",
       "Country": "República Dominicana",
       "City": "Punta Cana",
-      "img": "../../../assets/img/america2.jpg",
+      "img": "../../../assets/img/cities/punta-cana.jpg",
       "Points": "150"
     },
     {
@@ -101,7 +101,7 @@
       "Continent": "América",
       "Country": "Estados Unidos",
       "City": "Chicago",
-      "img": "../../../assets/img/america2.jpg",
+      "img": "../../../assets/img/cities/chicago.jpg",
       "Points": "160"
     },
     {
@@ -109,7 +109,7 @@
       "Continent": "América",
       "Country": "Puerto Rico",
       "City": "San Juan",
-      "img": "../../../assets/img/america2.jpg",
+      "img": "../../../assets/img/cities/san-juan.jpg",
       "Points": "150"
     },
     {
@@ -117,7 +117,7 @@
       "Continent": "América",
       "Country": "Perú",
       "City": "Machu Picchu",
-      "img": "../../../assets/img/america2.jpg",
+      "img": "../../../assets/img/cities/machu-picchu.jpg",
       "Points": "200"
     },
     {
@@ -125,7 +125,7 @@
       "Continent": "América",
       "Country": "Estados Unidos",
       "City": "Los Ángeles",
-      "img": "../../../assets/img/america2.jpg",
+      "img": "../../../assets/img/cities/los-angeles.jpg",
       "Points": "180"
     },
     {
@@ -133,7 +133,7 @@
       "Continent": "América",
       "Country": "Hawái",
       "City": "Honolulu",
-      "img": "../../../assets/img/america2.jpg",
+      "img": "../../../assets/img/cities/honolulu.jpg",
       "Points": "160"
     },
     {
@@ -141,7 +141,7 @@
       "Continent": "América",
       "Country": "Estados Unidos",
       "City": "Aspen",
-      "img": "../../../assets/img/america2.jpg",
+      "img": "../../../assets/img/cities/aspen.jpg",
       "Points": "150"
     },
     {
@@ -149,7 +149,7 @@
       "Continent": "América",
       "Country": "México",
       "City": "Ciudad de México",
-      "img": "../../../assets/img/america2.jpg",
+      "img": "../../../assets/img/cities/ciudad-de-mexico.jpg",
       "Points": "200"
     },
     {
@@ -157,7 +157,7 @@
       "Continent": "Europa",
       "Country": "Grecia",
       "City": "Santorini",
-      "img": "../../../assets/img/europa2.jpg",
+      "img": "../../../assets/img/cities/santorini.jpg",
       "Points": "150"
     },
     {
@@ -165,7 +165,7 @@
       "Continent": "Europa",
       "Country": "España",
       "City": "Barcelona",
-      "img": "../../../assets/img/europa2.jpg",
+      "img": "../../../assets/img/cities/barcelona.jpg",
       "Points": "220"
     },
     {
@@ -173,7 +173,7 @@
       "Continent": "Europa",
       "Country": "Portugal",
       "City": "Lisboa",
-      "img": "../../../assets/img/europa2.jpg",
+      "img": "../../../assets/img/cities/lisboa.jpg",
       "Points": "150"
     },
     {
@@ -181,7 +181,7 @@
       "Continent": "Europa",
       "Country": "Suiza",
       "City": "Interlaken",
-      "img": "../../../assets/img/europa2.jpg",
+      "img": "../../../assets/img/cities/interlaken.jpg",
       "Points": "150"
     },
     {
@@ -189,7 +189,7 @@
       "Continent": "Europa",
       "Country": "España",
       "City": "Granada",
-      "img": "../../../assets/img/europa2.jpg",
+      "img": "../../../assets/img/cities/granada.jpg",
       "Points": "150"
     },
     {
@@ -197,7 +197,7 @@
       "Continent": "Europa",
       "Country": "Suiza",
       "City": "Zermatt",
-      "img": "../../../assets/img/europa2.jpg",
+      "img": "../../../assets/img/cities/zermatt.jpg",
       "Points": "150"
     },
     {
@@ -205,7 +205,7 @@
       "Continent": "Europa",
       "Country": "Francia",
       "City": "París",
-      "img": "../../../assets/img/europa2.jpg",
+      "img": "../../../assets/img/cities/paris.jpg",
       "Points": "200"
     },
     {
@@ -213,7 +213,7 @@
       "Continent": "Europa",
       "Country": "Austria",
       "City": "Viena",
-      "img": "../../../assets/img/europa2.jpg",
+      "img": "../../../assets/img/cities/viena.jpg",
       "Points": "180"
     },
     {
@@ -221,7 +221,7 @@
       "Continent": "Europa",
       "Country": "Alemania",
       "City": "Berlín",
-      "img": "../../../assets/img/europa2.jpg",
+      "img": "../../../assets/img/cities/berlin.jpg",
       "Points": "180"
     },
     {
@@ -229,7 +229,7 @@
       "Continent": "Europa",
       "Country": "España",
       "City": "Ibiza",
-      "img": "../../../assets/img/europa2.jpg",
+      "img": "../../../assets/img/cities/ibiza.jpg",
       "Points": "160"
     },
     {
@@ -237,7 +237,7 @@
       "Continent": "Europa",
       "Country": "Islandia",
       "City": "Reykjavik",
-      "img": "../../../assets/img/europa2.jpg",
+      "img": "../../../assets/img/cities/reykjavik.jpg",
       "Points": "150"
     },
     {
@@ -245,7 +245,7 @@
       "Continent": "Europa",
       "Country": "Portugal",
       "City": "El Algarve",
-      "img": "../../../assets/img/europa2.jpg",
+      "img": "../../../assets/img/cities/el-algarve.jpg",
       "Points": "150"
     },
     {
@@ -253,7 +253,7 @@
       "Continent": "Europa",
       "Country": "Reino Unido",
       "City": "Londres",
-      "img": "../../../assets/img/europa2.jpg",
+      "img": "../../../assets/img/cities/londres.jpg",
       "Points": "220"
     },
     {
@@ -261,7 +261,7 @@
       "Continent": "Europa",
       "Country": "Francia",
       "City": "Niza",
-      "img": "../../../assets/img/europa2.jpg",
+      "img": "../../../assets/img/cities/niza.jpg",
       "Points": "150"
     },
     {
@@ -269,7 +269,7 @@
       "Continent": "Europa",
       "Country": "Francia",
       "City": "Chamonix",
-      "img": "../../../assets/img/europa2.jpg",
+      "img": "../../../assets/img/cities/chamonix.jpg",
       "Points": "150"
     },
     {
@@ -277,7 +277,7 @@
       "Continent": "Europa",
       "Country": "Italia",
       "City": "Roma",
-      "img": "../../../assets/img/europa2.jpg",
+      "img": "../../../assets/img/cities/roma.jpg",
       "Points": "200"
     },
     {
@@ -285,7 +285,7 @@
       "Continent": "Europa",
       "Country": "Malta",
       "City": "Malta",
-      "img": "../../../assets/img/europa2.jpg",
+      "img": "../../../assets/img/cities/malta.jpg",
       "Points": "150"
     },
     {
@@ -293,7 +293,7 @@
       "Continent": "Europa",
       "Country": "Austria",
       "City": "Innsbruck",
-      "img": "../../../assets/img/europa2.jpg",
+      "img": "../../../assets/img/cities/inssbruck.jpg",
       "Points": "150"
     },
     {
@@ -301,7 +301,7 @@
       "Continent": "Europa",
       "Country": "España",
       "City": "Madrid",
-      "img": "../../../assets/img/europa2.jpg",
+      "img": "../../../assets/img/cities/madrid.jpg",
       "Points": "200"
     }
   ],
@@ -3029,6 +3029,32 @@
       "age": 34,
       "country": "Colombia",
       "password": "Diana34*",
+      "points": 0,
+      "amadeusAnswers": [],
+      "questionsAnswered": 0
+    },
+    {
+      "id": "354a",
+      "name": "Pepe",
+      "lastName": "Perez",
+      "userName": "Pepe",
+      "email": "c@d.com",
+      "age": 35,
+      "country": "Colombia",
+      "password": "Camilo123*",
+      "points": 200,
+      "amadeusAnswers": [],
+      "questionsAnswered": 0
+    },
+    {
+      "id": "f91a",
+      "name": "José",
+      "lastName": "Piña",
+      "userName": "pepe57",
+      "email": "a@b.com",
+      "age": 25,
+      "country": "Colombia",
+      "password": "Jose123*",
       "points": 0,
       "amadeusAnswers": [],
       "questionsAnswered": 0

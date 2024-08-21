@@ -7,6 +7,7 @@ import { CitiesComponent } from './pages/cities/cities.component';
 import { QuestionsComponent } from './pages/questions/questions.component';
 
 export const routes: Routes = [
+  { path: '', component:HomeComponent },
   { path: 'register', component: RegisterComponent },
   { path: 'login', component: LoginComponent },
   { path: 'amadeus-questions', component: AmadeusQuestionComponent },

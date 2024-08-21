@@ -48,7 +48,7 @@ export class LoginComponent {
     this.usersService.checkIfUserExits(formData.email).subscribe((response) => {
       if (response.length > 0 && response[0].password === formData.password) {
         sessionStorage.setItem('email', formData.email as string);
-        // this.router.navigate(['/home']);
+        this.router.navigate(['']);
       } else {
         alert('Credenciales incorrectas');
       }
