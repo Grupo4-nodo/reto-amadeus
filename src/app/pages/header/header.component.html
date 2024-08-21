@@ -1,1 +1,26 @@
-<p>header works!</p>
+<header class="header">
+  <a class="header__logo" routerLink="/">
+    <img
+      class="header__logo--img"
+      src="../../../assets/img/amadeus-logo.png"
+      alt="amadeus-logo"
+    />
+    <span class="header__logo--text">TRIVIA</span>
+  </a>
+  <section class="header__sesion">
+    <div class="header__sesion__flex" *ngIf="isLogged()">
+      <button class="header__sesion__flex__button" (click)="logout()">
+        <i
+          class="fa-solid fa-right-from-bracket header__sesion__flex__button--icon"
+        ></i>
+      </button>
+      <a class="header__sesion__link" routerLink="/profile">
+        <img
+          class="header__sesion__profile--img"
+          src="../../../assets/img/user1.jpg"
+          alt="profile"
+        />
+      </a>
+    </div>
+  </section>
+</header>
