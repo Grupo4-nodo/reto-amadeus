@@ -4,7 +4,7 @@
             <div class="front">
                 <h2>PREGUNTA AMADEUS</h2>
             </div>
-            <div class="back" id="backpart-1">
+            <div class="back" id="backpart-1" *ngIf="!showInner">
                     <img src="{{questions[currentIndex].img}}" alt="" class="back__imagen--principal" >
                     
                 <div class="back__img--text">Curiosidades</div>
@@ -25,11 +25,14 @@
                     </div>
                 </div>
                 <div *ngIf="showContinue">
-                    <a class="parrafo__siguiente--estilo_segundapag" (click)="nextQuestion()"> CONTINUAR</a>
+                    <a class="parrafo__siguiente--estilo_segundapag" (click)="changeComponent()"> CONTINUAR</a>
                   </div>
                 <div class="div__parrafo__amadeus">
                     <p class="parrafo__amadeus__front ">Conoce mas en <a href="https://amadeus.com" class="parrafo__amadeus__front"> AMADEUS</a></p>
                 </div>
+            </div>
+            <div *ngIf="showInner" class="back">
+                <!--<app-questions (showQuestionEvent)="onDataReceived($event)"></app-questions>-->
             </div>
         </div>
     </div>

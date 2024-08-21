@@ -38,17 +38,14 @@ El objetivo principal de este enfoque era guiar al usuario para que descubriera 
 
 - De manera general: ¿qué fue lo que diseñó?
   Nuestra propuesta se diseñó con el objetivo de fomentar una interacción continua y dinámica con el usuario. La solución desarrollada incluye una interfaz que presenta preguntas informativas sobre ciudades, integrando de manera fluida las preguntas proporcionadas por AMADEUS con preguntas de trivia.
--La interfaz ofrece al usuario diversas opciones de ciudades para explorar y cuenta con un sistema aleatorio de selección de ciudades. Este diseño busca proporcionar una experiencia enriquecedora y personalizada, facilitando la exploración de destinos y la obtención de información relevante de forma amena y envolvente.
+-La interfaz ofrece al usuario diversas opciones de ciudades para explorar y cuenta con un sistema aleatorio de selección de ciudades. Este   diseño busca proporcionar una experiencia enriquecedora y personalizada, facilitando la exploración de destinos y la obtención de información relevante de forma amena y envolvente.
 - Pruebas
 
 ## Evaluación y Análisis
 
-- Evaluación y análisis
-- ¿Cómo le fue en la exploración del tema/pregunta de proyecto que usted decidió examinar?
-- ¿Dónde obtuvo éxito y cómo?
-- ¿Dónde no fue exitoso? ¿Qué falló?, ¿por qué y cómo pudo haber sido diferente?
-- ¿Cómo puede esto ser posible en términos de negocios o económicos?, ¿consideraciones ambientales?
-- Hallazgos importantes
+- ¿Cómo puede esto ser posible en términos de negocios o económicos?
+  el foco del proyecto es la obtencion de informacion de potenciales clientes recolectando datos en cuanto a gustos del ambiente del cliente
+  por otro lado ese no es el unico enfoque ya que al completar el juego se tiene pensado que amadeus pueda dar ciertod
 
 ## Conclusiones finales
 

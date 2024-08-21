@@ -2,8 +2,9 @@ import { CommonModule } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { AmadeusQuestionService } from '../../services/amadeus-questions.service';
 import { firstValueFrom, lastValueFrom } from 'rxjs';
-import { QuestionsComponent } from '../questions/questions.component';
+//import { QuestionsComponent } from '../questions/questions.component';
 import { UsersService } from '../../services/users.service';
+import { Router } from '@angular/router';
 interface questionsData {
   _id: string;
   category: string;
@@ -16,14 +17,21 @@ interface User {
   amadeusAnswers: number[];  
 }
 @Component({
-  imports: [CommonModule],
+  imports: [
+  CommonModule,
+  //QuestionsComponent
+  ],
   standalone: true,
   selector: 'app-amadeus-question',
   templateUrl: './amadeus-question.component.html',
   styleUrl: './amadeus-question.component.scss',
 })
 export class AmadeusQuestionComponent implements OnInit {
-  constructor(private amadeusService: AmadeusQuestionService,  private usersService: UsersService) {}
+  constructor(
+    private amadeusService: AmadeusQuestionService,
+    private usersService: UsersService, 
+    private router:Router
+    ) {}
 
   public infoImgs: any = [];
   public showContinue: boolean = false;
@@ -31,15 +39,14 @@ export class AmadeusQuestionComponent implements OnInit {
   public currentIndex: number = 0;
   public answers: string[] = new Array(11).fill('');
   public userEmail: string = '';
-
+  public showInner: boolean = false;
   
-
   async ngOnInit() {
     // Espera a que el observable devuelto por getQuestion se complete y asigna las preguntas obtenidas a this.questions
     this.questions = await lastValueFrom(this.amadeusService.getQuestion());
-}
+  }
 
-public async placeImg(option: string): Promise<void> {
+  public async placeImg(option: string): Promise<void> {
     // Marca el botón "CONTINUAR" como visible
     this.showContinue = true;
     // Guarda la opción seleccionada en el array de respuestas en la posición actual
@@ -64,14 +71,28 @@ public async placeImg(option: string): Promise<void> {
             console.error('Error al actualizar el usuario:', error);
         }
     }
-}
+  }
+  public changeComponent() {
+    this.showInner = true;
+    this.router.navigate(['/questions'])
 
-public nextQuestion() {
-    // Incrementa el índice de la pregunta actual y asegura que vuelva al inicio cuando se pase el final del array
-    this.currentIndex = (this.currentIndex + 1) % this.questions.length;
-    // Oculta el botón "CONTINUAR" al cambiar a la siguiente pregunta
-    this.showContinue = false;
+  }
+
+  public onDataReceived(data:boolean){
+        this.showInner = data
+        // Incrementa el índice de la pregunta actual y asegura que vuelva al inicio cuando se pase el final del array
+        this.currentIndex = (this.currentIndex + 1) % this.questions.length;
+        // Oculta el botón "CONTINUAR" al cambiar a la siguiente pregunta
+        this.showContinue = false;
+    
+  }  
+
+  public continueCitiesQuestions(){
+
+    this.onDataReceived(false)
+  }
+
+
+
 }
-//sessionStorage.getItem('email')
 //npx json-server src/assets/data/db.json
-}
