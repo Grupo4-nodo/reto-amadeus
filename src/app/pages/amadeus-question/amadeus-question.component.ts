@@ -19,6 +19,7 @@ interface User {
 @Component({
   imports: [
   CommonModule,
+  //edwin si vas a enviarme algo tienes que descomentar la funcion de abajo
   //QuestionsComponent
   ],
   standalone: true,
@@ -72,13 +73,18 @@ export class AmadeusQuestionComponent implements OnInit {
         }
     }
   }
+  // esta es la forma en la que cambio al componente de edwin
   public changeComponent() {
+    // al ser true muestra una parte de edwin
     this.showInner = true;
-    this.router.navigate(['/questions'])
+    //de esta forma cambia al componente de edwin
+    this.router.navigate(['/home'])
+    // aqui si quieres puedes poner una variable que tu tengas que este almacenada en que posicin este 
 
   }
 
   public onDataReceived(data:boolean){
+        // aqui espera el dato en flase de edwin para cambiar de pregunta
         this.showInner = data
         // Incrementa el índice de la pregunta actual y asegura que vuelva al inicio cuando se pase el final del array
         this.currentIndex = (this.currentIndex + 1) % this.questions.length;
@@ -86,9 +92,9 @@ export class AmadeusQuestionComponent implements OnInit {
         this.showContinue = false;
     
   }  
-
+  //Metodo para recibir el dato
   public continueCitiesQuestions(){
-
+    //recojo el dato de edwin
     this.onDataReceived(false)
   }
 

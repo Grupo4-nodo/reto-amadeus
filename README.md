@@ -44,17 +44,21 @@ El objetivo principal de este enfoque era guiar al usuario para que descubriera 
 ## Evaluación y Análisis
 
 - ¿Cómo puede esto ser posible en términos de negocios o económicos?
-  el foco del proyecto es la obtencion de informacion de potenciales clientes recolectando datos en cuanto a gustos del ambiente del cliente
-  por otro lado ese no es el unico enfoque ya que al completar el juego se tiene pensado que amadeus pueda dar ciertod
-
+  El objetivo principal del proyecto es recopilar información sobre clientes potenciales, enfocándose en obtener datos relacionados con sus preferencias en cuanto a su entorno. Sin embargo, este no es el único propósito del proyecto. También se planea que, al completar el juego, Amadeus ofrezca un pequeño porcentaje de millas o un pequeño descuento a los usuarios que adquieran un vuelo o un plan de vacaciones con ellos.
 ## Conclusiones finales
-
-- Lugar del proyecto en el diseño (y otros campos)
-- Pasos siguientes – Si usted sigue trabajando en esto, ¿qué haría enseguida?
-
+- Pasos siguientes 
+Una vez completado el desarrollo del frontend, el siguiente paso es integrar el proyecto con una base de datos. Esta integración permitirá visualizar y gestionar los datos de los clientes de manera eficiente. Además, se podrá enviar ofertas personalizadas a los correos electrónicos de los usuarios, siempre y cuando estos hayan otorgado su consentimiento. La implementación de esta base de datos también permitirá analizar las preferencias de los clientes por edad, proporcionando una visión detallada de los lugares más populares. Este avance no solo mejorará la experiencia del usuario, sino que también aportará un valor significativo a la empresa AMADEUS, fortaleciendo su capacidad para ofrecer servicios más personalizados y efectivos.
 ## Material final
 
 - Referencias
+https://www.klook.com/search/result/?query=japan&spm=Home.TopSearchBar%3Aany%3A%3AMwebMainBanner%3ATopSearchBar.SearchInput&clickId=6e403d8de8
+https://www.buscalibre.com.co/libro-lonely-planet-s-ultimate-travel-quiz-book/9781788681230/p/51610239
+https://www.skyscanner.net/news/skyscanner-everywhere-search-how-to-find-flights-to-anywhere-in-the-world
+https://www.heraldo.es/noticias/aragon/2018/06/06/test-cual-viaje-ideal-1245418-300.html
+https://info.australis.com/content/ic/test-destinaciones-naturaleza
 - Bibliografía
 - Apéndices
+Edwin Gonzalo Restrepo Agudelo
+Camilo Andrés Valencia Devia
+
 >>>>>>> a07211b (commit de documentacion)
