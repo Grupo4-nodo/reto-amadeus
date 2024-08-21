@@ -12,7 +12,6 @@ export const routes: Routes = [
   { path: 'register', component: RegisterComponent },
   { path: 'login', component: LoginComponent },
   { path: 'amadeus-questions', component: AmadeusQuestionComponent },
-  { path: '', component: HomeComponent },
   { path: 'cities', component: CitiesComponent },
   { path: 'questions', component: QuestionsComponent },
   { path: 'profile', component: UserProfileComponent },
