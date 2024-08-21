@@ -60,7 +60,7 @@ export class AmadeusQuestionComponent implements OnInit {
     
     if (questionsCompleted === 'true') {
          // si el usuario ya completó las preguntas, redirige o muestra un mensaje diferente
-        this.router.navigate(['']);
+        this.router.navigate(['/cities']);
          return; // Detiene la ejecución para no cargar el resto del componente
     }
     
@@ -107,9 +107,11 @@ export class AmadeusQuestionComponent implements OnInit {
       localStorage.setItem('questionsCompleted', 'true');
 
       // redirigir al componente de camilo
-      this.router.navigate(['']);
+      
   } else {
       this.showContinue = false; // Oculta el botón "CONTINUAR" si no se han completado todas las preguntas
+      this.router.navigate(['/cities']);
+      this.currentIndex = (this.currentIndex + 1) % this.questions.length;
   }
   }
   //funcion en la que se va almacenar el dato enviado de questions component
@@ -117,7 +119,7 @@ export class AmadeusQuestionComponent implements OnInit {
         // aqui espera el dato en flase de edwin para cambiar de pregunta
         this.showInner = data
         // Incrementa el índice de la pregunta actual y asegura que vuelva al inicio cuando se pase el final del array
-        this.currentIndex = (this.currentIndex + 1) % this.questions.length;
+        
         // oculta el botón "CONTINUAR" al cambiar a la siguiente pregunta
         this.showContinue = false;
     

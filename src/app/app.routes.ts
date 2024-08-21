@@ -14,5 +14,5 @@ export const routes: Routes = [
   { path: 'amadeus-questions', component: AmadeusQuestionComponent },
   { path: 'cities', component: CitiesComponent },
   { path: 'questions', component: QuestionsComponent },
-  { path: 'profile', component: UserProfileComponent },
+  { path: 'profile', component: UserProfileComponent }
 ];

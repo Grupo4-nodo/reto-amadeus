@@ -32,7 +32,7 @@ export class CitiesComponent {
   sendQuestions(city:string) {
     this.sendCity.emit(city);
     this.citiesService.citySend = city;
-    this.router.navigate(['']);
+    this.router.navigate(['/questions']);
   }
   
   @Input()

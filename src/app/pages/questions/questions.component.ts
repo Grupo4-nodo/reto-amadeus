@@ -1,10 +1,10 @@
-import { Component, Input, NgModule, OnInit } from '@angular/core';
+import { Component, inject, Input, NgModule, OnInit } from '@angular/core';
 import { QuestionsService } from '../../services/questions.service';
 import { CommonModule } from '@angular/common';
 import { Questions } from '../../Interfaces/questions.interface';
 import { Router } from '@angular/router';import { publicDecrypt } from 'node:crypto';
-import { CitiesService } from '../../services/cities.service.ts.service';
 import { Cities } from '../../Interfaces/cities.interface';
+import { CitiesService } from '../../services/cities.service';
 
 
 @Component({
@@ -15,12 +15,13 @@ import { Cities } from '../../Interfaces/cities.interface';
   styleUrl: './questions.component.scss'
 })
 export class QuestionsComponent implements OnInit {
+  public citiesService = inject(CitiesService);
   public questions: Questions[] = [];
   public currentIndex: number = 0;
   public contadorRespuestas:number=0;
-  public nameCity: string = 'Playa_del_Carmen';
   public cities: Cities[] = [];
   public image: string = '';
+
 
 
   constructor(private questionService:QuestionsService,private router:Router, private cityService:CitiesService) {}
@@ -40,12 +41,13 @@ export class QuestionsComponent implements OnInit {
     
     else{
       this.router.navigate(['/amadeus-questions/'], {
-        queryParams: { nameCity: this.nameCity, currentIndex: this.currentIndex, contadorRespuestas: this.contadorRespuestas, question: this.questions[this.currentIndex].Question, answer: this.questions[this.currentIndex].Answer, option1: this.questions[this.currentIndex].Options[0], option2: this.questions[this.currentIndex].Options[1], option3: this.questions[this.currentIndex].Options[2], option4: this.questions[this.currentIndex].Options[3] },
+        
      });
       console.log('Regresa a amadeus-question-preguntamal') 
     }
     if (this.contadorRespuestas>=3) {
       console.log('Regresa a amadeus-question-maxrespuesta')
+      this.router.navigate(['/amadeus-questions/']);
       
     }
     console.log(this.currentIndex)
@@ -58,16 +60,15 @@ export class QuestionsComponent implements OnInit {
     this.questionService.getQuestions().subscribe((data) => {
       console.log(data);
       this.questions = data as Questions[];
-      this.questions = this.questions.filter((question) => question.City === this.nameCity);
+      this.questions = this.questions.filter((question) => question.City === this.citiesService.citySend);
     });
   }
   getCitys() {
     this.cityService.getCities().subscribe((data) => {
       console.log(data);
       this.cities = data as Cities[];
-      this.image = this.cities.filter((city) => city.city === this.nameCity)[0].img;
-
-   
+      this.image = this.cities.filter((city) => city.city === this.citiesService.citySend)[0].img;
+      console.log(this.image);
     });
   }
 }
