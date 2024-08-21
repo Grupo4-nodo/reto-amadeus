@@ -13,5 +13,4 @@ export const routes: Routes = [
   {path: '', component:HomeComponent},
   {path: 'cities', component:CitiesComponent},
   {path: 'questions', component:QuestionsComponent},
-  {path: 'home', component:HomeComponent}
 ];
