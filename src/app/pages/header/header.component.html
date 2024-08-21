@@ -8,16 +8,6 @@
     <span class="header__logo--text">TRIVIA</span>
   </a>
   <section class="header__sesion">
-    <div class="header__sesion__flex" *ngIf="!isLogged()">
-      <a class="header__sesion__link" routerLink="/register"
-        ><span class="header__sesion__link--text">Registrarse</span
-        ><i class="fa-solid fa-user-plus header__sesion__link--icon"></i
-      ></a>
-      <a class="header__sesion__link" routerLink="/login"
-        ><span class="header__sesion__link--text">Inicia Sesión</span
-        ><i class="fa-solid fa-right-to-bracket header__sesion__link--icon"></i
-      ></a>
-    </div>
     <div class="header__sesion__flex" *ngIf="isLogged()">
       <button class="header__sesion__flex__button" (click)="logout()">
         <i
