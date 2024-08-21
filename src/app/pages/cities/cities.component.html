@@ -1,7 +1,20 @@
-<div class="home">
-  <div class="container">
-    <app-title></app-title>
-    <app-cardCities></app-cardCities>
+
+<div class="cities">
+  <h1 class="cities__title">Selecciona una ciudad</h1>
+  <div class="container">  
+    <a class="card" 
+      *ngFor="let item of cities"
+      [ngClass]="{'card-hover': item.Points == 0}"
+      >
+      <img src="{{item.img}}" alt="Card Image">
+      <div class="card-content">
+          <h2 class="card-title">{{item.City}} - {{item.Country}}</h2>
+          <div class="card-spans">
+              <span>{{item.Continent}}</span>
+              <button (click)="sendQuestions(item.City)">Jugar</button>
+          </div>
+      </div>
+    </a>
   </div>
 </div>
 

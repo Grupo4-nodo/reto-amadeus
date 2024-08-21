@@ -1,21 +1,99 @@
-.home {
+@import "../../../assets/sass-styles/globals";
+
+.cities{
   background-image: linear-gradient(
     rgba(100,209,235, 0.6),
     rgba(100,209,235, 0.6)
   ), url(../../../assets/img/world-map.jpg);
   background-position: center;
   background-size: cover;
-  //padding: 30px 0;
+  padding: 30px 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  
+  &__title {
+    text-align: center;
+    color: #323232;
+    font-family: "Amadeus-Medium";  
+  }
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  //gap: 5px;
+  width: 550px;
+  height: 550px;
+  background-color: rgba(64,64,64, 0.8);
+  border-radius: 15px;
+  overflow-y: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 
-  & .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 60%;
-    height: auto;
-    margin: 0 20%;
-    background-color: rgba(64,64,64, 0.6);
-    border-radius: 15px;
+  .container::-webkit-scrollbar {
+    display: none;
+  }
+}
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 200px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  margin: 15px;
+}
+.card-hover {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 200px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  margin: 15px;
+
+  &:hover{
+    background-color: rgb(216, 216, 216);
+    cursor: pointer;
+  }
+}
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px 8px 0 0;
+}
+.card-content {
+  padding: 16px;
+}
+.card-title {
+  font-size: 1.2em;
+  margin-bottom: 8px;
+  font-family: 'Amadeus-Regular';
+  font-weight: 200;
+}
+.card-spans span {
+  display: inline-block;
+  margin-right: 8px;
+  padding: 4px 8px;
+  background-color: #f0f0f0;
+  border-radius: 4px;
+  font-family: 'Amadeus-Regular';
+  font-size: 0.8em;
+}
+
+.card-spans button {
+  background-color: #0c66e1;
+  color: white;
+  border: none;
+  padding: 4px 8px;
+  width: 90px;
+  height: 25px;
+  border-radius: 1rem;
+
+  &:hover {
+    background-color: #2a77e2;
+    cursor: pointer;
   }
 }
