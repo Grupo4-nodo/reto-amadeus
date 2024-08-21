@@ -1,0 +1,66 @@
+@import "../../../assets/sass-styles/globals";
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 10vh;
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  top: 0;
+  padding: 0 0.5rem;
+  align-items: center;
+  z-index: 1000;
+
+  &__logo {
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+    text-decoration: none;
+
+    &--img {
+      width: 8.5rem;
+    }
+
+    &--text {
+      font-family: "Amadeus-Bold";
+      color: #666c6d;
+      font-size: 1.8rem;
+    }
+  }
+
+  &__sesion {
+    font-family: "Amadeus-Regular";
+    display: flex;
+    align-items: center;
+
+    &__flex {
+      display: flex;
+      gap: 0.5rem;
+      align-items: center;
+
+      &__button {
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+
+        &--icon {
+          font-size: 1.2rem;
+        }
+      }
+    }
+
+    &__link {
+      cursor: pointer;
+      font-size: 0.9rem;
+      text-decoration: none;
+      color: #666c6d;
+    }
+
+    &__profile--img {
+      height: 3rem;
+      border-radius: 100%;
+      display: block;
+    }
+  }
+}

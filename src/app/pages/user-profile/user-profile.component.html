@@ -1,1 +1,19 @@
-<p>user-profile works!</p>
+<main class="main">
+  <section class="profile">
+    <div class="profile__avatar">
+      <img
+        class="profile__avatar--img"
+        src="../../../assets/img/user1.jpg"
+        alt="User Avatar"
+      />
+    </div>
+    <div class="profile__info">
+      <h2>{{ dataUser.name + " " + dataUser.lastName }}</h2>
+      <p>{{ dataUser.email }}</p>
+      <p>{{ dataUser.country }}</p>
+      <p>{{ dataUser.age }}</p>
+      <h3>Logros y Puntos</h3>
+      <p>{{ dataUser.points }}</p>
+    </div>
+  </section>
+</main>
