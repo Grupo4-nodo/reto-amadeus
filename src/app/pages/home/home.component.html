@@ -1,7 +1,22 @@
+
 <div class="home">
+  <h1 class="title">¿Cuál es tu próximo destino?</h1>
   <div class="container">
-    <app-title></app-title>
-    <app-card></app-card>
-    <app-card></app-card>
+    <div class="container__logo">
+      <img src="../../../assets/img/amadeus-logo.png" alt="">
+      <h2>TRIVIA</h2>
+    </div>
+    <div class="container__world">
+      <img src="../../../assets/img/world-icon.png" alt="">
+    </div>
+    <div class="container__btn">
+      <button type="button" (click)="checkUser()">Jugar</button>
+      <!-- <button type="button">Reglas</button> -->
+    </div>
+    <div class="container__logReg">
+      <a *ngIf="!activeUser" routerLink="./login">Iniciar Sesión</a>
+      <a *ngIf="!activeUser" routerLink="./register">Registrarme</a>
+    </div>
   </div>
 </div>
+

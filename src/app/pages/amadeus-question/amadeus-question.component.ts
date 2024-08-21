@@ -2,6 +2,7 @@ import { CommonModule } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { AmadeusQuestionService } from '../../services/amadeus-questions.service';
 import { firstValueFrom, lastValueFrom } from 'rxjs';
+//linea si edwin va a enviarme un dato
 //import { QuestionsComponent } from '../questions/questions.component';
 import { UsersService } from '../../services/users.service';
 import { Router } from '@angular/router';
@@ -19,6 +20,7 @@ interface User {
 @Component({
   imports: [
   CommonModule,
+  //edwin si vas a enviarme algo tienes que descomentar la funcion de abajo
   //QuestionsComponent
   ],
   standalone: true,
@@ -32,18 +34,37 @@ export class AmadeusQuestionComponent implements OnInit {
     private usersService: UsersService, 
     private router:Router
     ) {}
-
+  //no hace nada pero hasta no hacer pruebas no la borro
   public infoImgs: any = [];
+  //como lo dice el nombre variable que deside mostrar el boton de continuar
   public showContinue: boolean = false;
+  //variable para almacenar las preguntas
   public questions: any;
+  //realiza el seguimiento de las preguntas
   public currentIndex: number = 0;
+  // variable que guarda las respuestas del usuario
   public answers: string[] = new Array(11).fill('');
+   //no hace nada pero hasta no hacer pruebas no la borro
   public userEmail: string = '';
+  //es una variable que decide mostrar otro contenido 
   public showInner: boolean = false;
+  //esta es la variable que se va a guardar en el localstorage para verificar si todas  las preguntas estan respondidas
+  public allQuestionsAnswered: boolean = false;
   
   async ngOnInit() {
-    // Espera a que el observable devuelto por getQuestion se complete y asigna las preguntas obtenidas a this.questions
+    // espera a que el observable devuelto por getQuestion se complete y asigna las preguntas obtenidas a this.questions
     this.questions = await lastValueFrom(this.amadeusService.getQuestion());
+
+     // verifica si el usuario ya completó todas las preguntas
+    const questionsCompleted = localStorage.getItem('questionsCompleted');
+    
+    if (questionsCompleted === 'true') {
+         // si el usuario ya completó las preguntas, redirige o muestra un mensaje diferente
+        this.router.navigate(['']);
+         return; // Detiene la ejecución para no cargar el resto del componente
+    }
+    
+     // si no ha completado las preguntas, continúa con la lógica normal (ya la tienes)
   }
 
   public async placeImg(option: string): Promise<void> {
@@ -72,26 +93,40 @@ export class AmadeusQuestionComponent implements OnInit {
         }
     }
   }
+  // esta es la forma en la que cambio al componente de edwin
   public changeComponent() {
+    // al cambiar la variable true despliega el componente al que se reditige 
     this.showInner = true;
-    this.router.navigate(['/questions'])
+    //de esta forma cambia al componente de edwin
+    
+    // verifica si todas las preguntas han sido respondidas
+    if (this.currentIndex >= this.questions.length) {
+      this.allQuestionsAnswered = true;
 
+      // guardar en localStorage que el usuario ha completado todas las preguntas
+      localStorage.setItem('questionsCompleted', 'true');
+
+      // redirigir al componente de camilo
+      this.router.navigate(['']);
+  } else {
+      this.showContinue = false; // Oculta el botón "CONTINUAR" si no se han completado todas las preguntas
   }
-
+  }
+  //funcion en la que se va almacenar el dato enviado de questions component
   public onDataReceived(data:boolean){
+        // aqui espera el dato en flase de edwin para cambiar de pregunta
         this.showInner = data
         // Incrementa el índice de la pregunta actual y asegura que vuelva al inicio cuando se pase el final del array
         this.currentIndex = (this.currentIndex + 1) % this.questions.length;
-        // Oculta el botón "CONTINUAR" al cambiar a la siguiente pregunta
+        // oculta el botón "CONTINUAR" al cambiar a la siguiente pregunta
         this.showContinue = false;
     
   }  
-
+  //funcion para recibir el dato de questions component
   public continueCitiesQuestions(){
-
+    //recojo el dato de questions component
     this.onDataReceived(false)
   }
-
 
 
 }

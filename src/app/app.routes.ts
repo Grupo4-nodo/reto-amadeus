@@ -8,6 +8,7 @@ import { QuestionsComponent } from './pages/questions/questions.component';
 import { UserProfileComponent } from './pages/user-profile/user-profile.component';
 
 export const routes: Routes = [
+  { path: '', component: HomeComponent },
   { path: 'register', component: RegisterComponent },
   { path: 'login', component: LoginComponent },
   { path: 'amadeus-questions', component: AmadeusQuestionComponent },
