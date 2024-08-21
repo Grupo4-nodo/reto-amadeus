@@ -13,7 +13,14 @@ export class HeaderComponent {
   constructor(private router: Router) {}
 
   isLogged(): boolean {
-    return !!sessionStorage.getItem('email');
+    if (
+      typeof window !== 'undefined' &&
+      typeof window.sessionStorage !== 'undefined'
+    ) {
+      const storedValue = window.sessionStorage.getItem('email');
+      return storedValue !== null;
+    }
+    return false;
   }
 
   logout() {
