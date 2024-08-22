@@ -12,9 +12,13 @@
 .main {
   height: 100vh;
   overflow: hidden;
-  font-family: Arial, Helvetica, sans-serif;
-  background-image: url(../../../assets/img/world-map.jpg);
-  background-repeat: no-repeat;
+  font-family: "Amadeus-Regular";
+  background-image: linear-gradient(
+      rgba(103, 168, 209, 0.844),
+      rgba(103, 168, 209, 0.844)
+    ),
+    url(../../../assets/img/world-map.jpg);
+  background-position: center;
   background-size: cover;
   color: rgb(211, 211, 211);
   display: flex;
@@ -47,22 +51,22 @@ de modo en que se buggea un poco. si lo coloco aca no va a moverse de otra forma
 }
 /* aca ingreso el absolute para que las dos caras queden en el mismo lugr y coloco el visibility para que no se vea a otr cara no mas al voltearlo*/
 .front,
-.back{
-    width: 100%;
-    height: 100%;
-    border-radius: 2rem;
-    position: absolute;
-    backface-visibility: hidden;
+.back {
+  width: 100%;
+  height: 100%;
+  border-radius: 2rem;
+  position: absolute;
+  backface-visibility: hidden;
 }
-.front{
-    display: flex;
-    background-color: rgb(64, 64, 64, 0.7);
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-        & h2{
-            margin-bottom: 20px;
-        }
+.front {
+  display: flex;
+  background-color: rgb(64, 64, 64, 0.7);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  & h2 {
+    margin-bottom: 20px;
+  }
 }
 /*le quita el estilo al link de amadeus y se aleja un poco de las imagenes*/
 .parrafo__amadeus__front {
@@ -98,7 +102,6 @@ de modo en que se buggea un poco. si lo coloco aca no va a moverse de otra forma
   background-color: #0c66e1;
   margin-left: 19px;
   margin-top: 53%;
-  padding-top: 5px;
   display: flex;
   position: absolute;
   border-radius: 10px;
@@ -109,10 +112,14 @@ de modo en que se buggea un poco. si lo coloco aca no va a moverse de otra forma
 }
 /*margin general*/
 .back__margin {
-  margin-top: 6px;
+  margin-top: 3px;
+  font-size: 1rem;
 }
 .margin__lorem {
-  margin-top: 30px;
+  margin-top: 20px;
+  padding: 0 8px;
+  text-align: justify;
+  font-size: 0.95rem;
 }
 /*ubica las imagenes a selecionar junto la animacion*/
 .back__imganes--respuestas {
@@ -124,9 +131,8 @@ de modo en que se buggea un poco. si lo coloco aca no va a moverse de otra forma
 .back__imagenes--style {
   display: flexbox;
   width: 70%;
-  height: 20px;
   border-radius: 6px;
-  margin-top: 10px;
+  margin-top: 5px;
   background-color: #0c66e1;
   margin-left: 15%;
 }
@@ -153,7 +159,7 @@ de modo en que se buggea un poco. si lo coloco aca no va a moverse de otra forma
   width: 130px;
   text-align: center;
   justify-content: center;
-  margin-left: 28%;
+  margin: auto;
   cursor: pointer;
   text-decoration: none;
   font-weight: 600;

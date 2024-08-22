@@ -72,6 +72,9 @@ export class QuestionsComponent implements OnInit {
     this.cityService.getCities().subscribe({
       next: (data) => {
       this.cities = data as Cities[];
+      this.image = this.cities.filter((city) => city.city === this.nameCity)[0].img;
+
+   
       this.cities.forEach(
         (city) =>{
           if(city.City === this.citiesService.citySend) {

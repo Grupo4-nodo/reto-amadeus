@@ -1,41 +1,65 @@
 <div class="main" *ngIf="!showInner">
-    <div class="container">
-        <div class="card">
-            <div class="front">
-                <h2>PREGUNTA AMADEUS</h2>
+  <div class="container">
+    <div class="card">
+      <div class="front">
+        <h2>PREGUNTA AMADEUS</h2>
+      </div>
+      <div class="back" id="backpart-1">
+        <img
+          src="{{ questions[currentIndex].img }}"
+          alt=""
+          class="back__imagen--principal"
+        />
+
+        <div class="back__img--text">Curiosidades</div>
+        <p class="margin__lorem">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo
+          alias amet iste doloribus aut accusantium dignissimos rem id
+          repudiandae nemo.
+        </p>
+        <div class="preguntas__container" *ngIf="!showContinue">
+          <h3 class="back__margin">Pregunta</h3>
+          <p class="back__margin">{{ questions[currentIndex].question }}</p>
+          <div class="back__imganes--respuestas">
+            <div class="back__imagenes--style">
+              <p (click)="placeImg(questions[currentIndex].options[0])">
+                {{ questions[currentIndex].options[0] }}
+              </p>
             </div>
-            <div class="back" id="backpart-1" >
-                    <img src="{{questions[currentIndex].img}}" alt="" class="back__imagen--principal" >
-                    
-                <div class="back__img--text">Curiosidades</div>
-                    <p class="margin__lorem">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo alias amet iste doloribus aut accusantium dignissimos rem id repudiandae nemo.</p>
-                <div class="preguntas__container" *ngIf="!showContinue">
-                    <h3 class="back__margin">pregunta</h3>
-                    <p class="back__margin"> {{questions[currentIndex].question}} </p>
-                    <div class="back__imganes--respuestas">
-                        <div  class="back__imagenes--style">
-                            <p (click)="placeImg(questions[currentIndex].options[0])">{{ questions[currentIndex].options[0] }}</p>
-                        </div>
-                        <div class="back__imagenes--style">
-                            <p (click)="placeImg(questions[currentIndex].options[1])">{{ questions[currentIndex].options[1] }}</p>
-                        </div>
-                        <div class="back__imagenes--style">
-                            <p (click)="placeImg(questions[currentIndex].options[2])">{{ questions[currentIndex].options[2] }}</p>
-                        </div>
-                    </div>
-                </div>
-                <div *ngIf="showContinue">
-                    <a class="parrafo__siguiente--estilo_segundapag" (click)="changeComponent()"> CONTINUAR</a>
-                </div>
-                <div class="div__parrafo__amadeus">
-                    <p class="parrafo__amadeus__front ">Conoce mas en <a href="https://amadeus.com" class="parrafo__amadeus__front"> AMADEUS</a></p>
-                </div>
+            <div class="back__imagenes--style">
+              <p (click)="placeImg(questions[currentIndex].options[1])">
+                {{ questions[currentIndex].options[1] }}
+              </p>
             </div>
-            <!--la funcion showinner es la que hace que desaparesca mi parte cuando me la envia con false-->
-            <div *ngIf="showInner" class="back">
-                <!--esta es la manera en que  recojo el dato de edwin-->
-                <!--<app-questions (showQuestionEvent)="onDataReceived($event)"></app-questions>-->
+            <div class="back__imagenes--style">
+              <p (click)="placeImg(questions[currentIndex].options[2])">
+                {{ questions[currentIndex].options[2] }}
+              </p>
             </div>
+          </div>
         </div>
+        <div *ngIf="showContinue">
+          <a
+            class="parrafo__siguiente--estilo_segundapag"
+            (click)="changeComponent()"
+          >
+            CONTINUAR</a
+          >
+        </div>
+        <div class="div__parrafo__amadeus">
+          <p class="parrafo__amadeus__front">
+            Conoce mas en
+            <a href="https://amadeus.com" class="parrafo__amadeus__front">
+              AMADEUS</a
+            >
+          </p>
+        </div>
+      </div>
+      <!--la funcion showinner es la que hace que desaparesca mi parte cuando me la envia con false-->
+      <div *ngIf="showInner" class="back">
+        <!--esta es la manera en que  recojo el dato de edwin-->
+        <!--<app-questions (showQuestionEvent)="onDataReceived($event)"></app-questions>-->
+      </div>
     </div>
+  </div>
 </div>

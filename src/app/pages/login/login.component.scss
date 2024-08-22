@@ -12,7 +12,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 2rem;
+  gap: 0.5rem;
   align-items: center;
   background-image: url("../../../assets/img/world-map.jpg");
   background-size: cover;
@@ -34,6 +34,7 @@
     text-align: center;
     color: #323232;
     font-family: "Amadeus-Medium";
+    font-size: 1.84rem;
   }
 
   &__form {
@@ -48,8 +49,8 @@
   }
 
   &__avatar {
-    width: 6rem;
-    height: 6rem;
+    width: 5rem;
+    height: 5rem;
     border-radius: 100%;
     align-self: center;
 
