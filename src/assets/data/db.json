@@ -3043,7 +3043,19 @@
       "country": "Colombia",
       "password": "Camilo123*",
       "points": 200,
-      "amadeusAnswers": [],
+      "amadeusAnswers": [
+        "Playa",
+        "Nacional",
+        "Caluroso",
+        "Sí, prefiero clima seco",
+        "Deportes y aventuras",
+        "Sí, es muy importante para mí",
+        "Hotel de lujo",
+        "Centro de la ciudad",
+        "Menos de una semana",
+        "1-2 días",
+        "Menos de 30 años"
+      ],
       "questionsAnswered": 0
     },
     {
