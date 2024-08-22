@@ -86,15 +86,15 @@ export class AmadeusQuestionComponent implements OnInit {
     console.log('Respuesta guardada:', this.answers);
     
     // Obtiene el email del usuario desde sessionStorage en lugar de localStorage
-    const email = sessionStorage.getItem('userEmail'); 
+    const email = sessionStorage.getItem('email'); 
     if (email) {
       
         const users = await firstValueFrom(this.usersService.getUsers());
         // Espera a que el observable devuelto por checkIfUserExits se complete y obtiene los datos del usuario
-        const user = users.find((user:any)=> user.email === email )  
+        const user = users.find((user:any) => user.email === email )
         if (user && typeof user.id === 'string') {
           // Espera a que el observable devuelto por editUser se complete y actualiza el array amadeusAnswers del usuario
-          this.usersService.editUser(user.id, { amadeusAnswers: this.answers }).pipe(
+          this.usersService.editUser(user.id, { "amadeusAnswers": this.answers }).pipe(
             catchError((error) => {
               console.error('Error al actualizar el usuario:', error);
               throw error;

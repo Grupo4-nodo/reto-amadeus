@@ -3017,7 +3017,9 @@
       "country": "Colombia",
       "password": "Marlon20*",
       "points": 0,
-      "amadeusAnswers": [],
+      "amadeusAnswers": [
+        1
+      ],
       "questionsAnswered": 0
     },
     {
@@ -3043,7 +3045,17 @@
       "country": "Colombia",
       "password": "Camilo123*",
       "points": 200,
-      "amadeusAnswers": [],
+      "amadeusAnswers": [
+        "Ciudad",
+        "Nacional",
+        "Frío",
+        "Sí, prefiero clima seco",
+        "Deportes y aventuras",
+        "Sí, es muy importante para mí",
+        "Hotel de lujo",
+        "Centro de la ciudad",
+        "Menos de una semana"
+      ],
       "questionsAnswered": 0
     },
     {
