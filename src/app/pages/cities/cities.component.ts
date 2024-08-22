@@ -25,7 +25,6 @@ export class CitiesComponent {
   @Input() cities:any = []
   async ngOnInit() {
     this.cities = await lastValueFrom(this.citiesService.getCities());
-    console.log(this.cities);
   }
   
   @Output() sendCity = new EventEmitter<string>();
