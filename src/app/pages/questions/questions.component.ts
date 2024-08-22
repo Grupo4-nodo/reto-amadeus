@@ -1,9 +1,10 @@
 import { Component, inject, Input, NgModule, OnInit } from '@angular/core';
 import { QuestionsService } from '../../services/questions.service';
 import { CommonModule } from '@angular/common';
-import { Questions } from '../../Interfaces/questions.interface';
-import { Router } from '@angular/router';import { publicDecrypt } from 'node:crypto';
-import { Cities } from '../../Interfaces/cities.interface';
+import { Questions } from '../../interfaces/questions.interface';
+import { Router } from '@angular/router';
+import { publicDecrypt } from 'node:crypto';
+import { Cities } from '../../interfaces/cities.interface';
 import { CitiesService } from '../../services/cities.service';
 
 
@@ -24,7 +25,11 @@ export class QuestionsComponent implements OnInit {
 
 
 
-  constructor(private questionService:QuestionsService,private router:Router, private cityService:CitiesService) {}
+  constructor(
+    private questionService:QuestionsService,
+    private router:Router, 
+    private cityService:CitiesService
+  ) {}
 
   ngOnInit() {
     this.getData()
@@ -42,7 +47,7 @@ export class QuestionsComponent implements OnInit {
     else{
       this.router.navigate(['/amadeus-questions/'], {
         
-     });
+    });
       console.log('Regresa a amadeus-question-preguntamal') 
     }
     if (this.contadorRespuestas>=3) {
@@ -58,19 +63,29 @@ export class QuestionsComponent implements OnInit {
 //@Input()
   getData() {
     this.questionService.getQuestions().subscribe((data) => {
-      console.log(data);
       this.questions = data as Questions[];
       this.questions = this.questions.filter((question) => question.City === this.citiesService.citySend);
     });
   }
+  
   getCitys() {
-    this.cityService.getCities().subscribe((data) => {
-      console.log(data);
+    this.cityService.getCities().subscribe({
+      next: (data) => {
       this.cities = data as Cities[];
-      this.image = this.cities.filter((city) => city.city === this.citiesService.citySend)[0].img;
-      console.log(this.image);
+      this.cities.forEach(
+        (city) =>{
+          if(city.City === this.citiesService.citySend) {
+            this.image = city.img;
+          }
+        })
+      },
+      error: (err) => {
+        console.log(err);
+      }
     });
   }
-}
+  }
+  //this.image = this.cities.filter((city) => city.city === this.citiesService.citySend)[0].img;
+  //console.log(this.image);
 
 
