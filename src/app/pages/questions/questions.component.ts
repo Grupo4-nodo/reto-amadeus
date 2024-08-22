@@ -19,6 +19,7 @@ export class QuestionsComponent implements OnInit {
   public questions: Questions[] = [];
   public currentIndex: number = 0;
   public contadorRespuestas:number=0;
+  public nameCity: string = 'Playa_del_Carmen';
   public cities: Cities[] = [];
   public image: string = '';
 
@@ -67,8 +68,9 @@ export class QuestionsComponent implements OnInit {
     this.cityService.getCities().subscribe((data) => {
       console.log(data);
       this.cities = data as Cities[];
-      this.image = this.cities.filter((city) => city.city === this.citiesService.citySend)[0].img;
-      console.log(this.image);
+      this.image = this.cities.filter((city) => city.city === this.nameCity)[0].img;
+
+   
     });
   }
 }
