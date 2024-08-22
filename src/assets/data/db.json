@@ -3069,8 +3069,16 @@
       "country": "colombia",
       "password": "Juan123*",
       "points": 0,
-      "amadeusAnswers": [],
+      "amadeusAnswers": [
+        "empanada"
+      ],
       "questionsAnswered": 0
+    },
+    {
+      "id": "6a03",
+      "amadeusAnswers": [
+        "empanada"
+      ]
     }
   ],
   "amadeus-questions": [
@@ -3089,7 +3097,7 @@
     {
       "_id": "2",
       "category": "1",
-      "question": "¿Te gustaría explorar un destino internacional onacional?",
+      "question": "¿Te gustaría explorar un destino internacional o nacional?",
       "options": [
         "Internacional",
         "Nacional",
@@ -3205,6 +3213,18 @@
       ],
       "img": "https://cursosmultimedia.es/wp-content/uploads/2021/03/edades.png",
       "id": "fa3a"
+    },
+    {
+      "_id": "12",
+      "category": "6",
+      "question": "h",
+      "options": [
+        "h",
+        "h",
+        "h"
+      ],
+      "img": "https://cursosmultimedia.es/wp-content/uploads/2021/03/edades.png",
+      "id": "fa4q"
     }
   ]
 }
