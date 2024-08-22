@@ -3017,9 +3017,7 @@
       "country": "Colombia",
       "password": "Marlon20*",
       "points": 0,
-      "amadeusAnswers": [
-        1
-      ],
+      "amadeusAnswers": [],
       "questionsAnswered": 0
     },
     {
@@ -3054,7 +3052,9 @@
         "Sí, es muy importante para mí",
         "Hotel de lujo",
         "Centro de la ciudad",
-        "Menos de una semana"
+        "Menos de una semana",
+        "1-2 días",
+        "30-50 años"
       ],
       "questionsAnswered": 0
     },

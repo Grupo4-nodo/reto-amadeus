@@ -17,6 +17,7 @@ export class RecomendationComponent {
     if (aumentQuestion) {
         aumentQuestion = String(Number(aumentQuestion) + 1);
         sessionStorage.setItem('questionsIndex', aumentQuestion);
+        console.log(sessionStorage);
         this.router.navigate(['/cities']);
     }
 }

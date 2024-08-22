@@ -45,20 +45,4 @@ export class CitiesComponent {
       }
     })
   }
-
-  /* userPoints = this.dataUser.points;
-  cityPoints = this.cities.Points;
-  
-  buyCity(id:number){
-    console.log(this.userPoints)
-    console.log(this.cityPoints)
-    if(this.userPoints >= this.cityPoints){
-      this.cities.Points = 0
-      this.citiesService.updateCity(id, this.cityPoints).subscribe({
-        next: (response) => {
-          console.log(response)
-        }
-      })
-    }
-  } */
 }
