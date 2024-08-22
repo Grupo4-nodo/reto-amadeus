@@ -1,1 +1,35 @@
-<p>questions works!</p>
+<main class="questions">
+  <div class="question-container">
+    <h2 class="question-title">{{questions[currentIndex]?.Question}}</h2>
+    <div class="question-image">
+      <img src="{{image}}" alt="" />
+    </div>
+
+ <!--   <div class="question-options">
+      <div *ngIf="questions[currentIndex].QuestionType == 2 ">
+        <button (click)="sentAnswer('0')">{{questions[currentIndex].Options[0]}}</button>
+        <button (click)="sentAnswer('1')">{{questions[currentIndex].Options[1]}}</button>
+      </div>
+      <div *ngIf="questions[currentIndex].QuestionType == 1">
+        <button (click)="sentAnswer('0')">{{questions[currentIndex].Options[0]}}</button>
+        <button (click)="sentAnswer('1')">{{questions[currentIndex].Options[1]}}</button>
+        <button (click)="sentAnswer('2')">{{questions[currentIndex].Options[2]}}</button>
+      </div> 
+    </div>-->
+    
+
+    <div class="question-options">
+      <div *ngFor="let item of questions[currentIndex]?.Options; index as i ">
+        <button (click)="sentAnswer(i+'')">{{item}}</button>
+      </div>
+
+    </div>
+
+    <div class="question-footer">
+      <p class="question-text">
+        
+      </p>
+    </div>
+  </div>
+</main>
+

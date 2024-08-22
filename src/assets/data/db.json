@@ -5,7 +5,7 @@
       "Continent": "América",
       "Country": "México",
       "City": "Playa del Carmen",
-      "img": "../../../assets/img/america2.jpg",
+      "img": "../../../assets/img/cities/playa-del-carmen.jpg",
       "Points": "0"
     },
     {
@@ -251,7 +251,7 @@
     {
       "id": "32",
       "Continent": "Europa",
-      "Country": "Reino Unido",
+      "Country": "Reino_Unido",
       "City": "Londres",
       "img": "../../../assets/img/cities/londres.jpg",
       "Points": "220"
@@ -309,7 +309,7 @@
     {
       "id": "1",
       "Continent": "América",
-      "City": "Playa_del_Carmen",
+      "City": "Playa del Carmen",
       "Question": "En que parte de mexico queda playa del Carmen?",
       "QuestionType": "1",
       "Options": [
@@ -323,7 +323,7 @@
     {
       "id": "2",
       "Continent": "América",
-      "City": "Playa_del_Carmen",
+      "City": "Playa del Carmen",
       "Question": "¿Qué es la 'Quinta Avenida' en Playa del Carmen?",
       "QuestionType": "1",
       "Options": [
@@ -337,7 +337,7 @@
     {
       "id": "3",
       "Continent": "América",
-      "City": "Playa_del_Carmen",
+      "City": "Playa del Carmen",
       "Question": "¿Cuál es el nombre del aeropuerto que sirve a Playa del Carmen?",
       "QuestionType": "1",
       "Options": [
@@ -351,7 +351,7 @@
     {
       "id": "4",
       "Continent": "América",
-      "City": "Playa_del_Carmen",
+      "City": "Playa del Carmen",
       "Question": "¿Cuál es el nombre de la famosa calle peatonal que es un centro de actividad en Playa del Carmen?",
       "QuestionType": "1",
       "Options": [
@@ -365,7 +365,7 @@
     {
       "id": "5",
       "Continent": "América",
-      "City": "Playa_del_Carmen",
+      "City": "Playa del Carmen",
       "Question": "¿Qué tipo de vida nocturna se puede encontrar en Playa del Carmen?",
       "QuestionType": "1",
       "Options": [
@@ -374,7 +374,7 @@
         "Casinos y salas de juego"
       ],
       "Answer": "1",
-      "ref": "https://www.tripadvisor.co/Attractions-g150812-Activities-c20-Playa_del_Carmen_Yucatan_Peninsula.html"
+      "ref": "https://www.tripadvisor.co/Attractions-g150812-Activities-c20-Playa del Carmen_Yucatan_Peninsula.html"
     },
     {
       "id": "6",
@@ -449,7 +449,7 @@
     {
       "id": "11",
       "Continent": "América",
-      "City": "Rio_de_Janeiro",
+      "City": "Rio de Janeiro",
       "Question": "¿Cuál es el nombre del famoso monumento de Cristo que se encuentra en Río de Janeiro y es considerado una de las Nuevas Siete Maravillas del Mundo?",
       "QuestionType": "1",
       "Options": [
@@ -463,7 +463,7 @@
     {
       "id": "12",
       "Continent": "América",
-      "City": "Rio_de_Janeiro",
+      "City": "Rio de Janeiro",
       "Question": "¿Qué playa de Río de Janeiro es conocida por su vibrante vida nocturna y eventos deportivos?",
       "QuestionType": "1",
       "Options": [
@@ -472,12 +472,12 @@
         "Playa de Leblon"
       ],
       "Answer": "1",
-      "ref": "https://www.tripadvisor.com/Attraction_Review-g303506-d317264-Reviews-Copacabana_Beach-Rio_de_Janeiro_State_of_Rio_de_Janeiro.html"
+      "ref": "https://www.tripadvisor.com/Attraction_Review-g303506-d317264-Reviews-Copacabana_Beach-Rio de Janeiro_State_of_Rio de Janeiro.html"
     },
     {
       "id": "13",
       "Continent": "América",
-      "City": "Rio_de_Janeiro",
+      "City": "Rio de Janeiro",
       "Question": "¿Qué famoso estadio de fútbol en Río de Janeiro ha sido sede de numerosas finales de la Copa del Mundo y de los Juegos Olímpicos?",
       "QuestionType": "1",
       "Options": [
@@ -491,7 +491,7 @@
     {
       "id": "14",
       "Continent": "América",
-      "City": "Rio_de_Janeiro",
+      "City": "Rio de Janeiro",
       "Question": "¿Qué es el 'Pão de Açúcar' y qué tipo de actividad se puede hacer allí?",
       "QuestionType": "1",
       "Options": [
@@ -505,7 +505,7 @@
     {
       "id": "15",
       "Continent": "América",
-      "City": "Rio_de_Janeiro",
+      "City": "Rio de Janeiro",
       "Question": "¿Qué dulce tradicional brasileño, conocido por su textura cremosa y sabor a coco?",
       "QuestionType": "1",
       "Options": [
@@ -729,7 +729,7 @@
     {
       "id": "31",
       "Continent": "América",
-      "City": "New_York",
+      "City": "New York",
       "Question": "¿Cuál es el apodo común para la ciudad de Nueva York?",
       "QuestionType": "1",
       "Options": [
@@ -743,7 +743,7 @@
     {
       "id": "32",
       "Continent": "América",
-      "City": "New_York",
+      "City": "New York",
       "Question": "¿Qué famoso parque se encuentra en el centro de Manhattan?",
       "QuestionType": "1",
       "Options": [
@@ -757,7 +757,7 @@
     {
       "id": "33",
       "Continent": "América",
-      "City": "New_York",
+      "City": "New York",
       "Question": "¿Cuál es la famosa estatua que se encuentra en la Isla de la Libertad?",
       "QuestionType": "1",
       "Options": [
@@ -771,7 +771,7 @@
     {
       "id": "34",
       "Continent": "América",
-      "City": "New_York",
+      "City": "New York",
       "Question": "¿Cuál es el famoso puente que conecta Manhattan con Brooklyn?",
       "QuestionType": "1",
       "Options": [
@@ -785,7 +785,7 @@
     {
       "id": "35",
       "Continent": "América",
-      "City": "New_York",
+      "City": "New York",
       "Question": "¿Qué evento deportivo importante se celebra en el estadio de los Yankees?",
       "QuestionType": "1",
       "Options": [
@@ -1119,7 +1119,7 @@
     {
       "id": "59",
       "Continent": "América",
-      "City": "Punta_Cana",
+      "City": "Punta Cana",
       "Question": "¿Punta Cana está ubicada en?",
       "QuestionType": "1",
       "Options": [
@@ -1128,12 +1128,12 @@
         "La costa este de República Dominicana"
       ],
       "Answer": "2",
-      "ref": "https://es.wikipedia.org/wiki/Punta_Cana"
+      "ref": "https://es.wikipedia.org/wiki/Punta Cana"
     },
     {
       "id": "60",
       "Continent": "América",
-      "City": "Punta_Cana",
+      "City": "Punta Cana",
       "Question": "¿Cuál de estos es un resort famoso en Punta Cana?",
       "QuestionType": "1",
       "Options": [
@@ -1147,7 +1147,7 @@
     {
       "id": "61",
       "Continent": "América",
-      "City": "Punta_Cana",
+      "City": "Punta Cana",
       "Question": "¿Qué tipo de clima tiene Punta Cana?",
       "QuestionType": "1",
       "Options": [
@@ -1156,12 +1156,12 @@
         "Clima tropical"
       ],
       "Answer": "2",
-      "ref": "https://es.wikipedia.org/wiki/Punta_Cana"
+      "ref": "https://es.wikipedia.org/wiki/Punta Cana"
     },
     {
       "id": "62",
       "Continent": "América",
-      "City": "Punta_Cana",
+      "City": "Punta Cana",
       "Question": "¿Punta Cana fue fundada en el siglo XVIII?",
       "QuestionType": "2",
       "Options": [
@@ -1169,12 +1169,12 @@
         "Falso"
       ],
       "Answer": "1",
-      "ref": "https://es.wikipedia.org/wiki/Punta_Cana"
+      "ref": "https://es.wikipedia.org/wiki/Punta Cana"
     },
     {
       "id": "63",
       "Continent": "América",
-      "City": "Punta_Cana",
+      "City": "Punta Cana",
       "Question": "¿El turismo es la principal actividad económica en Punta Cana?",
       "QuestionType": "2",
       "Options": [
@@ -1182,7 +1182,7 @@
         "Falso"
       ],
       "Answer": "0",
-      "ref": "https://es.wikipedia.org/wiki/Punta_Cana"
+      "ref": "https://es.wikipedia.org/wiki/Punta Cana"
     },
     {
       "id": "64",
@@ -1255,7 +1255,7 @@
     {
       "id": "69",
       "Continent": "América",
-      "City": "San_Juan",
+      "City": "San Juan",
       "Question": "¿En qué región de Puerto Rico se encuentra San Juan?",
       "QuestionType": "1",
       "Options": [
@@ -1264,12 +1264,12 @@
         "Este"
       ],
       "Answer": "0",
-      "ref": "https://es.wikipedia.org/wiki/San_Juan_(Puerto_Rico)"
+      "ref": "https://es.wikipedia.org/wiki/San Juan_(Puerto Rico)"
     },
     {
       "id": "70",
       "Continent": "América",
-      "City": "San_Juan",
+      "City": "San Juan",
       "Question": "¿Cuál es una atracción turística popular en San Juan?",
       "QuestionType": "1",
       "Options": [
@@ -1283,7 +1283,7 @@
     {
       "id": "71",
       "Continent": "América",
-      "City": "San_Juan",
+      "City": "San Juan",
       "Question": "¿Qué tipo de clima tiene San Juan?",
       "QuestionType": "1",
       "Options": [
@@ -1292,12 +1292,12 @@
         "Tropical"
       ],
       "Answer": "2",
-      "ref": "https://es.wikipedia.org/wiki/San_Juan_(Puerto_Rico)"
+      "ref": "https://es.wikipedia.org/wiki/San Juan_(Puerto Rico)"
     },
     {
       "id": "72",
       "Continent": "América",
-      "City": "San_Juan",
+      "City": "San Juan",
       "Question": "¿San Juan es una de las ciudades más antiguas de América?",
       "QuestionType": "2",
       "Options": [
@@ -1305,12 +1305,12 @@
         "Falso"
       ],
       "Answer": "0",
-      "ref": "https://es.wikipedia.org/wiki/San_Juan_(Puerto_Rico)"
+      "ref": "https://es.wikipedia.org/wiki/San Juan_(Puerto Rico)"
     },
     {
       "id": "73",
       "Continent": "América",
-      "City": "San_Juan",
+      "City": "San Juan",
       "Question": "¿La agricultura es la principal actividad económica en San Juan?",
       "QuestionType": "2",
       "Options": [
@@ -1318,12 +1318,12 @@
         "Falso"
       ],
       "Answer": "1",
-      "ref": "https://es.wikipedia.org/wiki/San_Juan_(Puerto_Rico)"
+      "ref": "https://es.wikipedia.org/wiki/San Juan_(Puerto Rico)"
     },
     {
       "id": "74",
       "Continent": "América",
-      "City": "Machu_Picchu",
+      "City": "Machu Picchu",
       "Question": "¿En qué cordillera se encuentra Machu Picchu?",
       "QuestionType": "1",
       "Options": [
@@ -1332,12 +1332,12 @@
         "Los Himalayas"
       ],
       "Answer": "1",
-      "ref": "https://es.wikipedia.org/wiki/Machu_Picchu"
+      "ref": "https://es.wikipedia.org/wiki/Machu Picchu"
     },
     {
       "id": "75",
       "Continent": "América",
-      "City": "Machu_Picchu",
+      "City": "Machu Picchu",
       "Question": "¿Cuál de los siguientes es un medio popular para llegar a Machu Picchu?",
       "Category": "Turismo",
       "QuestionType": "1",
@@ -1347,12 +1347,12 @@
         "En barco"
       ],
       "Answer": "1",
-      "ref": "https://es.wikipedia.org/wiki/Machu_Picchu"
+      "ref": "https://es.wikipedia.org/wiki/Machu Picchu"
     },
     {
       "id": "76",
       "Continent": "América",
-      "City": "Machu_Picchu",
+      "City": "Machu Picchu",
       "Question": "¿Qué tipo de clima predomina en Machu Picchu?",
       "Category": "Clima",
       "QuestionType": "1",
@@ -1362,12 +1362,12 @@
         "Mediterráneo"
       ],
       "Answer": "1",
-      "ref": "https://es.wikipedia.org/wiki/Machu_Picchu"
+      "ref": "https://es.wikipedia.org/wiki/Machu Picchu"
     },
     {
       "id": "77",
       "Continent": "América",
-      "City": "Machu_Picchu",
+      "City": "Machu Picchu",
       "Question": "¿Machu Picchu es un importante sitio arqueológico que contribuye al turismo en Perú?",
       "Category": "Economía",
       "QuestionType": "2",
@@ -1376,12 +1376,12 @@
         "Falso"
       ],
       "Answer": "0",
-      "ref": "https://es.wikipedia.org/wiki/Machu_Picchu"
+      "ref": "https://es.wikipedia.org/wiki/Machu Picchu"
     },
     {
       "id": "78",
       "Continent": "América",
-      "City": "Machu_Picchu",
+      "City": "Machu Picchu",
       "Question": "¿Machu Picchu fue descubierto por Hiram Bingham en 1911?",
       "Category": "Historia",
       "QuestionType": "2",
@@ -1390,12 +1390,12 @@
         "Falso"
       ],
       "Answer": "0",
-      "ref": "https://es.wikipedia.org/wiki/Machu_Picchu"
+      "ref": "https://es.wikipedia.org/wiki/Machu Picchu"
     },
     {
       "id": "79",
       "Continent": "América",
-      "City": "Los_Ángeles",
+      "City": "Los Ángeles",
       "Question": "¿En qué estado se encuentra Los Ángeles?",
       "Category": "Geografía",
       "QuestionType": "1",
@@ -1410,7 +1410,7 @@
     {
       "id": "80",
       "Continent": "América",
-      "City": "Los_Ángeles",
+      "City": "Los Ángeles",
       "Question": "¿Cuál es una famosa atracción turística en Los Ángeles?",
       "Category": "Turismo",
       "QuestionType": "1",
@@ -1425,7 +1425,7 @@
     {
       "id": "81",
       "Continent": "América",
-      "City": "Los_Ángeles",
+      "City": "Los Ángeles",
       "Question": "¿Qué tipo de clima tiene Los Ángeles?",
       "Category": "Clima",
       "QuestionType": "1",
@@ -1440,7 +1440,7 @@
     {
       "id": "82",
       "Continent": "América",
-      "City": "Los_Ángeles",
+      "City": "Los Ángeles",
       "Question": "¿Los Ángeles fue fundada por colonos españoles en 1781?",
       "Category": "Historia",
       "QuestionType": "2",
@@ -1454,7 +1454,7 @@
     {
       "id": "83",
       "Continent": "América",
-      "City": "Los_Ángeles",
+      "City": "Los Ángeles",
       "Question": "¿La industria del entretenimiento es una de las principales fuentes económicas de Los Ángeles?",
       "Category": "Economía",
       "QuestionType": "2",
@@ -1614,7 +1614,7 @@
     {
       "id": "94",
       "Continent": "América",
-      "City": "Ciudad_de_México",
+      "City": "Ciudad de México",
       "Question": "¿En qué valle se encuentra Ciudad de México?",
       "Category": "Geografía",
       "QuestionType": "1",
@@ -1629,7 +1629,7 @@
     {
       "id": "95",
       "Continent": "América",
-      "City": "Ciudad_de_México",
+      "City": "Ciudad de México",
       "Question": "¿Cuál de los siguientes es un sitio turístico famoso en Ciudad de México?",
       "Category": "Turismo",
       "QuestionType": "1",
@@ -1644,7 +1644,7 @@
     {
       "id": "96",
       "Continent": "América",
-      "City": "Ciudad_de_México",
+      "City": "Ciudad de México",
       "Question": "¿Qué tipo de clima tiene Ciudad de México?",
       "Category": "Clima",
       "QuestionType": "1",
@@ -1659,7 +1659,7 @@
     {
       "id": "97",
       "Continent": "América",
-      "City": "Ciudad_de_México",
+      "City": "Ciudad de México",
       "Question": "¿Ciudad de México fue construida sobre las ruinas de Tenochtitlán?",
       "Category": "Historia",
       "QuestionType": "2",
@@ -1673,7 +1673,7 @@
     {
       "id": "98",
       "Continent": "América",
-      "City": "Ciudad_de_México",
+      "City": "Ciudad de México",
       "Question": "¿La manufactura es una de las principales actividades económicas en Ciudad de México?",
       "Category": "Economía",
       "QuestionType": "2",
@@ -3058,6 +3058,27 @@
       "points": 0,
       "amadeusAnswers": [],
       "questionsAnswered": 0
+    },
+    {
+      "id": "789a",
+      "name": "Juan",
+      "lastName": "lopez",
+      "userName": "Juano",
+      "email": "j@l.com",
+      "age": 30,
+      "country": "colombia",
+      "password": "Juan123*",
+      "points": 0,
+      "amadeusAnswers": [
+        "empanada"
+      ],
+      "questionsAnswered": 0
+    },
+    {
+      "id": "6a03",
+      "amadeusAnswers": [
+        "empanada"
+      ]
     }
   ],
   "amadeus-questions": [
@@ -3076,7 +3097,7 @@
     {
       "_id": "2",
       "category": "1",
-      "question": "¿Te gustaría explorar un destino internacional onacional?",
+      "question": "¿Te gustaría explorar un destino internacional o nacional?",
       "options": [
         "Internacional",
         "Nacional",
@@ -3192,6 +3213,18 @@
       ],
       "img": "https://cursosmultimedia.es/wp-content/uploads/2021/03/edades.png",
       "id": "fa3a"
+    },
+    {
+      "_id": "12",
+      "category": "6",
+      "question": "h",
+      "options": [
+        "h",
+        "h",
+        "h"
+      ],
+      "img": "https://cursosmultimedia.es/wp-content/uploads/2021/03/edades.png",
+      "id": "fa4q"
     }
   ]
 }
