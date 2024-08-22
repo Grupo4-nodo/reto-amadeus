@@ -1,10 +1,10 @@
 import { Component, inject, Input, NgModule, OnInit } from '@angular/core';
 import { QuestionsService } from '../../services/questions.service';
 import { CommonModule } from '@angular/common';
-import { Questions } from '../../interfaces/questions.interface';
+import { Questions } from '../../Interfaces/questions.interface';
 import { Router } from '@angular/router';
 import { publicDecrypt } from 'node:crypto';
-import { Cities } from '../../interfaces/cities.interface';
+import { Cities } from '../../Interfaces/cities.interface';
 import { CitiesService } from '../../services/cities.service';
 
 
