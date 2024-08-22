@@ -20,7 +20,6 @@ export class QuestionsComponent implements OnInit {
   public questions: Questions[] = [];
   public currentIndex: number = 0;
   public contadorRespuestas:number=0;
-  public nameCity: string = 'Playa_del_Carmen';
   public cities: Cities[] = [];
   public image: string = '';
 
@@ -73,11 +72,9 @@ export class QuestionsComponent implements OnInit {
     this.cityService.getCities().subscribe({
       next: (data) => {
       this.cities = data as Cities[];
-<<<<<<< HEAD
       this.image = this.cities.filter((city) => city.city === this.nameCity)[0].img;
 
    
-=======
       this.cities.forEach(
         (city) =>{
           if(city.City === this.citiesService.citySend) {
@@ -88,7 +85,6 @@ export class QuestionsComponent implements OnInit {
       error: (err) => {
         console.log(err);
       }
->>>>>>> 8afc3aa3ef87be6af60794a849d3bf1828d596a3
     });
   }
   }
