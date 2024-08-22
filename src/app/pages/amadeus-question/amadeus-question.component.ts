@@ -2,8 +2,6 @@ import { CommonModule } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { AmadeusQuestionService } from '../../services/amadeus-questions.service';
 import { catchError, firstValueFrom, lastValueFrom, throwError } from 'rxjs';
-//linea si edwin va a enviarme un dato
-//import { QuestionsComponent } from '../questions/questions.component';
 import { UsersService } from '../../services/users.service';
 import { Router } from '@angular/router';
 import { constants } from 'node:buffer';
@@ -54,7 +52,9 @@ export class AmadeusQuestionComponent implements OnInit {
   
   async ngOnInit() {
 
-    const maxamadeusQuestion:number = 10;
+    const maxamadeusQuestion:number = 12;
+
+    const recomentationPlace:number = 11;
 
     const storedIndex = sessionStorage.getItem('questionsIndex');
     
@@ -64,12 +64,17 @@ export class AmadeusQuestionComponent implements OnInit {
 
     this.answers = questionsArray ? JSON.parse(questionsArray) : []
 
-    this.currentIndex = storedIndex ? parseInt(storedIndex) : 0;
+    this.currentIndex = storedIndex ? parseInt(storedIndex) :0;
 
     this.questions = await lastValueFrom(this.amadeusService.getQuestion());
 
     if (this.currentIndex === maxamadeusQuestion) {
       this.router.navigate(['/cities']);
+      return;
+    }
+    else if(this.currentIndex ===  recomentationPlace){
+      this.currentIndex = (this.currentIndex + 1) % this.questions.length;
+      this.router.navigate(['/recomendation']);
       return;
     }
   }
@@ -78,11 +83,10 @@ export class AmadeusQuestionComponent implements OnInit {
     // Marca el botón "CONTINUAR" como visible
     this.showContinue = true;
 
-    // Guarda la opción seleccionada en el array de respuestas en la posición actual
     this.answers[this.currentIndex] = option;
 
     sessionStorage.setItem('questionsArray',JSON.stringify(this.answers))
-    // Muestra en la consola las respuestas guardadas
+
     console.log('Respuesta guardada:', this.answers);
     
     // Obtiene el email del usuario desde sessionStorage en lugar de localStorage
@@ -122,6 +126,7 @@ export class AmadeusQuestionComponent implements OnInit {
     } else {
       this.showContinue = false; // Oculta el botón "CONTINUAR" si no se han completado todas las preguntas
       this.currentIndex = (this.currentIndex + 1) % this.questions.length;
+      console.log(this.currentIndex)
       sessionStorage.setItem('questionsIndex',this.currentIndex.toString());
       this.router.navigate(['/cities']);
     }

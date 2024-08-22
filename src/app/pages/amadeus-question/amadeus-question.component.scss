@@ -91,15 +91,6 @@ de modo en que se buggea un poco. si lo coloco aca no va a moverse de otra forma
   padding: 10px 20px;
   border-radius: 10%;
 }
-/* se agrega la bandera del pais, de acuerdo al lugar selecionado con la clase*/
-.back_imagen--bandera {
-  height: 40px;
-  display: flex;
-  position: absolute;
-  margin-top: 53%;
-  margin-left: 85%;
-  z-index: 2;
-}
 /*se ubica el texto de curiosidades junto al fondo*/
 .back__img--text {
   height: 25px;
