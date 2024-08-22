@@ -1,8 +1,8 @@
 export interface Cities {
   id:number;
-  continent:string;
-  country:string;
-  city:string;
+  Continent:string;
+  Country:string;
+  City:string;
   img:string;
-  points:number
+  Points:number
 }
