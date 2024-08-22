@@ -1,8 +1,8 @@
 <main class="questions">
   <div class="question-container">
-    <h2 class="question-title">{{questions[currentIndex].Question}}</h2>
+    <h2 class="question-title">{{questions[currentIndex]?.Question}}</h2>
     <div class="question-image">
-      <img [src]="[image]" alt="" />
+      <img src="{{image}}" alt="" />
     </div>
 
  <!--   <div class="question-options">
@@ -19,7 +19,7 @@
     
 
     <div class="question-options">
-      <div *ngFor="let item of questions[currentIndex].Options; index as i ">
+      <div *ngFor="let item of questions[currentIndex]?.Options; index as i ">
         <button (click)="sentAnswer(i+'')">{{item}}</button>
       </div>
 
