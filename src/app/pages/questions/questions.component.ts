@@ -42,7 +42,7 @@ export class QuestionsComponent implements OnInit {
     else{
       this.router.navigate(['/amadeus-questions/'], {
         
-     });
+    });
       console.log('Regresa a amadeus-question-preguntamal') 
     }
     if (this.contadorRespuestas>=3) {
