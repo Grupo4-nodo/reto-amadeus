@@ -1,9 +1,9 @@
 @import "../../../assets/sass-styles/globals";
 
-.cities{
+.cities {
   background-image: linear-gradient(
-    rgba(100,209,235, 0.6),
-    rgba(100,209,235, 0.6)
+    rgba(103, 168, 209, 0.844),
+    rgba(103, 168, 209, 0.844)
   ), url(../../../assets/img/world-map.jpg);
   background-position: center;
   background-size: cover;
@@ -12,12 +12,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 2rem;
-  
+  justify-content: center;
+  gap: 0.5rem;
+
   &__title {
     text-align: center;
     color: #323232;
-    font-family: "Amadeus-Medium";  
+    font-family: "Amadeus-Medium";
+    font-size: 1.84rem;
   }
 }
 .container {
@@ -27,8 +29,8 @@
   flex-wrap: wrap;
   //gap: 5px;
   width: 550px;
-  height: 550px;
-  background-color: rgba(64,64,64, 0.8);
+  height: 515px;
+  background-color: rgba(64, 64, 64, 0.8);
   border-radius: 15px;
   overflow-y: auto;
   -ms-overflow-style: none;
@@ -44,7 +46,7 @@
   width: 200px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   background-color: white;
-  margin: 15px;
+  margin: 7px 15px;
 }
 .card-hover {
   border: 1px solid #ccc;
@@ -52,9 +54,9 @@
   width: 200px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   background-color: white;
-  margin: 15px;
+  margin: 7px 15px;
 
-  &:hover{
+  &:hover {
     background-color: rgb(216, 216, 216);
     cursor: pointer;
   }
@@ -70,7 +72,7 @@
 .card-title {
   font-size: 1.2em;
   margin-bottom: 8px;
-  font-family: 'Amadeus-Regular';
+  font-family: "Amadeus-Regular";
   font-weight: 200;
 }
 .card-spans span {
@@ -79,7 +81,7 @@
   padding: 4px 8px;
   background-color: #f0f0f0;
   border-radius: 4px;
-  font-family: 'Amadeus-Regular';
+  font-family: "Amadeus-Regular";
   font-size: 0.8em;
 }
 

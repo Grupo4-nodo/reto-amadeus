@@ -88,16 +88,21 @@ export class AmadeusQuestionComponent implements OnInit {
     sessionStorage.setItem('questionsArray',JSON.stringify(this.answers))
 
     console.log('Respuesta guardada:', this.answers);
-
-    const email = sessionStorage.getItem('userEmail'); 
+    
+    // Obtiene el email del usuario desde sessionStorage en lugar de localStorage
+    const email = sessionStorage.getItem('email'); 
     if (email) {
       
         const users = await firstValueFrom(this.usersService.getUsers());
         // Espera a que el observable devuelto por checkIfUserExits se complete y obtiene los datos del usuario
-        const user = users.find((user:any)=> user.email === email )  
+        const user = users.find((user:any) => user.email === email )
+        console.log(user);
+        if(user && user.amadeusAnswers === Array(0)) {
+          sessionStorage.setItem('questionArray', JSON.stringify([]))
+        }
         if (user && typeof user.id === 'string') {
           // Espera a que el observable devuelto por editUser se complete y actualiza el array amadeusAnswers del usuario
-          this.usersService.editUser(user.id, { amadeusAnswers: this.answers }).pipe(
+          this.usersService.editUser(user.id, { "amadeusAnswers": this.answers }).pipe(
             catchError((error) => {
               console.error('Error al actualizar el usuario:', error);
               throw error;
@@ -125,6 +130,9 @@ export class AmadeusQuestionComponent implements OnInit {
     } else {
       this.showContinue = false; // Oculta el botón "CONTINUAR" si no se han completado todas las preguntas
       this.currentIndex = (this.currentIndex + 1) % this.questions.length;
+      if(this.currentIndex >= 12) {
+        this.currentIndex = 0
+      }
       console.log(this.currentIndex)
       sessionStorage.setItem('questionsIndex',this.currentIndex.toString());
       this.router.navigate(['/cities']);
